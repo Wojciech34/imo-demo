@@ -1,1 +1,216 @@
-{"data":{"id":"10.82433/byt7-2g42","type":"dois","attributes":{"doi":"10.82433/byt7-2g42","prefix":"10.82433","suffix":"byt7-2g42","identifiers":[],"alternateIdentifiers":[],"creators":[{"name":"Zou, Jing","nameType":"Personal","nameIdentifiers":[{"schemeUri":"https://orcid.org","nameIdentifier":"https://orcid.org/0000-0002-4553-2743","nameIdentifierScheme":"ORCID"}],"affiliation":[]},{"name":"DataCite","nameType":"Organizational","nameIdentifiers":[{"schemeUri":"https://ror.org","nameIdentifier":"https://ror.org/04wxnsj81","nameIdentifierScheme":"ROR"}],"affiliation":[]}],"titles":[{"lang":"en","title":"Advances in Chemistry"},{"lang":"es","title":"Avances en Química","titleType":"TranslatedTitle"},{"lang":"zh","title":"化学进展","titleType":"TranslatedTitle"}],"publisher":{"lang":"en","name":"DataCite","schemeUri":"https://ror.org/","publisherIdentifier":"https://ror.org/04wxnsj81","publisherIdentifierScheme":"ROR"},"container":{"type":"Series","identifier":"arXiv:0706.0001","identifierType":"arXiv"},"publicationYear":2022,"subjects":[{"lang":"en","subject":"Chemistry"},{"lang":"es","subject":"Químicas"},{"lang":"zh","subject":"化学"}],"contributors":[],"dates":[{"date":"2024-01-01","dateType":"Available"}],"language":"en","types":{"ris":"CHAP","bibtex":"misc","citeproc":"article","schemaOrg":"Chapter","resourceTypeGeneral":"BookChapter"},"relatedIdentifiers":[{"relationType":"IsPartOf","relatedIdentifier":"arXiv:0706.0001","resourceTypeGeneral":"Book","relatedIdentifierType":"arXiv"}],"relatedItems":[],"sizes":[],"formats":[],"version":null,"rightsList":[{"lang":"en","rights":"Creative Commons Attribution 4.0 International","rightsUri":"https://creativecommons.org/licenses/by/4.0/legalcode","schemeUri":"https://spdx.org/licenses/","rightsIdentifier":"cc-by-4.0","rightsIdentifierScheme":"SPDX"},{"lang":"es","rights":"Creative Commons Attribution 4.0 International","rightsUri":"https://creativecommons.org/licenses/by/4.0/legalcode","schemeUri":"https://spdx.org/licenses/","rightsIdentifier":"cc-by-4.0","rightsIdentifierScheme":"SPDX"},{"lang":"zh","rights":"Creative Commons Attribution 4.0 International","rightsUri":"https://creativecommons.org/licenses/by/4.0/legalcode","schemeUri":"https://spdx.org/licenses/","rightsIdentifier":"cc-by-4.0","rightsIdentifierScheme":"SPDX"}],"descriptions":[{"lang":"en","description":"This chapter reviews selected landmarks occurred in Chemistry basic research in the last 5 years","descriptionType":"Abstract"},{"lang":"es","description":"El capítulo repasa los principales avances en la investigación básica en Ciencias Químicas en los últimos 5 años","descriptionType":"Abstract"},{"lang":"zh","description":"本章回顾了过去5年中在化学基础研究中发生的一些里程碑式的事件","descriptionType":"Abstract"}],"geoLocations":[],"fundingReferences":[],"xml":"PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuODI0MzMvQllUNy0yRzQyPC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5ab3UsIEppbmc8L2NyZWF0b3JOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9Ik9SQ0lEIiBzY2hlbWVVUkk9Imh0dHBzOi8vb3JjaWQub3JnIj5odHRwczovL29yY2lkLm9yZy8wMDAwLTAwMDItNDU1My0yNzQzPC9uYW1lSWRlbnRpZmllcj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9Ik9yZ2FuaXphdGlvbmFsIj5EYXRhQ2l0ZTwvY3JlYXRvck5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iUk9SIiBzY2hlbWVVUkk9Imh0dHBzOi8vcm9yLm9yZyI+aHR0cHM6Ly9yb3Iub3JnLzA0d3huc2o4MTwvbmFtZUlkZW50aWZpZXI+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlIHhtbDpsYW5nPSJlbiI+QWR2YW5jZXMgaW4gQ2hlbWlzdHJ5PC90aXRsZT4KICAgIDx0aXRsZSB0aXRsZVR5cGU9IlRyYW5zbGF0ZWRUaXRsZSIgeG1sOmxhbmc9ImVzIj5BdmFuY2VzIGVuIFF1w61taWNhPC90aXRsZT4KICAgIDx0aXRsZSB0aXRsZVR5cGU9IlRyYW5zbGF0ZWRUaXRsZSIgeG1sOmxhbmc9InpoIj7ljJblrabov5vlsZU8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXIgcHVibGlzaGVySWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzA0d3huc2o4MSIgcHVibGlzaGVySWRlbnRpZmllclNjaGVtZT0iUk9SIiBzY2hlbWVVUkk9Imh0dHBzOi8vcm9yLm9yZy8iIHhtbDpsYW5nPSJlbiI+RGF0YUNpdGU8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjI8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkJvb2tDaGFwdGVyIi8+CiAgPHN1YmplY3RzPgogICAgPHN1YmplY3QgeG1sOmxhbmc9ImVuIj5DaGVtaXN0cnk8L3N1YmplY3Q+CiAgICA8c3ViamVjdCB4bWw6bGFuZz0iZXMiPlF1w61taWNhczwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHhtbDpsYW5nPSJ6aCI+5YyW5a2mPC9zdWJqZWN0PgogIDwvc3ViamVjdHM+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9IkF2YWlsYWJsZSI+MjAyNC0wMS0wMTwvZGF0ZT4KICA8L2RhdGVzPgogIDxsYW5ndWFnZT5lbjwvbGFuZ3VhZ2U+CiAgPHJlbGF0ZWRJZGVudGlmaWVycz4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9ImFyWGl2IiByZWxhdGlvblR5cGU9IklzUGFydE9mIiByZXNvdXJjZVR5cGVHZW5lcmFsPSJCb29rIj5hclhpdjowNzA2LjAwMDE8L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDxzaXplcy8+CiAgPGZvcm1hdHMvPgogIDx2ZXJzaW9uLz4KICA8cmlnaHRzTGlzdD4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwczovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnkvNC4wL2xlZ2FsY29kZSIgcmlnaHRzSWRlbnRpZmllcj0iY2MtYnktNC4wIiByaWdodHNJZGVudGlmaWVyU2NoZW1lPSJTUERYIiBzY2hlbWVVUkk9Imh0dHBzOi8vc3BkeC5vcmcvbGljZW5zZXMvIiB4bWw6bGFuZz0iZW4iPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwczovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnkvNC4wL2xlZ2FsY29kZSIgcmlnaHRzSWRlbnRpZmllcj0iY2MtYnktNC4wIiByaWdodHNJZGVudGlmaWVyU2NoZW1lPSJTUERYIiBzY2hlbWVVUkk9Imh0dHBzOi8vc3BkeC5vcmcvbGljZW5zZXMvIiB4bWw6bGFuZz0iZXMiPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwczovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnkvNC4wL2xlZ2FsY29kZSIgcmlnaHRzSWRlbnRpZmllcj0iY2MtYnktNC4wIiByaWdodHNJZGVudGlmaWVyU2NoZW1lPSJTUERYIiBzY2hlbWVVUkk9Imh0dHBzOi8vc3BkeC5vcmcvbGljZW5zZXMvIiB4bWw6bGFuZz0iemgiPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiB4bWw6bGFuZz0iZW4iIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPlRoaXMgY2hhcHRlciByZXZpZXdzIHNlbGVjdGVkIGxhbmRtYXJrcyBvY2N1cnJlZCBpbiBDaGVtaXN0cnkgYmFzaWMgcmVzZWFyY2ggaW4gdGhlIGxhc3QgNSB5ZWFyczwvZGVzY3JpcHRpb24+CiAgICA8ZGVzY3JpcHRpb24geG1sOmxhbmc9ImVzIiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5FbCBjYXDDrXR1bG8gcmVwYXNhIGxvcyBwcmluY2lwYWxlcyBhdmFuY2VzIGVuIGxhIGludmVzdGlnYWNpw7NuIGLDoXNpY2EgZW4gQ2llbmNpYXMgUXXDrW1pY2FzIGVuIGxvcyDDumx0aW1vcyA1IGHDsW9zPC9kZXNjcmlwdGlvbj4KICAgIDxkZXNjcmlwdGlvbiB4bWw6bGFuZz0iemgiIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPuacrOeroOWbnumhvuS6hui/h+WOuzXlubTkuK3lnKjljJblrabln7rnoYDnoJTnqbbkuK3lj5HnlJ/nmoTkuIDkupvph4znqIvnopHlvI/nmoTkuovku7Y8L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPgo=","url":"https://example.org","contentUrl":null,"metadataVersion":1,"schemaVersion":"http://datacite.org/schema/kernel-4","source":"fabrica","isActive":true,"state":"findable","reason":null,"viewCount":0,"viewsOverTime":[],"downloadCount":0,"downloadsOverTime":[],"referenceCount":0,"citationCount":0,"citationsOverTime":[],"partCount":0,"partOfCount":0,"versionCount":0,"versionOfCount":0,"created":"2024-01-02T20:24:59.000Z","registered":"2025-02-21T07:32:18.000Z","published":"2022","updated":"2026-10-28T08:33:00.000Z"},"relationships":{"client":{"data":{"id":"datacite.mwg","type":"clients"}},"provider":{"data":{"id":"datacite","type":"providers"}},"media":{"data":{"id":"10.82433/byt7-2g42","type":"media"}},"references":{"data":[]},"citations":{"data":[]},"parts":{"data":[]},"partOf":{"data":[]},"versions":{"data":[]},"versionOf":{"data":[]}}}}
+{
+  "data": {
+    "id": "10.82433/byt7-2g42",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.82433/byt7-2g42",
+      "prefix": "10.82433",
+      "suffix": "byt7-2g42",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Zou, Jing",
+          "nameType": "Personal",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0002-4553-2743",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ],
+          "affiliation": []
+        },
+        {
+          "name": "DataCite",
+          "nameType": "Organizational",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://ror.org",
+              "nameIdentifier": "https://ror.org/04wxnsj81",
+              "nameIdentifierScheme": "ROR"
+            }
+          ],
+          "affiliation": []
+        }
+      ],
+      "titles": [
+        {
+          "lang": "en",
+          "title": "Advances in Chemistry"
+        },
+        {
+          "lang": "es",
+          "title": "Avances en Química",
+          "titleType": "TranslatedTitle"
+        },
+        {
+          "lang": "zh",
+          "title": "化学进展",
+          "titleType": "TranslatedTitle"
+        }
+      ],
+      "publisher": {
+        "lang": "en",
+        "name": "DataCite",
+        "schemeUri": "https://ror.org/",
+        "publisherIdentifier": "https://ror.org/04wxnsj81",
+        "publisherIdentifierScheme": "ROR"
+      },
+      "container": {
+        "type": "Series",
+        "identifier": "arXiv:0706.0001",
+        "identifierType": "arXiv"
+      },
+      "publicationYear": 2022,
+      "subjects": [
+        {
+          "lang": "en",
+          "subject": "Chemistry"
+        },
+        {
+          "lang": "es",
+          "subject": "Químicas"
+        },
+        {
+          "lang": "zh",
+          "subject": "化学"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2024-01-01",
+          "dateType": "Available"
+        }
+      ],
+      "language": "en",
+      "types": {
+        "ris": "CHAP",
+        "bibtex": "misc",
+        "citeproc": "article",
+        "schemaOrg": "Chapter",
+        "resourceTypeGeneral": "BookChapter"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsPartOf",
+          "relatedIdentifier": "arXiv:0706.0001",
+          "resourceTypeGeneral": "Book",
+          "relatedIdentifierType": "arXiv"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "lang": "en",
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        },
+        {
+          "lang": "es",
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        },
+        {
+          "lang": "zh",
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "description": "This chapter reviews selected landmarks occurred in Chemistry basic research in the last 5 years",
+          "descriptionType": "Abstract"
+        },
+        {
+          "lang": "es",
+          "description": "El capítulo repasa los principales avances en la investigación básica en Ciencias Químicas en los últimos 5 años",
+          "descriptionType": "Abstract"
+        },
+        {
+          "lang": "zh",
+          "description": "本章回顾了过去5年中在化学基础研究中发生的一些里程碑式的事件",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuODI0MzMvQllUNy0yRzQyPC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5ab3UsIEppbmc8L2NyZWF0b3JOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9Ik9SQ0lEIiBzY2hlbWVVUkk9Imh0dHBzOi8vb3JjaWQub3JnIj5odHRwczovL29yY2lkLm9yZy8wMDAwLTAwMDItNDU1My0yNzQzPC9uYW1lSWRlbnRpZmllcj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9Ik9yZ2FuaXphdGlvbmFsIj5EYXRhQ2l0ZTwvY3JlYXRvck5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iUk9SIiBzY2hlbWVVUkk9Imh0dHBzOi8vcm9yLm9yZyI+aHR0cHM6Ly9yb3Iub3JnLzA0d3huc2o4MTwvbmFtZUlkZW50aWZpZXI+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlIHhtbDpsYW5nPSJlbiI+QWR2YW5jZXMgaW4gQ2hlbWlzdHJ5PC90aXRsZT4KICAgIDx0aXRsZSB0aXRsZVR5cGU9IlRyYW5zbGF0ZWRUaXRsZSIgeG1sOmxhbmc9ImVzIj5BdmFuY2VzIGVuIFF1w61taWNhPC90aXRsZT4KICAgIDx0aXRsZSB0aXRsZVR5cGU9IlRyYW5zbGF0ZWRUaXRsZSIgeG1sOmxhbmc9InpoIj7ljJblrabov5vlsZU8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXIgcHVibGlzaGVySWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzA0d3huc2o4MSIgcHVibGlzaGVySWRlbnRpZmllclNjaGVtZT0iUk9SIiBzY2hlbWVVUkk9Imh0dHBzOi8vcm9yLm9yZy8iIHhtbDpsYW5nPSJlbiI+RGF0YUNpdGU8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjI8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkJvb2tDaGFwdGVyIi8+CiAgPHN1YmplY3RzPgogICAgPHN1YmplY3QgeG1sOmxhbmc9ImVuIj5DaGVtaXN0cnk8L3N1YmplY3Q+CiAgICA8c3ViamVjdCB4bWw6bGFuZz0iZXMiPlF1w61taWNhczwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHhtbDpsYW5nPSJ6aCI+5YyW5a2mPC9zdWJqZWN0PgogIDwvc3ViamVjdHM+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9IkF2YWlsYWJsZSI+MjAyNC0wMS0wMTwvZGF0ZT4KICA8L2RhdGVzPgogIDxsYW5ndWFnZT5lbjwvbGFuZ3VhZ2U+CiAgPHJlbGF0ZWRJZGVudGlmaWVycz4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9ImFyWGl2IiByZWxhdGlvblR5cGU9IklzUGFydE9mIiByZXNvdXJjZVR5cGVHZW5lcmFsPSJCb29rIj5hclhpdjowNzA2LjAwMDE8L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDxzaXplcy8+CiAgPGZvcm1hdHMvPgogIDx2ZXJzaW9uLz4KICA8cmlnaHRzTGlzdD4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwczovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnkvNC4wL2xlZ2FsY29kZSIgcmlnaHRzSWRlbnRpZmllcj0iY2MtYnktNC4wIiByaWdodHNJZGVudGlmaWVyU2NoZW1lPSJTUERYIiBzY2hlbWVVUkk9Imh0dHBzOi8vc3BkeC5vcmcvbGljZW5zZXMvIiB4bWw6bGFuZz0iZW4iPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwczovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnkvNC4wL2xlZ2FsY29kZSIgcmlnaHRzSWRlbnRpZmllcj0iY2MtYnktNC4wIiByaWdodHNJZGVudGlmaWVyU2NoZW1lPSJTUERYIiBzY2hlbWVVUkk9Imh0dHBzOi8vc3BkeC5vcmcvbGljZW5zZXMvIiB4bWw6bGFuZz0iZXMiPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICAgIDxyaWdodHMgcmlnaHRzVVJJPSJodHRwczovL2NyZWF0aXZlY29tbW9ucy5vcmcvbGljZW5zZXMvYnkvNC4wL2xlZ2FsY29kZSIgcmlnaHRzSWRlbnRpZmllcj0iY2MtYnktNC4wIiByaWdodHNJZGVudGlmaWVyU2NoZW1lPSJTUERYIiBzY2hlbWVVUkk9Imh0dHBzOi8vc3BkeC5vcmcvbGljZW5zZXMvIiB4bWw6bGFuZz0iemgiPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gNC4wIEludGVybmF0aW9uYWw8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiB4bWw6bGFuZz0iZW4iIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPlRoaXMgY2hhcHRlciByZXZpZXdzIHNlbGVjdGVkIGxhbmRtYXJrcyBvY2N1cnJlZCBpbiBDaGVtaXN0cnkgYmFzaWMgcmVzZWFyY2ggaW4gdGhlIGxhc3QgNSB5ZWFyczwvZGVzY3JpcHRpb24+CiAgICA8ZGVzY3JpcHRpb24geG1sOmxhbmc9ImVzIiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5FbCBjYXDDrXR1bG8gcmVwYXNhIGxvcyBwcmluY2lwYWxlcyBhdmFuY2VzIGVuIGxhIGludmVzdGlnYWNpw7NuIGLDoXNpY2EgZW4gQ2llbmNpYXMgUXXDrW1pY2FzIGVuIGxvcyDDumx0aW1vcyA1IGHDsW9zPC9kZXNjcmlwdGlvbj4KICAgIDxkZXNjcmlwdGlvbiB4bWw6bGFuZz0iemgiIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPuacrOeroOWbnumhvuS6hui/h+WOuzXlubTkuK3lnKjljJblrabln7rnoYDnoJTnqbbkuK3lj5HnlJ/nmoTkuIDkupvph4znqIvnopHlvI/nmoTkuovku7Y8L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPgo=",
+      "url": "https://example.org",
+      "contentUrl": null,
+      "metadataVersion": 1,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "fabrica",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2024-01-02T20:24:59.000Z",
+      "registered": "2025-02-21T07:32:18.000Z",
+      "published": "2022",
+      "updated": "2026-10-28T08:33:00.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "datacite.mwg",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "datacite",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.82433/byt7-2g42",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

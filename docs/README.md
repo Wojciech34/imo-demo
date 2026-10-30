@@ -199,6 +199,11 @@ Mamy **10 oficjalnych plików wejściowych: 6 DataCite i 4 EDM**. Katalog
 adresy, daty pobrania i sumy kontrolne. Nowe rekordy EDM pochodzą z repozytorium
 Europeany w konkretnej, zapisanej rewizji.
 
+Pliki JSON są sformatowane z wcięciem dwóch spacji i czytelnymi znakami UTF-8.
+Wartości oraz kolejność kluczy i elementów tablic pozostają bez zmian.
+`sha256` dotyczy lokalnego, sformatowanego pliku, a `downloadSha256` zachowuje
+sumę oryginalnego pobranego JSON-a. Daty pobrania pozostają takie jak wcześniej.
+
 | Format | Przykłady |
 | --- | --- |
 | DataCite | Pełny rekord, dataset, grant, projekt, metadane wielojęzyczne, artykuł z RelatedItem czasopisma |

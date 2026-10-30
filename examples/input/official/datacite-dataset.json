@@ -1,1 +1,271 @@
-{"data":{"id":"10.82433/9184-dy35","type":"dois","attributes":{"doi":"10.82433/9184-dy35","prefix":"10.82433","suffix":"9184-dy35","identifiers":[],"alternateIdentifiers":[],"creators":[{"name":"National Gallery","nameType":"Organizational","affiliation":[],"nameIdentifiers":[{"schemeUri":"https://ror.org","nameIdentifier":"https://ror.org/043kfff89","nameIdentifierScheme":"ROR"}]}],"titles":[{"lang":"en","title":"External Environmental Data, 2010-2020, National Gallery"}],"publisher":{"lang":"en","name":"National Gallery","schemeUri":"https://ror.org/","publisherIdentifier":"https://ror.org/043kfff89","publisherIdentifierScheme":"ROR"},"container":{},"publicationYear":2022,"subjects":[{"subject":"FOS: Earth and related environmental sciences","schemeUri":"http://www.oecd.org/science/inno/38235147.pdf","subjectScheme":"Fields of Science and Technology (FOS)"},{"subject":"temperature","valueUri":"https://www.wikidata.org/wiki/Q11466","schemeUri":"https://www.wikidata.org/wiki","subjectScheme":"Wikidata"},{"subject":"relative humidity","valueUri":"http://vocab.getty.edu/aat/300192097","schemeUri":"http://vocab.getty.edu/aat","subjectScheme":"Art and Architecture Thesaurus"},{"subject":"illuminance","valueUri":"https://www.wikidata.org/wiki/Q194411","schemeUri":"https://www.wikidata.org/wiki","subjectScheme":"Wikidata"},{"subject":"moisture content","valueUri":"http://vocab.getty.edu/aat/300379432","schemeUri":"http://vocab.getty.edu/aat","subjectScheme":"Art and Architecture Thesaurus"},{"subject":"Environmental monitoring","valueUri":"http://id.worldcat.org/fast/913214","schemeUri":"http://id.worldcat.org/fast","subjectScheme":"FAST"}],"contributors":[{"name":"Padfield, Joseph","nameType":"Personal","givenName":"Joseph","familyName":"Padfield","affiliation":[{"name":"National Gallery","affiliationIdentifier":"https://ror.org/043kfff89","affiliationIdentifierScheme":"ROR"}],"contributorType":"ContactPerson","nameIdentifiers":[{"schemeUri":"https://orcid.org","nameIdentifier":"https://orcid.org/0000-0002-2572-6428","nameIdentifierScheme":"ORCID"}]},{"name":"Building Facilities Department","nameType":"Organizational","affiliation":[{"name":"National Gallery","affiliationIdentifier":"https://ror.org/043kfff89","affiliationIdentifierScheme":"ROR"}],"contributorType":"DataCollector","nameIdentifiers":[]}],"dates":[{"date":"2010/2020","dateType":"Collected"},{"date":"2010/2020","dateType":"Other","dateInformation":"Coverage"},{"date":"2022","dateType":"Issued"}],"language":"en","types":{"ris":"DATA","bibtex":"misc","citeproc":"dataset","schemaOrg":"Dataset","resourceType":"Environmental data","resourceTypeGeneral":"Dataset"},"relatedIdentifiers":[{"relationType":"IsSupplementTo","relatedIdentifier":"https://www.nationalgallery.org.uk/research/research-resources/research-papers/improving-our-environment","resourceTypeGeneral":"Report","relatedIdentifierType":"URL"},{"relationType":"IsSourceOf","relatedIdentifier":"https://research.ng-london.org.uk/scientific/env/","resourceTypeGeneral":"InteractiveResource","relatedIdentifierType":"URL"},{"relationType":"IsSupplementedBy","relatedIdentifier":"10.1080/00393630.2018.1504449/","resourceTypeGeneral":"JournalArticle","relatedIdentifierType":"DOI"},{"relationType":"IsDocumentedBy","relatedIdentifier":"10.5281/zenodo.7629200","resourceTypeGeneral":"ConferencePaper","relatedIdentifierType":"DOI"}],"relatedItems":[],"sizes":["13.6 MB"],"formats":["application/json"],"version":"1.0","rightsList":[{"lang":"en","rights":"Creative Commons Attribution 4.0 International","rightsUri":"https://creativecommons.org/licenses/by/4.0/legalcode","schemeUri":"https://spdx.org/licenses/","rightsIdentifier":"cc-by-4.0","rightsIdentifierScheme":"SPDX"}],"descriptions":[{"lang":"en","description":"The National Gallery houses one of the greatest ‒ and most visited ‒ collections of Western European painting, often welcoming more than 6 million visitors a year. The Scientific Department researches the history of materials and techniques and their degradation mechanisms (fading, darkening, etc.), through analysis using a range of micro-analytical and imaging methods. It also works in the fields of preventive conservation and environmental management of galleries (monitoring, lighting, vibration), as well as the development of a wide range of new instruments and methods (both analytical and imaging) for technical examination of artworks, most often in collaboration with universities. The examination of the environmental conditions within The National Gallery began soon after it was established in 1824. Early concerns often related to dust and pollution. The first electronic data logger, recording light levels, was introduced in 1975, with the regular logging of temperature and relative humidity followed soon after. Today the Gallery has hundreds of sensors, monitoring the environmental conditions in over hundreds of locations, 24/7. The National Gallery currently archives millions of environmental readings every year, which are used to monitor the Gallery conditions ensuring the on-going care of the collections. These readings are also used to examine long term environmental trends, manage additional events, and within the planning and management of preventive conservation work and research at the National Gallery. The National Gallery Environmental Database is an internal, bespoke system which has been developed, over the last 20 years, to act as an archive for all of these environmental readings. This dataset contains a selected range of the data gathered from a few of the external sensors that have been used to monitor ambient light levels, temperature, relative humidity and air moisture content 24 hours a day, 7 days a week over the last two decades.","descriptionType":"Abstract"}],"geoLocations":[{"geoLocationPlace":"Roof of National Gallery, London, UK","geoLocationPoint":{"pointLatitude":51.50872,"pointLongitude":-0.12841}}],"fundingReferences":[{"awardUri":"https://cordis.europa.eu/project/id/871034","awardTitle":"Integrating Platforms for the European Research Infrastructure ON Heritage Science","funderName":"H2020 Excellent Science","awardNumber":"871034","funderIdentifier":"https://doi.org/10.13039/100010662","funderIdentifierType":"Crossref Funder ID"}],"xml":"PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCEtLSBFeGFtcGxlOiBEYXRhc2V0IC0tPgo8cmVzb3VyY2UgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM9Imh0dHA6Ly9kYXRhY2l0ZS5vcmcvc2NoZW1hL2tlcm5lbC00IiB4c2k6c2NoZW1hTG9jYXRpb249Imh0dHA6Ly9kYXRhY2l0ZS5vcmcvc2NoZW1hL2tlcm5lbC00IGh0dHA6Ly9zY2hlbWEuZGF0YWNpdGUub3JnL21ldGEva2VybmVsLTQvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC44MjQzMy85MTg0LURZMzU8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iT3JnYW5pemF0aW9uYWwiPk5hdGlvbmFsIEdhbGxlcnk8L2NyZWF0b3JOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9IlJPUiIgc2NoZW1lVVJJPSJodHRwczovL3Jvci5vcmciPmh0dHBzOi8vcm9yLm9yZy8wNDNrZmZmODk8L25hbWVJZGVudGlmaWVyPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZSB4bWw6bGFuZz0iZW4iPkV4dGVybmFsIEVudmlyb25tZW50YWwgRGF0YSwgMjAxMC0yMDIwLCBOYXRpb25hbCBHYWxsZXJ5PC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyIHhtbDpsYW5nPSJlbiIgcHVibGlzaGVySWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzA0M2tmZmY4OSIgcHVibGlzaGVySWRlbnRpZmllclNjaGVtZT0iUk9SIiBzY2hlbWVVUkk9Imh0dHBzOi8vcm9yLm9yZy8iPk5hdGlvbmFsIEdhbGxlcnk8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjI8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkRhdGFzZXQiPkVudmlyb25tZW50YWwgZGF0YTwvcmVzb3VyY2VUeXBlPgogIDxzdWJqZWN0cz4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkZpZWxkcyBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IChGT1MpIiBzY2hlbWVVUkk9Imh0dHA6Ly93d3cub2VjZC5vcmcvc2NpZW5jZS9pbm5vLzM4MjM1MTQ3LnBkZiI+Rk9TOiBFYXJ0aCBhbmQgcmVsYXRlZCBlbnZpcm9ubWVudGFsIHNjaWVuY2VzPC9zdWJqZWN0PgogICAgPHN1YmplY3Qgc3ViamVjdFNjaGVtZT0iV2lraWRhdGEiIHNjaGVtZVVSST0iaHR0cHM6Ly93d3cud2lraWRhdGEub3JnL3dpa2kiIHZhbHVlVVJJPSJodHRwczovL3d3dy53aWtpZGF0YS5vcmcvd2lraS9RMTE0NjYiPnRlbXBlcmF0dXJlPC9zdWJqZWN0PgogICAgPHN1YmplY3Qgc3ViamVjdFNjaGVtZT0iQXJ0IGFuZCBBcmNoaXRlY3R1cmUgVGhlc2F1cnVzIiBzY2hlbWVVUkk9Imh0dHA6Ly92b2NhYi5nZXR0eS5lZHUvYWF0IiB2YWx1ZVVSST0iaHR0cDovL3ZvY2FiLmdldHR5LmVkdS9hYXQvMzAwMTkyMDk3Ij5yZWxhdGl2ZSBodW1pZGl0eTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9Ildpa2lkYXRhIiBzY2hlbWVVUkk9Imh0dHBzOi8vd3d3Lndpa2lkYXRhLm9yZy93aWtpIiB2YWx1ZVVSST0iaHR0cHM6Ly93d3cud2lraWRhdGEub3JnL3dpa2kvUTE5NDQxMSI+aWxsdW1pbmFuY2U8L3N1YmplY3Q+CiAgICA8c3ViamVjdCBzdWJqZWN0U2NoZW1lPSJBcnQgYW5kIEFyY2hpdGVjdHVyZSBUaGVzYXVydXMiIHNjaGVtZVVSST0iaHR0cDovL3ZvY2FiLmdldHR5LmVkdS9hYXQiIHZhbHVlVVJJPSJodHRwOi8vdm9jYWIuZ2V0dHkuZWR1L2FhdC8zMDAzNzk0MzIiPm1vaXN0dXJlIGNvbnRlbnQ8L3N1YmplY3Q+CiAgICA8c3ViamVjdCBzdWJqZWN0U2NoZW1lPSJGQVNUIiBzY2hlbWVVUkk9Imh0dHA6Ly9pZC53b3JsZGNhdC5vcmcvZmFzdCIgdmFsdWVVUkk9Imh0dHA6Ly9pZC53b3JsZGNhdC5vcmcvZmFzdC85MTMyMTQiPkVudmlyb25tZW50YWwgbW9uaXRvcmluZzwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxjb250cmlidXRvcnM+CiAgICA8Y29udHJpYnV0b3IgY29udHJpYnV0b3JUeXBlPSJDb250YWN0UGVyc29uIj4KICAgICAgPGNvbnRyaWJ1dG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPlBhZGZpZWxkLCBKb3NlcGg8L2NvbnRyaWJ1dG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Kb3NlcGg8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+UGFkZmllbGQ8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iaHR0cHM6Ly9vcmNpZC5vcmciPmh0dHBzOi8vb3JjaWQub3JnLzAwMDAtMDAwMi0yNTcyLTY0Mjg8L25hbWVJZGVudGlmaWVyPgogICAgICA8YWZmaWxpYXRpb24gYWZmaWxpYXRpb25JZGVudGlmaWVyPSJodHRwczovL3Jvci5vcmcvMDQza2ZmZjg5IiBhZmZpbGlhdGlvbklkZW50aWZpZXJTY2hlbWU9IlJPUiI+TmF0aW9uYWwgR2FsbGVyeTwvYWZmaWxpYXRpb24+CiAgICA8L2NvbnRyaWJ1dG9yPgogICAgPGNvbnRyaWJ1dG9yIGNvbnRyaWJ1dG9yVHlwZT0iRGF0YUNvbGxlY3RvciI+CiAgICAgIDxjb250cmlidXRvck5hbWUgbmFtZVR5cGU9Ik9yZ2FuaXphdGlvbmFsIj5CdWlsZGluZyBGYWNpbGl0aWVzIERlcGFydG1lbnQ8L2NvbnRyaWJ1dG9yTmFtZT4KICAgICAgPGFmZmlsaWF0aW9uIGFmZmlsaWF0aW9uSWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzA0M2tmZmY4OSIgYWZmaWxpYXRpb25JZGVudGlmaWVyU2NoZW1lPSJST1IiPk5hdGlvbmFsIEdhbGxlcnk8L2FmZmlsaWF0aW9uPgogICAgPC9jb250cmlidXRvcj4KICA8L2NvbnRyaWJ1dG9ycz4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iQ29sbGVjdGVkIj4yMDEwLzIwMjA8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iT3RoZXIiIGRhdGVJbmZvcm1hdGlvbj0iQ292ZXJhZ2UiPjIwMTAvMjAyMDwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJJc3N1ZWQiPjIwMjI8L2RhdGU+CiAgPC9kYXRlcz4KICA8bGFuZ3VhZ2U+ZW48L2xhbmd1YWdlPgogIDxyZWxhdGVkSWRlbnRpZmllcnM+CiAgICA8cmVsYXRlZElkZW50aWZpZXIgcmVsYXRlZElkZW50aWZpZXJUeXBlPSJVUkwiIHJlbGF0aW9uVHlwZT0iSXNTdXBwbGVtZW50VG8iIHJlc291cmNlVHlwZUdlbmVyYWw9IlJlcG9ydCI+aHR0cHM6Ly93d3cubmF0aW9uYWxnYWxsZXJ5Lm9yZy51ay9yZXNlYXJjaC9yZXNlYXJjaC1yZXNvdXJjZXMvcmVzZWFyY2gtcGFwZXJzL2ltcHJvdmluZy1vdXItZW52aXJvbm1lbnQ8L3JlbGF0ZWRJZGVudGlmaWVyPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iVVJMIiByZWxhdGlvblR5cGU9IklzU291cmNlT2YiIHJlc291cmNlVHlwZUdlbmVyYWw9IkludGVyYWN0aXZlUmVzb3VyY2UiPmh0dHBzOi8vcmVzZWFyY2gubmctbG9uZG9uLm9yZy51ay9zY2llbnRpZmljL2Vudi88L3JlbGF0ZWRJZGVudGlmaWVyPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iRE9JIiByZWxhdGlvblR5cGU9IklzU3VwcGxlbWVudGVkQnkiIHJlc291cmNlVHlwZUdlbmVyYWw9IkpvdXJuYWxBcnRpY2xlIj4xMC4xMDgwLzAwMzkzNjMwLjIwMTguMTUwNDQ0OS88L3JlbGF0ZWRJZGVudGlmaWVyPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iRE9JIiByZWxhdGlvblR5cGU9IklzRG9jdW1lbnRlZEJ5IiByZXNvdXJjZVR5cGVHZW5lcmFsPSJDb25mZXJlbmNlUGFwZXIiPjEwLjUyODEvemVub2RvLjc2MjkyMDA8L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDxzaXplcz4KICAgIDxzaXplPjEzLjYgTUI8L3NpemU+CiAgPC9zaXplcz4KICA8Zm9ybWF0cz4KICAgIDxmb3JtYXQ+YXBwbGljYXRpb24vanNvbjwvZm9ybWF0PgogIDwvZm9ybWF0cz4KICA8dmVyc2lvbj4xLjA8L3ZlcnNpb24+CiAgPHJpZ2h0c0xpc3Q+CiAgICA8cmlnaHRzIHhtbDpsYW5nPSJlbiIgc2NoZW1lVVJJPSJodHRwczovL3NwZHgub3JnL2xpY2Vuc2VzLyIgcmlnaHRzSWRlbnRpZmllclNjaGVtZT0iU1BEWCIgcmlnaHRzSWRlbnRpZmllcj0iQ0MtQlktNC4wIiByaWdodHNVUkk9Imh0dHBzOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9ieS1uYy80LjAvIj5DcmVhdGl2ZSBDb21tb25zIEF0dHJpYnV0aW9uIE5vbiBDb21tZXJjaWFsIDQuMCBJbnRlcm5hdGlvbmFsPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0PgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24geG1sOmxhbmc9ImVuIiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5UaGUgTmF0aW9uYWwgR2FsbGVyeSBob3VzZXMgb25lIG9mIHRoZSBncmVhdGVzdCDigJIgYW5kIG1vc3QgdmlzaXRlZCDigJIgY29sbGVjdGlvbnMgb2YgV2VzdGVybiBFdXJvcGVhbiBwYWludGluZywgb2Z0ZW4gd2VsY29taW5nIG1vcmUgdGhhbiA2IG1pbGxpb24gdmlzaXRvcnMgYSB5ZWFyLiBUaGUgU2NpZW50aWZpYyBEZXBhcnRtZW50IHJlc2VhcmNoZXMgdGhlIGhpc3Rvcnkgb2YgbWF0ZXJpYWxzIGFuZCB0ZWNobmlxdWVzIGFuZCB0aGVpciBkZWdyYWRhdGlvbiBtZWNoYW5pc21zIChmYWRpbmcsIGRhcmtlbmluZywgZXRjLiksIHRocm91Z2ggYW5hbHlzaXMgdXNpbmcgYSByYW5nZSBvZiBtaWNyby1hbmFseXRpY2FsIGFuZCBpbWFnaW5nIG1ldGhvZHMuIEl0IGFsc28gd29ya3MgaW4gdGhlIGZpZWxkcyBvZiBwcmV2ZW50aXZlIGNvbnNlcnZhdGlvbiBhbmQgZW52aXJvbm1lbnRhbCBtYW5hZ2VtZW50IG9mIGdhbGxlcmllcyAobW9uaXRvcmluZywgbGlnaHRpbmcsIHZpYnJhdGlvbiksIGFzIHdlbGwgYXMgdGhlIGRldmVsb3BtZW50IG9mIGEgd2lkZSByYW5nZSBvZiBuZXcgaW5zdHJ1bWVudHMgYW5kIG1ldGhvZHMgKGJvdGggYW5hbHl0aWNhbCBhbmQgaW1hZ2luZykgZm9yIHRlY2huaWNhbCBleGFtaW5hdGlvbiBvZiBhcnR3b3JrcywgbW9zdCBvZnRlbiBpbiBjb2xsYWJvcmF0aW9uIHdpdGggdW5pdmVyc2l0aWVzLiBUaGUgZXhhbWluYXRpb24gb2YgdGhlIGVudmlyb25tZW50YWwgY29uZGl0aW9ucyB3aXRoaW4gVGhlIE5hdGlvbmFsIEdhbGxlcnkgYmVnYW4gc29vbiBhZnRlciBpdCB3YXMgZXN0YWJsaXNoZWQgaW4gMTgyNC4gRWFybHkgY29uY2VybnMgb2Z0ZW4gcmVsYXRlZCB0byBkdXN0IGFuZCBwb2xsdXRpb24uIFRoZSBmaXJzdCBlbGVjdHJvbmljIGRhdGEgbG9nZ2VyLCByZWNvcmRpbmcgbGlnaHQgbGV2ZWxzLCB3YXMgaW50cm9kdWNlZCBpbiAxOTc1LCB3aXRoIHRoZSByZWd1bGFyIGxvZ2dpbmcgb2YgdGVtcGVyYXR1cmUgYW5kIHJlbGF0aXZlIGh1bWlkaXR5IGZvbGxvd2VkIHNvb24gYWZ0ZXIuIFRvZGF5IHRoZSBHYWxsZXJ5IGhhcyBodW5kcmVkcyBvZiBzZW5zb3JzLCBtb25pdG9yaW5nIHRoZSBlbnZpcm9ubWVudGFsIGNvbmRpdGlvbnMgaW4gb3ZlciBodW5kcmVkcyBvZiBsb2NhdGlvbnMsIDI0LzcuIFRoZSBOYXRpb25hbCBHYWxsZXJ5IGN1cnJlbnRseSBhcmNoaXZlcyBtaWxsaW9ucyBvZiBlbnZpcm9ubWVudGFsIHJlYWRpbmdzIGV2ZXJ5IHllYXIsIHdoaWNoIGFyZSB1c2VkIHRvIG1vbml0b3IgdGhlIEdhbGxlcnkgY29uZGl0aW9ucyBlbnN1cmluZyB0aGUgb24tZ29pbmcgY2FyZSBvZiB0aGUgY29sbGVjdGlvbnMuIFRoZXNlIHJlYWRpbmdzIGFyZSBhbHNvIHVzZWQgdG8gZXhhbWluZSBsb25nIHRlcm0gZW52aXJvbm1lbnRhbCB0cmVuZHMsIG1hbmFnZSBhZGRpdGlvbmFsIGV2ZW50cywgYW5kIHdpdGhpbiB0aGUgcGxhbm5pbmcgYW5kIG1hbmFnZW1lbnQgb2YgcHJldmVudGl2ZSBjb25zZXJ2YXRpb24gd29yayBhbmQgcmVzZWFyY2ggYXQgdGhlIE5hdGlvbmFsIEdhbGxlcnkuIFRoZSBOYXRpb25hbCBHYWxsZXJ5IEVudmlyb25tZW50YWwgRGF0YWJhc2UgaXMgYW4gaW50ZXJuYWwsIGJlc3Bva2Ugc3lzdGVtIHdoaWNoIGhhcyBiZWVuIGRldmVsb3BlZCwgb3ZlciB0aGUgbGFzdCAyMCB5ZWFycywgdG8gYWN0IGFzIGFuIGFyY2hpdmUgZm9yIGFsbCBvZiB0aGVzZSBlbnZpcm9ubWVudGFsIHJlYWRpbmdzLiBUaGlzIGRhdGFzZXQgY29udGFpbnMgYSBzZWxlY3RlZCByYW5nZSBvZiB0aGUgZGF0YSBnYXRoZXJlZCBmcm9tIGEgZmV3IG9mIHRoZSBleHRlcm5hbCBzZW5zb3JzIHRoYXQgaGF2ZSBiZWVuIHVzZWQgdG8gbW9uaXRvciBhbWJpZW50IGxpZ2h0IGxldmVscywgdGVtcGVyYXR1cmUsIHJlbGF0aXZlIGh1bWlkaXR5IGFuZCBhaXIgbW9pc3R1cmUgY29udGVudCAyNCBob3VycyBhIGRheSwgNyBkYXlzIGEgd2VlayBvdmVyIHRoZSBsYXN0IHR3byBkZWNhZGVzLjwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CiAgPGdlb0xvY2F0aW9ucz4KICAgIDxnZW9Mb2NhdGlvbj4KICAgICAgPGdlb0xvY2F0aW9uUGxhY2U+Um9vZiBvZiBOYXRpb25hbCBHYWxsZXJ5LCBMb25kb24sIFVLPC9nZW9Mb2NhdGlvblBsYWNlPgogICAgICA8Z2VvTG9jYXRpb25Qb2ludD4KICAgICAgICA8cG9pbnRMYXRpdHVkZT41MS41MDg3MjwvcG9pbnRMYXRpdHVkZT4KICAgICAgICA8cG9pbnRMb25naXR1ZGU+LTAuMTI4NDE8L3BvaW50TG9uZ2l0dWRlPgogICAgICA8L2dlb0xvY2F0aW9uUG9pbnQ+CiAgICA8L2dlb0xvY2F0aW9uPgogIDwvZ2VvTG9jYXRpb25zPgogIDxmdW5kaW5nUmVmZXJlbmNlcz4KICAgIDxmdW5kaW5nUmVmZXJlbmNlPgogICAgICA8ZnVuZGVyTmFtZT5IMjAyMCBFeGNlbGxlbnQgU2NpZW5jZTwvZnVuZGVyTmFtZT4KICAgICAgPGZ1bmRlcklkZW50aWZpZXIgZnVuZGVySWRlbnRpZmllclR5cGU9IkNyb3NzcmVmIEZ1bmRlciBJRCI+aHR0cHM6Ly9kb2kub3JnLzEwLjEzMDM5LzEwMDAxMDY2MjwvZnVuZGVySWRlbnRpZmllcj4KICAgICAgPGF3YXJkTnVtYmVyIGF3YXJkVVJJPSJodHRwczovL2NvcmRpcy5ldXJvcGEuZXUvcHJvamVjdC9pZC84NzEwMzQiPjg3MTAzNDwvYXdhcmROdW1iZXI+CiAgICAgIDxhd2FyZFRpdGxlPkludGVncmF0aW5nIFBsYXRmb3JtcyBmb3IgdGhlIEV1cm9wZWFuIFJlc2VhcmNoIEluZnJhc3RydWN0dXJlIE9OIEhlcml0YWdlIFNjaWVuY2U8L2F3YXJkVGl0bGU+CiAgICA8L2Z1bmRpbmdSZWZlcmVuY2U+CiAgPC9mdW5kaW5nUmVmZXJlbmNlcz4KPC9yZXNvdXJjZT4=","url":"https://research.ng-london.org.uk/scientific/env/External%20Environmental%20Data%202010-2020%20National%20Gallery%20V1.0.json","contentUrl":null,"metadataVersion":11,"schemaVersion":"http://datacite.org/schema/kernel-4","source":"fabricaForm","isActive":true,"state":"findable","reason":null,"viewCount":0,"viewsOverTime":[],"downloadCount":0,"downloadsOverTime":[],"referenceCount":0,"citationCount":0,"citationsOverTime":[],"partCount":0,"partOfCount":0,"versionCount":0,"versionOfCount":0,"created":"2023-01-05T14:57:34.000Z","registered":"2023-01-05T15:24:40.000Z","published":"2022","updated":"2026-10-24T03:01:34.000Z"},"relationships":{"client":{"data":{"id":"datacite.mwg","type":"clients"}},"provider":{"data":{"id":"datacite","type":"providers"}},"media":{"data":{"id":"10.82433/9184-dy35","type":"media"}},"references":{"data":[]},"citations":{"data":[]},"parts":{"data":[]},"partOf":{"data":[]},"versions":{"data":[]},"versionOf":{"data":[]}}}}
+{
+  "data": {
+    "id": "10.82433/9184-dy35",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.82433/9184-dy35",
+      "prefix": "10.82433",
+      "suffix": "9184-dy35",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "National Gallery",
+          "nameType": "Organizational",
+          "affiliation": [],
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://ror.org",
+              "nameIdentifier": "https://ror.org/043kfff89",
+              "nameIdentifierScheme": "ROR"
+            }
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "lang": "en",
+          "title": "External Environmental Data, 2010-2020, National Gallery"
+        }
+      ],
+      "publisher": {
+        "lang": "en",
+        "name": "National Gallery",
+        "schemeUri": "https://ror.org/",
+        "publisherIdentifier": "https://ror.org/043kfff89",
+        "publisherIdentifierScheme": "ROR"
+      },
+      "container": {},
+      "publicationYear": 2022,
+      "subjects": [
+        {
+          "subject": "FOS: Earth and related environmental sciences",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "temperature",
+          "valueUri": "https://www.wikidata.org/wiki/Q11466",
+          "schemeUri": "https://www.wikidata.org/wiki",
+          "subjectScheme": "Wikidata"
+        },
+        {
+          "subject": "relative humidity",
+          "valueUri": "http://vocab.getty.edu/aat/300192097",
+          "schemeUri": "http://vocab.getty.edu/aat",
+          "subjectScheme": "Art and Architecture Thesaurus"
+        },
+        {
+          "subject": "illuminance",
+          "valueUri": "https://www.wikidata.org/wiki/Q194411",
+          "schemeUri": "https://www.wikidata.org/wiki",
+          "subjectScheme": "Wikidata"
+        },
+        {
+          "subject": "moisture content",
+          "valueUri": "http://vocab.getty.edu/aat/300379432",
+          "schemeUri": "http://vocab.getty.edu/aat",
+          "subjectScheme": "Art and Architecture Thesaurus"
+        },
+        {
+          "subject": "Environmental monitoring",
+          "valueUri": "http://id.worldcat.org/fast/913214",
+          "schemeUri": "http://id.worldcat.org/fast",
+          "subjectScheme": "FAST"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Padfield, Joseph",
+          "nameType": "Personal",
+          "givenName": "Joseph",
+          "familyName": "Padfield",
+          "affiliation": [
+            {
+              "name": "National Gallery",
+              "affiliationIdentifier": "https://ror.org/043kfff89",
+              "affiliationIdentifierScheme": "ROR"
+            }
+          ],
+          "contributorType": "ContactPerson",
+          "nameIdentifiers": [
+            {
+              "schemeUri": "https://orcid.org",
+              "nameIdentifier": "https://orcid.org/0000-0002-2572-6428",
+              "nameIdentifierScheme": "ORCID"
+            }
+          ]
+        },
+        {
+          "name": "Building Facilities Department",
+          "nameType": "Organizational",
+          "affiliation": [
+            {
+              "name": "National Gallery",
+              "affiliationIdentifier": "https://ror.org/043kfff89",
+              "affiliationIdentifierScheme": "ROR"
+            }
+          ],
+          "contributorType": "DataCollector",
+          "nameIdentifiers": []
+        }
+      ],
+      "dates": [
+        {
+          "date": "2010/2020",
+          "dateType": "Collected"
+        },
+        {
+          "date": "2010/2020",
+          "dateType": "Other",
+          "dateInformation": "Coverage"
+        },
+        {
+          "date": "2022",
+          "dateType": "Issued"
+        }
+      ],
+      "language": "en",
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "Environmental data",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsSupplementTo",
+          "relatedIdentifier": "https://www.nationalgallery.org.uk/research/research-resources/research-papers/improving-our-environment",
+          "resourceTypeGeneral": "Report",
+          "relatedIdentifierType": "URL"
+        },
+        {
+          "relationType": "IsSourceOf",
+          "relatedIdentifier": "https://research.ng-london.org.uk/scientific/env/",
+          "resourceTypeGeneral": "InteractiveResource",
+          "relatedIdentifierType": "URL"
+        },
+        {
+          "relationType": "IsSupplementedBy",
+          "relatedIdentifier": "10.1080/00393630.2018.1504449/",
+          "resourceTypeGeneral": "JournalArticle",
+          "relatedIdentifierType": "DOI"
+        },
+        {
+          "relationType": "IsDocumentedBy",
+          "relatedIdentifier": "10.5281/zenodo.7629200",
+          "resourceTypeGeneral": "ConferencePaper",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [
+        "13.6 MB"
+      ],
+      "formats": [
+        "application/json"
+      ],
+      "version": "1.0",
+      "rightsList": [
+        {
+          "lang": "en",
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": "en",
+          "description": "The National Gallery houses one of the greatest ‒ and most visited ‒ collections of Western European painting, often welcoming more than 6 million visitors a year. The Scientific Department researches the history of materials and techniques and their degradation mechanisms (fading, darkening, etc.), through analysis using a range of micro-analytical and imaging methods. It also works in the fields of preventive conservation and environmental management of galleries (monitoring, lighting, vibration), as well as the development of a wide range of new instruments and methods (both analytical and imaging) for technical examination of artworks, most often in collaboration with universities. The examination of the environmental conditions within The National Gallery began soon after it was established in 1824. Early concerns often related to dust and pollution. The first electronic data logger, recording light levels, was introduced in 1975, with the regular logging of temperature and relative humidity followed soon after. Today the Gallery has hundreds of sensors, monitoring the environmental conditions in over hundreds of locations, 24/7. The National Gallery currently archives millions of environmental readings every year, which are used to monitor the Gallery conditions ensuring the on-going care of the collections. These readings are also used to examine long term environmental trends, manage additional events, and within the planning and management of preventive conservation work and research at the National Gallery. The National Gallery Environmental Database is an internal, bespoke system which has been developed, over the last 20 years, to act as an archive for all of these environmental readings. This dataset contains a selected range of the data gathered from a few of the external sensors that have been used to monitor ambient light levels, temperature, relative humidity and air moisture content 24 hours a day, 7 days a week over the last two decades.",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [
+        {
+          "geoLocationPlace": "Roof of National Gallery, London, UK",
+          "geoLocationPoint": {
+            "pointLatitude": 51.50872,
+            "pointLongitude": -0.12841
+          }
+        }
+      ],
+      "fundingReferences": [
+        {
+          "awardUri": "https://cordis.europa.eu/project/id/871034",
+          "awardTitle": "Integrating Platforms for the European Research Infrastructure ON Heritage Science",
+          "funderName": "H2020 Excellent Science",
+          "awardNumber": "871034",
+          "funderIdentifier": "https://doi.org/10.13039/100010662",
+          "funderIdentifierType": "Crossref Funder ID"
+        }
+      ],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCEtLSBFeGFtcGxlOiBEYXRhc2V0IC0tPgo8cmVzb3VyY2UgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM9Imh0dHA6Ly9kYXRhY2l0ZS5vcmcvc2NoZW1hL2tlcm5lbC00IiB4c2k6c2NoZW1hTG9jYXRpb249Imh0dHA6Ly9kYXRhY2l0ZS5vcmcvc2NoZW1hL2tlcm5lbC00IGh0dHA6Ly9zY2hlbWEuZGF0YWNpdGUub3JnL21ldGEva2VybmVsLTQvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC44MjQzMy85MTg0LURZMzU8L2lkZW50aWZpZXI+CiAgPGNyZWF0b3JzPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iT3JnYW5pemF0aW9uYWwiPk5hdGlvbmFsIEdhbGxlcnk8L2NyZWF0b3JOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9IlJPUiIgc2NoZW1lVVJJPSJodHRwczovL3Jvci5vcmciPmh0dHBzOi8vcm9yLm9yZy8wNDNrZmZmODk8L25hbWVJZGVudGlmaWVyPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZSB4bWw6bGFuZz0iZW4iPkV4dGVybmFsIEVudmlyb25tZW50YWwgRGF0YSwgMjAxMC0yMDIwLCBOYXRpb25hbCBHYWxsZXJ5PC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyIHhtbDpsYW5nPSJlbiIgcHVibGlzaGVySWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzA0M2tmZmY4OSIgcHVibGlzaGVySWRlbnRpZmllclNjaGVtZT0iUk9SIiBzY2hlbWVVUkk9Imh0dHBzOi8vcm9yLm9yZy8iPk5hdGlvbmFsIEdhbGxlcnk8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjI8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkRhdGFzZXQiPkVudmlyb25tZW50YWwgZGF0YTwvcmVzb3VyY2VUeXBlPgogIDxzdWJqZWN0cz4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkZpZWxkcyBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IChGT1MpIiBzY2hlbWVVUkk9Imh0dHA6Ly93d3cub2VjZC5vcmcvc2NpZW5jZS9pbm5vLzM4MjM1MTQ3LnBkZiI+Rk9TOiBFYXJ0aCBhbmQgcmVsYXRlZCBlbnZpcm9ubWVudGFsIHNjaWVuY2VzPC9zdWJqZWN0PgogICAgPHN1YmplY3Qgc3ViamVjdFNjaGVtZT0iV2lraWRhdGEiIHNjaGVtZVVSST0iaHR0cHM6Ly93d3cud2lraWRhdGEub3JnL3dpa2kiIHZhbHVlVVJJPSJodHRwczovL3d3dy53aWtpZGF0YS5vcmcvd2lraS9RMTE0NjYiPnRlbXBlcmF0dXJlPC9zdWJqZWN0PgogICAgPHN1YmplY3Qgc3ViamVjdFNjaGVtZT0iQXJ0IGFuZCBBcmNoaXRlY3R1cmUgVGhlc2F1cnVzIiBzY2hlbWVVUkk9Imh0dHA6Ly92b2NhYi5nZXR0eS5lZHUvYWF0IiB2YWx1ZVVSST0iaHR0cDovL3ZvY2FiLmdldHR5LmVkdS9hYXQvMzAwMTkyMDk3Ij5yZWxhdGl2ZSBodW1pZGl0eTwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9Ildpa2lkYXRhIiBzY2hlbWVVUkk9Imh0dHBzOi8vd3d3Lndpa2lkYXRhLm9yZy93aWtpIiB2YWx1ZVVSST0iaHR0cHM6Ly93d3cud2lraWRhdGEub3JnL3dpa2kvUTE5NDQxMSI+aWxsdW1pbmFuY2U8L3N1YmplY3Q+CiAgICA8c3ViamVjdCBzdWJqZWN0U2NoZW1lPSJBcnQgYW5kIEFyY2hpdGVjdHVyZSBUaGVzYXVydXMiIHNjaGVtZVVSST0iaHR0cDovL3ZvY2FiLmdldHR5LmVkdS9hYXQiIHZhbHVlVVJJPSJodHRwOi8vdm9jYWIuZ2V0dHkuZWR1L2FhdC8zMDAzNzk0MzIiPm1vaXN0dXJlIGNvbnRlbnQ8L3N1YmplY3Q+CiAgICA8c3ViamVjdCBzdWJqZWN0U2NoZW1lPSJGQVNUIiBzY2hlbWVVUkk9Imh0dHA6Ly9pZC53b3JsZGNhdC5vcmcvZmFzdCIgdmFsdWVVUkk9Imh0dHA6Ly9pZC53b3JsZGNhdC5vcmcvZmFzdC85MTMyMTQiPkVudmlyb25tZW50YWwgbW9uaXRvcmluZzwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxjb250cmlidXRvcnM+CiAgICA8Y29udHJpYnV0b3IgY29udHJpYnV0b3JUeXBlPSJDb250YWN0UGVyc29uIj4KICAgICAgPGNvbnRyaWJ1dG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPlBhZGZpZWxkLCBKb3NlcGg8L2NvbnRyaWJ1dG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Kb3NlcGg8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+UGFkZmllbGQ8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iaHR0cHM6Ly9vcmNpZC5vcmciPmh0dHBzOi8vb3JjaWQub3JnLzAwMDAtMDAwMi0yNTcyLTY0Mjg8L25hbWVJZGVudGlmaWVyPgogICAgICA8YWZmaWxpYXRpb24gYWZmaWxpYXRpb25JZGVudGlmaWVyPSJodHRwczovL3Jvci5vcmcvMDQza2ZmZjg5IiBhZmZpbGlhdGlvbklkZW50aWZpZXJTY2hlbWU9IlJPUiI+TmF0aW9uYWwgR2FsbGVyeTwvYWZmaWxpYXRpb24+CiAgICA8L2NvbnRyaWJ1dG9yPgogICAgPGNvbnRyaWJ1dG9yIGNvbnRyaWJ1dG9yVHlwZT0iRGF0YUNvbGxlY3RvciI+CiAgICAgIDxjb250cmlidXRvck5hbWUgbmFtZVR5cGU9Ik9yZ2FuaXphdGlvbmFsIj5CdWlsZGluZyBGYWNpbGl0aWVzIERlcGFydG1lbnQ8L2NvbnRyaWJ1dG9yTmFtZT4KICAgICAgPGFmZmlsaWF0aW9uIGFmZmlsaWF0aW9uSWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzA0M2tmZmY4OSIgYWZmaWxpYXRpb25JZGVudGlmaWVyU2NoZW1lPSJST1IiPk5hdGlvbmFsIEdhbGxlcnk8L2FmZmlsaWF0aW9uPgogICAgPC9jb250cmlidXRvcj4KICA8L2NvbnRyaWJ1dG9ycz4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iQ29sbGVjdGVkIj4yMDEwLzIwMjA8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iT3RoZXIiIGRhdGVJbmZvcm1hdGlvbj0iQ292ZXJhZ2UiPjIwMTAvMjAyMDwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJJc3N1ZWQiPjIwMjI8L2RhdGU+CiAgPC9kYXRlcz4KICA8bGFuZ3VhZ2U+ZW48L2xhbmd1YWdlPgogIDxyZWxhdGVkSWRlbnRpZmllcnM+CiAgICA8cmVsYXRlZElkZW50aWZpZXIgcmVsYXRlZElkZW50aWZpZXJUeXBlPSJVUkwiIHJlbGF0aW9uVHlwZT0iSXNTdXBwbGVtZW50VG8iIHJlc291cmNlVHlwZUdlbmVyYWw9IlJlcG9ydCI+aHR0cHM6Ly93d3cubmF0aW9uYWxnYWxsZXJ5Lm9yZy51ay9yZXNlYXJjaC9yZXNlYXJjaC1yZXNvdXJjZXMvcmVzZWFyY2gtcGFwZXJzL2ltcHJvdmluZy1vdXItZW52aXJvbm1lbnQ8L3JlbGF0ZWRJZGVudGlmaWVyPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iVVJMIiByZWxhdGlvblR5cGU9IklzU291cmNlT2YiIHJlc291cmNlVHlwZUdlbmVyYWw9IkludGVyYWN0aXZlUmVzb3VyY2UiPmh0dHBzOi8vcmVzZWFyY2gubmctbG9uZG9uLm9yZy51ay9zY2llbnRpZmljL2Vudi88L3JlbGF0ZWRJZGVudGlmaWVyPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iRE9JIiByZWxhdGlvblR5cGU9IklzU3VwcGxlbWVudGVkQnkiIHJlc291cmNlVHlwZUdlbmVyYWw9IkpvdXJuYWxBcnRpY2xlIj4xMC4xMDgwLzAwMzkzNjMwLjIwMTguMTUwNDQ0OS88L3JlbGF0ZWRJZGVudGlmaWVyPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iRE9JIiByZWxhdGlvblR5cGU9IklzRG9jdW1lbnRlZEJ5IiByZXNvdXJjZVR5cGVHZW5lcmFsPSJDb25mZXJlbmNlUGFwZXIiPjEwLjUyODEvemVub2RvLjc2MjkyMDA8L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDxzaXplcz4KICAgIDxzaXplPjEzLjYgTUI8L3NpemU+CiAgPC9zaXplcz4KICA8Zm9ybWF0cz4KICAgIDxmb3JtYXQ+YXBwbGljYXRpb24vanNvbjwvZm9ybWF0PgogIDwvZm9ybWF0cz4KICA8dmVyc2lvbj4xLjA8L3ZlcnNpb24+CiAgPHJpZ2h0c0xpc3Q+CiAgICA8cmlnaHRzIHhtbDpsYW5nPSJlbiIgc2NoZW1lVVJJPSJodHRwczovL3NwZHgub3JnL2xpY2Vuc2VzLyIgcmlnaHRzSWRlbnRpZmllclNjaGVtZT0iU1BEWCIgcmlnaHRzSWRlbnRpZmllcj0iQ0MtQlktNC4wIiByaWdodHNVUkk9Imh0dHBzOi8vY3JlYXRpdmVjb21tb25zLm9yZy9saWNlbnNlcy9ieS1uYy80LjAvIj5DcmVhdGl2ZSBDb21tb25zIEF0dHJpYnV0aW9uIE5vbiBDb21tZXJjaWFsIDQuMCBJbnRlcm5hdGlvbmFsPC9yaWdodHM+CiAgPC9yaWdodHNMaXN0PgogIDxkZXNjcmlwdGlvbnM+CiAgICA8ZGVzY3JpcHRpb24geG1sOmxhbmc9ImVuIiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5UaGUgTmF0aW9uYWwgR2FsbGVyeSBob3VzZXMgb25lIG9mIHRoZSBncmVhdGVzdCDigJIgYW5kIG1vc3QgdmlzaXRlZCDigJIgY29sbGVjdGlvbnMgb2YgV2VzdGVybiBFdXJvcGVhbiBwYWludGluZywgb2Z0ZW4gd2VsY29taW5nIG1vcmUgdGhhbiA2IG1pbGxpb24gdmlzaXRvcnMgYSB5ZWFyLiBUaGUgU2NpZW50aWZpYyBEZXBhcnRtZW50IHJlc2VhcmNoZXMgdGhlIGhpc3Rvcnkgb2YgbWF0ZXJpYWxzIGFuZCB0ZWNobmlxdWVzIGFuZCB0aGVpciBkZWdyYWRhdGlvbiBtZWNoYW5pc21zIChmYWRpbmcsIGRhcmtlbmluZywgZXRjLiksIHRocm91Z2ggYW5hbHlzaXMgdXNpbmcgYSByYW5nZSBvZiBtaWNyby1hbmFseXRpY2FsIGFuZCBpbWFnaW5nIG1ldGhvZHMuIEl0IGFsc28gd29ya3MgaW4gdGhlIGZpZWxkcyBvZiBwcmV2ZW50aXZlIGNvbnNlcnZhdGlvbiBhbmQgZW52aXJvbm1lbnRhbCBtYW5hZ2VtZW50IG9mIGdhbGxlcmllcyAobW9uaXRvcmluZywgbGlnaHRpbmcsIHZpYnJhdGlvbiksIGFzIHdlbGwgYXMgdGhlIGRldmVsb3BtZW50IG9mIGEgd2lkZSByYW5nZSBvZiBuZXcgaW5zdHJ1bWVudHMgYW5kIG1ldGhvZHMgKGJvdGggYW5hbHl0aWNhbCBhbmQgaW1hZ2luZykgZm9yIHRlY2huaWNhbCBleGFtaW5hdGlvbiBvZiBhcnR3b3JrcywgbW9zdCBvZnRlbiBpbiBjb2xsYWJvcmF0aW9uIHdpdGggdW5pdmVyc2l0aWVzLiBUaGUgZXhhbWluYXRpb24gb2YgdGhlIGVudmlyb25tZW50YWwgY29uZGl0aW9ucyB3aXRoaW4gVGhlIE5hdGlvbmFsIEdhbGxlcnkgYmVnYW4gc29vbiBhZnRlciBpdCB3YXMgZXN0YWJsaXNoZWQgaW4gMTgyNC4gRWFybHkgY29uY2VybnMgb2Z0ZW4gcmVsYXRlZCB0byBkdXN0IGFuZCBwb2xsdXRpb24uIFRoZSBmaXJzdCBlbGVjdHJvbmljIGRhdGEgbG9nZ2VyLCByZWNvcmRpbmcgbGlnaHQgbGV2ZWxzLCB3YXMgaW50cm9kdWNlZCBpbiAxOTc1LCB3aXRoIHRoZSByZWd1bGFyIGxvZ2dpbmcgb2YgdGVtcGVyYXR1cmUgYW5kIHJlbGF0aXZlIGh1bWlkaXR5IGZvbGxvd2VkIHNvb24gYWZ0ZXIuIFRvZGF5IHRoZSBHYWxsZXJ5IGhhcyBodW5kcmVkcyBvZiBzZW5zb3JzLCBtb25pdG9yaW5nIHRoZSBlbnZpcm9ubWVudGFsIGNvbmRpdGlvbnMgaW4gb3ZlciBodW5kcmVkcyBvZiBsb2NhdGlvbnMsIDI0LzcuIFRoZSBOYXRpb25hbCBHYWxsZXJ5IGN1cnJlbnRseSBhcmNoaXZlcyBtaWxsaW9ucyBvZiBlbnZpcm9ubWVudGFsIHJlYWRpbmdzIGV2ZXJ5IHllYXIsIHdoaWNoIGFyZSB1c2VkIHRvIG1vbml0b3IgdGhlIEdhbGxlcnkgY29uZGl0aW9ucyBlbnN1cmluZyB0aGUgb24tZ29pbmcgY2FyZSBvZiB0aGUgY29sbGVjdGlvbnMuIFRoZXNlIHJlYWRpbmdzIGFyZSBhbHNvIHVzZWQgdG8gZXhhbWluZSBsb25nIHRlcm0gZW52aXJvbm1lbnRhbCB0cmVuZHMsIG1hbmFnZSBhZGRpdGlvbmFsIGV2ZW50cywgYW5kIHdpdGhpbiB0aGUgcGxhbm5pbmcgYW5kIG1hbmFnZW1lbnQgb2YgcHJldmVudGl2ZSBjb25zZXJ2YXRpb24gd29yayBhbmQgcmVzZWFyY2ggYXQgdGhlIE5hdGlvbmFsIEdhbGxlcnkuIFRoZSBOYXRpb25hbCBHYWxsZXJ5IEVudmlyb25tZW50YWwgRGF0YWJhc2UgaXMgYW4gaW50ZXJuYWwsIGJlc3Bva2Ugc3lzdGVtIHdoaWNoIGhhcyBiZWVuIGRldmVsb3BlZCwgb3ZlciB0aGUgbGFzdCAyMCB5ZWFycywgdG8gYWN0IGFzIGFuIGFyY2hpdmUgZm9yIGFsbCBvZiB0aGVzZSBlbnZpcm9ubWVudGFsIHJlYWRpbmdzLiBUaGlzIGRhdGFzZXQgY29udGFpbnMgYSBzZWxlY3RlZCByYW5nZSBvZiB0aGUgZGF0YSBnYXRoZXJlZCBmcm9tIGEgZmV3IG9mIHRoZSBleHRlcm5hbCBzZW5zb3JzIHRoYXQgaGF2ZSBiZWVuIHVzZWQgdG8gbW9uaXRvciBhbWJpZW50IGxpZ2h0IGxldmVscywgdGVtcGVyYXR1cmUsIHJlbGF0aXZlIGh1bWlkaXR5IGFuZCBhaXIgbW9pc3R1cmUgY29udGVudCAyNCBob3VycyBhIGRheSwgNyBkYXlzIGEgd2VlayBvdmVyIHRoZSBsYXN0IHR3byBkZWNhZGVzLjwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CiAgPGdlb0xvY2F0aW9ucz4KICAgIDxnZW9Mb2NhdGlvbj4KICAgICAgPGdlb0xvY2F0aW9uUGxhY2U+Um9vZiBvZiBOYXRpb25hbCBHYWxsZXJ5LCBMb25kb24sIFVLPC9nZW9Mb2NhdGlvblBsYWNlPgogICAgICA8Z2VvTG9jYXRpb25Qb2ludD4KICAgICAgICA8cG9pbnRMYXRpdHVkZT41MS41MDg3MjwvcG9pbnRMYXRpdHVkZT4KICAgICAgICA8cG9pbnRMb25naXR1ZGU+LTAuMTI4NDE8L3BvaW50TG9uZ2l0dWRlPgogICAgICA8L2dlb0xvY2F0aW9uUG9pbnQ+CiAgICA8L2dlb0xvY2F0aW9uPgogIDwvZ2VvTG9jYXRpb25zPgogIDxmdW5kaW5nUmVmZXJlbmNlcz4KICAgIDxmdW5kaW5nUmVmZXJlbmNlPgogICAgICA8ZnVuZGVyTmFtZT5IMjAyMCBFeGNlbGxlbnQgU2NpZW5jZTwvZnVuZGVyTmFtZT4KICAgICAgPGZ1bmRlcklkZW50aWZpZXIgZnVuZGVySWRlbnRpZmllclR5cGU9IkNyb3NzcmVmIEZ1bmRlciBJRCI+aHR0cHM6Ly9kb2kub3JnLzEwLjEzMDM5LzEwMDAxMDY2MjwvZnVuZGVySWRlbnRpZmllcj4KICAgICAgPGF3YXJkTnVtYmVyIGF3YXJkVVJJPSJodHRwczovL2NvcmRpcy5ldXJvcGEuZXUvcHJvamVjdC9pZC84NzEwMzQiPjg3MTAzNDwvYXdhcmROdW1iZXI+CiAgICAgIDxhd2FyZFRpdGxlPkludGVncmF0aW5nIFBsYXRmb3JtcyBmb3IgdGhlIEV1cm9wZWFuIFJlc2VhcmNoIEluZnJhc3RydWN0dXJlIE9OIEhlcml0YWdlIFNjaWVuY2U8L2F3YXJkVGl0bGU+CiAgICA8L2Z1bmRpbmdSZWZlcmVuY2U+CiAgPC9mdW5kaW5nUmVmZXJlbmNlcz4KPC9yZXNvdXJjZT4=",
+      "url": "https://research.ng-london.org.uk/scientific/env/External%20Environmental%20Data%202010-2020%20National%20Gallery%20V1.0.json",
+      "contentUrl": null,
+      "metadataVersion": 11,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "fabricaForm",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 0,
+      "citationsOverTime": [],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2023-01-05T14:57:34.000Z",
+      "registered": "2023-01-05T15:24:40.000Z",
+      "published": "2022",
+      "updated": "2026-10-24T03:01:34.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "datacite.mwg",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "datacite",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.82433/9184-dy35",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": []
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

@@ -4,22 +4,24 @@
     {
       "file": "datacite-full.json",
       "url": "https://api.test.datacite.org/dois/10.82433/B09Z-4K37?affiliation=true&publisher=true",
-      "sha256": "6236a96baf024b24840e073c9def85949478bb9a44b14622cb8192f7c51d008e",
+      "sha256": "f03eb0df00ebeddaae0aacf1604b1c090b559e65a58fe8c23ac98519884101be",
       "documentation": "https://schema.datacite.org/meta/kernel-4.6/",
       "id": "datacite-full",
       "format": "datacite",
       "retrievedAt": "2026-10-29T12:16:51.125123+00:00",
-      "description": "Full DataCite metadata example"
+      "description": "Full DataCite metadata example",
+      "downloadSha256": "6236a96baf024b24840e073c9def85949478bb9a44b14622cb8192f7c51d008e"
     },
     {
       "file": "datacite-dataset.json",
       "url": "https://api.test.datacite.org/dois/10.82433/9184-DY35?affiliation=true&publisher=true",
-      "sha256": "0510b30469065e7c8bb13bcb0b203e129c2390d56e686ac7f978b59de61c79fb",
+      "sha256": "2ae736bba06b107cf9c5249a37408bfc5d10f64fd1859f831208c10619e13c9a",
       "documentation": "https://schema.datacite.org/meta/kernel-4.6/",
       "id": "datacite-dataset",
       "format": "datacite",
       "retrievedAt": "2026-10-29T12:16:51.125123+00:00",
-      "description": "Dataset example: environmental observations"
+      "description": "Dataset example: environmental observations",
+      "downloadSha256": "0510b30469065e7c8bb13bcb0b203e129c2390d56e686ac7f978b59de61c79fb"
     },
     {
       "file": "edm.xml",
@@ -36,40 +38,44 @@
       "file": "datacite-award.json",
       "format": "datacite",
       "url": "https://api.test.datacite.org/dois/10.82433/p1zt-4c67?affiliation=true&publisher=true",
-      "sha256": "cfadd2f157d2081ab4091b4045e9d7d23e256216fc2e5ba51aa3a4af9f7ffe0d",
+      "sha256": "11d2d361ad4e526e2d2f5dae459addd130e13938e00bb084d7e6dbed7fabd3d0",
       "retrievedAt": "2026-10-29T14:41:15.137764+00:00",
       "description": "Award / grant with an incomplete creator identifier",
-      "documentation": "https://schema.datacite.org/meta/kernel-4.6/"
+      "documentation": "https://schema.datacite.org/meta/kernel-4.6/",
+      "downloadSha256": "cfadd2f157d2081ab4091b4045e9d7d23e256216fc2e5ba51aa3a4af9f7ffe0d"
     },
     {
       "id": "datacite-project",
       "file": "datacite-project.json",
       "format": "datacite",
       "url": "https://api.test.datacite.org/dois/10.82433/84dj-am41?affiliation=true&publisher=true",
-      "sha256": "0f3135dcd458d2710940f9cf99bd200594328b72d06c4ecf1059fcad9e5c91ca",
+      "sha256": "bf8655f01fbd1e51df45dd4698ccd809f0dc9900a1ec694ef6bfab35890fcadc",
       "retrievedAt": "2026-10-29T14:41:15.137764+00:00",
       "description": "Project and project contributors",
-      "documentation": "https://schema.datacite.org/meta/kernel-4.6/"
+      "documentation": "https://schema.datacite.org/meta/kernel-4.6/",
+      "downloadSha256": "0f3135dcd458d2710940f9cf99bd200594328b72d06c4ecf1059fcad9e5c91ca"
     },
     {
       "id": "datacite-multilingual",
       "file": "datacite-multilingual.json",
       "format": "datacite",
       "url": "https://api.test.datacite.org/dois/10.82433/byt7-2g42?affiliation=true&publisher=true",
-      "sha256": "5d80b4c74eb8d3042655a194729241f55f4ef3122a333677a86d5594d68cbac2",
+      "sha256": "7171e529085103c04278585c926a318bf1522e834660a4781424ce3273098dae",
       "retrievedAt": "2026-10-29T14:41:15.137764+00:00",
       "description": "Multilingual metadata",
-      "documentation": "https://schema.datacite.org/meta/kernel-4.6/"
+      "documentation": "https://schema.datacite.org/meta/kernel-4.6/",
+      "downloadSha256": "5d80b4c74eb8d3042655a194729241f55f4ef3122a333677a86d5594d68cbac2"
     },
     {
       "id": "datacite-related-item",
       "file": "datacite-related-item.json",
       "format": "datacite",
       "url": "https://api.test.datacite.org/dois/10.82433/q54d-pf76?affiliation=true&publisher=true",
-      "sha256": "be849c533a8e6567549d730b2b5693631677565a64f8b06cdff7f1fb0152f470",
+      "sha256": "1154ee46eb894bf193676369093dcacb41e77e5cdd05370fc34ef4e9818eef27",
       "retrievedAt": "2026-10-29T14:41:15.137764+00:00",
       "description": "Journal article with a RelatedItem describing its journal",
-      "documentation": "https://schema.datacite.org/meta/kernel-4.6/"
+      "documentation": "https://schema.datacite.org/meta/kernel-4.6/",
+      "downloadSha256": "be849c533a8e6567549d730b2b5693631677565a64f8b06cdff7f1fb0152f470"
     },
     {
       "id": "edm-image-tier1",

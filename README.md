@@ -331,8 +331,10 @@ SHA-256 values are recorded in
 (full metadata, dataset, award, project, multilingual metadata and a journal
 RelatedItem) are linked from the official
 [DataCite 4.6 examples page](https://schema.datacite.org/meta/kernel-4.6/).
-They were downloaded intact from the test API, including `data.attributes`
-and structured publisher objects. EDM includes the historical musical
+Their JSON data is intact from the test API, including `data.attributes`
+and structured publisher objects. Local JSON files use two-space indentation;
+the manifest's `sha256` covers the formatted file and `downloadSha256` records
+the original download. Values and ordering are unchanged. EDM includes the historical musical
 instrument sample plus image, sound and complete 3D records from
 [Europeana's test dataset](https://github.com/europeana/test_dataset), pinned
 to a commit. Source details and the retained licence are described in the

@@ -11,6 +11,10 @@ verifies these hashes and runs offline.
 All six records are linked from the official
 [DataCite Metadata Schema 4.6 examples](https://schema.datacite.org/meta/kernel-4.6/).
 The original JSON:API envelopes, metadata and service attributes are intact.
+The JSON files are formatted with two-space indentation and readable UTF-8
+characters. Values, object-key order and array order are unchanged. In the
+manifest, `sha256` verifies the formatted local file; `downloadSha256` retains
+the checksum of the original downloaded bytes. Retrieval timestamps are unchanged.
 These are **test-environment records**, not production DOI registrations.
 
 | File | Official example | Test DOI |
