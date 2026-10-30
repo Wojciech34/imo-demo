@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:adms="http://www.w3.org/ns/adms#" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+    xmlns:dcterms="http://purl.org/dc/terms/" 
+    xmlns:edm="http://www.europeana.eu/schemas/edm/" 
+    xmlns:odrl="http://www.w3.org/ns/odrl/2/" 
+    xmlns:ore="http://www.openarchives.org/ore/terms/" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+    xmlns:schema="https://schema.org/" 
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+    xmlns:svcs="http://rdfs.org/sioc/services#"
+    >
+
+    <edm:ProvidedCHO rdf:about="TEST_3D_COMPLETE">
+        <dc:title xml:lang="en">TEST RECORD: Complete version of a 3D object</dc:title>
+        <dc:description xml:lang="en">This is a sample record for a 3D object, presented through 2 complementary embeddable views of the same object. Varios 3D models are made available for download for both views of the object accompained by Paradata. It also contains information about the intended use and source of the model.</dc:description>
+        <dc:creator xml:lang="en">Europeana Data Services Team</dc:creator>
+        <dcterms:isPartOf xml:lang="en">Example Dataset</dcterms:isPartOf>
+        <dcterms:conformsTo xml:lang="en">Partially supported (under development)</dcterms:conformsTo>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+        <dcterms:created xml:lang="en">12th century</dcterms:created>
+        <dcterms:spatial rdf:resource="https://sws.geonames.org/3057568/"/>
+		<dc:type rdf:resource="http://www.wikidata.org/entity/Q4989906"/>
+        <dcterms:spatial rdf:resource="http://www.wikidata.org/entity/Q1044029"/>
+		<dc:subject rdf:resource="http://data.europeana.eu/concept/1853"/>
+        <dcterms:created>01-2026</dcterms:created>
+        <edm:type>3D</edm:type>
+    </edm:ProvidedCHO>
+    
+    <ore:Aggregation rdf:about="#Aggregation">
+        <edm:aggregatedCHO rdf:resource="TEST_3D_COMPLETE"/>
+        <edm:dataProvider>Europeana Foundation</edm:dataProvider>
+        <edm:provider>Europeana Foundation</edm:provider>
+        <edm:isShownAt rdf:resource="https://slovakiana.sk/kulturne-objekty/cair-ko4ql9i"/>
+        <edm:object rdf:resource="https://media.sketchfab.com/models/f6ec40a2d6754a6197c188194781f2c3/thumbnails/5eec7f1df11541fb82312b436681d021/daf45450e4da481ea1d8e2fb55832bf3.jpeg"/>
+        <edm:isShownBy rdf:resource="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&amp;format=json#TEST_3D_COMPLETE"/>
+        <edm:hasView rdf:resource="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&amp;format=json#TEST_3D_COMPLETE"/>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    </ore:Aggregation>
+
+    <edm:WebResource
+        rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&amp;format=json#TEST_3D_COMPLETE">
+        <dc:title xml:lang="sk">3D model kostola - exteriér</dc:title>
+        <dc:title xml:lang="en">3D model of the church - exterior</dc:title>
+        <dcterms:created>2025</dcterms:created>
+        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz"/>
+        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb"/>
+		<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/paradata.xlsx"/>
+        <edm:type>3D</edm:type>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+		<edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Documentation"/>
+        <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
+        <svcs:has_service rdf:resource="https://sketchfab.com/oembed"/>
+    </edm:WebResource>
+
+	<edm:WebResource rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&amp;format=json#TEST_3D_COMPLETE">
+        <dc:title xml:lang="sk">3D model Kostol - interiér</dc:title>
+        <dc:title xml:lang="en">3D model Church - interior</dc:title>
+        <dcterms:created>2025</dcterms:created>
+        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE"/>
+        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE"/>
+        <dcterms:isFormatOf rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE"/>
+		<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/paradata.xlsx"/>
+        <edm:type>3D</edm:type>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+		<edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Documentation"/>
+        <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
+        <svcs:has_service rdf:resource="https://sketchfab.com/oembed"/>
+    </edm:WebResource>
+
+    <edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE">
+        <dc:title xml:lang="en">3D model of the outside view of the Church (High resolution, USDZ version)</dc:title>
+        <dc:description xml:lang="en">The outside view of the Church</dc:description>
+        <dcterms:temporal>02-2026</dcterms:temporal>
+        <edm:type>3D</edm:type>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>        
+        <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Creativity"/>
+        <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
+        <edm:polygonCount>3999915</edm:polygonCount>
+        <edm:vertexCount>2591438</edm:vertexCount>
+        <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
+     </edm:WebResource>
+
+    <edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE">
+        <dc:title xml:lang="en">3D model of the outside view of the Church (Low resolution, GLB version)</dc:title>
+        <dc:description xml:lang="en">The outside view of the Church</dc:description>
+        <dcterms:temporal>02-2026</dcterms:temporal>
+        <edm:type>3D</edm:type>
+        <edm:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+        <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Creativity"/>
+        <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
+        <edm:polygonCount>3999854</edm:polygonCount>
+        <edm:vertexCount>2448420</edm:vertexCount>
+        <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>
+     </edm:WebResource>
+
+	<edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE">
+        <dc:title xml:lang="en">3D model of the inside view of the Church (High resolution, GLB version)</dc:title>
+        <dc:description xml:lang="en">The inside view of the Church showing the altar</dc:description>
+        <dcterms:temporal>12-2023</dcterms:temporal>
+        <edm:type>3D</edm:type>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+        <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Documentation"/>
+        <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
+        <edm:polygonCount>2512228</edm:polygonCount>
+        <edm:vertexCount>1517930</edm:vertexCount> 
+        <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>   
+    </edm:WebResource>
+
+	<edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE">
+        <dc:title xml:lang="en">3D model of the inside view of the Church (Low resolution, GLB version)</dc:title>
+        <dc:description xml:lang="en">The inside view of the Church showing the altar</dc:description>
+        <dcterms:temporal>02-2026</dcterms:temporal>
+        <edm:type>3D</edm:type>
+        <edm:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+        <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Creativity"/>
+        <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
+        <edm:polygonCount>2512211</edm:polygonCount>
+        <edm:vertexCount>1470002</edm:vertexCount> 
+        <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>   
+    </edm:WebResource>
+
+	<edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE">
+        <dc:title xml:lang="en">3D model of the inside view of the Church (High resolution, USDZ version)</dc:title>
+        <dc:description xml:lang="en">The inside view of the Church showing the altar</dc:description>
+        <dcterms:temporal>12-2023</dcterms:temporal>
+        <edm:type>3D</edm:type>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+        <edm:intendedUsage rdf:resource="http://data.europeana.eu/vocabulary/usageArea/Documentation"/>
+        <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
+        <edm:polygonCount>2512228</edm:polygonCount>
+        <edm:vertexCount>1517930</edm:vertexCount> 
+        <schema:digitalSourceType rdf:resource="https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture"/>   
+    </edm:WebResource>
+
+    <svcs:Service rdf:about="https://sketchfab.com/oembed">
+        <dcterms:conformsTo rdf:resource="https://oembed.com/"/>
+        <rdfs:label xml:lang="en">Sketchfab</rdfs:label>
+    </svcs:Service>
+
+</rdf:RDF>

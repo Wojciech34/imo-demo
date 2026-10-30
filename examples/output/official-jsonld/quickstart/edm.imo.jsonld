@@ -1,0 +1,460 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "imo": "https://example.org/onedata/imo/0.1/",
+    "edm": "http://www.europeana.eu/schemas/edm/",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Dataset": "schema:Dataset",
+    "Collection": "schema:Collection",
+    "Directory": "imo:Directory",
+    "File": "schema:MediaObject",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "CreativeWork": "schema:CreativeWork",
+    "root": {
+      "@id": "schema:about",
+      "@type": "@id"
+    },
+    "modelVersion": "imo:modelVersion",
+    "titles": {
+      "@id": "dct:title",
+      "@container": "@set"
+    },
+    "name": "schema:name",
+    "identifiers": {
+      "@id": "dct:identifier",
+      "@container": "@set"
+    },
+    "creators": {
+      "@id": "dct:creator",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "mediaType": "schema:encodingFormat",
+    "sizeBytes": "imo:sizeBytes",
+    "sha256": "schema:sha256",
+    "provenance": {
+      "@id": "imo:provenance",
+      "@type": "@json"
+    },
+    "source": {
+      "@id": "imo:sourceBackup",
+      "@type": "@json"
+    },
+    "ProvidedCHO": "edm:ProvidedCHO",
+    "WebResource": "edm:WebResource",
+    "Aggregation": "ore:Aggregation",
+    "Place": "edm:Place",
+    "Concept": "skos:Concept",
+    "Agent": "edm:Agent",
+    "descriptions": {
+      "@id": "dct:description",
+      "@container": "@set"
+    },
+    "abstracts": {
+      "@id": "dct:abstract",
+      "@container": "@set"
+    },
+    "dates": {
+      "@id": "dct:date",
+      "@container": "@set"
+    },
+    "subjects": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "coverage": {
+      "@id": "dct:coverage",
+      "@container": "@set"
+    },
+    "resourceTypes": {
+      "@id": "dct:type",
+      "@container": "@set"
+    },
+    "labels": {
+      "@id": "skos:prefLabel",
+      "@container": "@set"
+    },
+    "alternativeLabels": {
+      "@id": "skos:altLabel",
+      "@container": "@set"
+    },
+    "digitalRights": {
+      "@id": "edm:rights",
+      "@container": "@set"
+    },
+    "publishers": {
+      "@id": "dct:publisher",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sourceResources": {
+      "@id": "dct:source",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "aggregatedCHO": {
+      "@id": "edm:aggregatedCHO",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isShownAt": {
+      "@id": "edm:isShownAt",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isShownBy": {
+      "@id": "edm:isShownBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasView": {
+      "@id": "edm:hasView",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "preview": {
+      "@id": "edm:object",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "doi": "imo:doi",
+    "resourceTypeGeneral": "imo:dataciteResourceTypeGeneral",
+    "resourceType": "imo:dataciteResourceType",
+    "language": "schema:inLanguage",
+    "version": "schema:version",
+    "edmType": "edm:type",
+    "provider": "edm:provider",
+    "dataProvider": "edm:dataProvider",
+    "givenName": "schema:givenName",
+    "familyName": "schema:familyName",
+    "publicationYear": {
+      "@id": "dct:issued",
+      "@type": "xsd:gYear"
+    }
+  },
+  "@id": "urn:imo:record",
+  "@type": "imo:Record",
+  "modelVersion": "1.0",
+  "root": {
+    "@id": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309"
+  },
+  "@graph": [
+    {
+      "@id": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+      "@type": "ProvidedCHO",
+      "identifiers": [
+        "#ULEI:M0003309"
+      ],
+      "coverage": [
+        {
+          "@id": "http://sws.geonames.org/6255147/"
+        }
+      ],
+      "dates": [
+        {
+          "@value": "ca. 1890/1930"
+        }
+      ],
+      "descriptions": [
+        {
+          "@value": "Kessel aus einem Stück, mit Loch am Boden sowie am oberen Rand mit 6 eingeschraubten Ösen. Kessel auf einer Höhe von 150 (von unten) nach innen gebogen, so dass\n      sich ein breiter Rand ergibt. Fell über einen Wickelreifen gelegt. Separater Spannreifen Messing, mit 6 Ösen und Spannschrauben. Schrauben mit Vierkantkopf. Spuren einer Halterung mit\n      4 Niten vorhanden (Instrument war sicher am Gürtel oder am Pferdesattel o.ä. befestigt).Birgit Heise, Volker F.Seumel"
+        }
+      ],
+      "titles": [
+        {
+          "@value": "kleine Pauke"
+        },
+        {
+          "@value": "Kesselpäuklein"
+        }
+      ],
+      "resourceTypes": [
+        {
+          "@id": "http://www.mimo-db.eu/InstrumentsKeywords/2887"
+        },
+        {
+          "@id": "http://www.mimo-db.eu/HornbostelAndSachs/98"
+        }
+      ],
+      "edmType": "IMAGE"
+    },
+    {
+      "@id": "http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg",
+      "@type": "WebResource",
+      "rights": [
+        {
+          "@value": "© Museum für Musikinstrumente der Universität Leipzig, Foto: Karin Kranich"
+        }
+      ],
+      "digitalRights": [
+        {
+          "@id": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+        }
+      ]
+    },
+    {
+      "@id": "http://sws.geonames.org/6255147/",
+      "@type": "Place",
+      "labels": [
+        {
+          "@value": "Asien",
+          "@language": "de"
+        }
+      ],
+      "alternativeLabels": [
+        {
+          "@value": "wohl Asien"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.mimo-db.eu/InstrumentsKeywords/2887",
+      "@type": "Concept",
+      "labels": [
+        {
+          "@value": "Kettledrum"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.mimo-db.eu/HornbostelAndSachs/98",
+      "@type": "Concept",
+      "labels": [
+        {
+          "@value": "211.11 (Separate) vessel drums",
+          "@language": "en"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.mimo-db.eu/ULEI/M0003309",
+      "@type": "Aggregation",
+      "aggregatedCHO": [
+        {
+          "@id": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309"
+        }
+      ],
+      "dataProvider": "Museum für Musikinstrumente der Universität Leipzig",
+      "hasView": [
+        {
+          "@id": "http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg"
+        }
+      ],
+      "isShownAt": [
+        {
+          "@id": "http://www.mimo-db.eu/ULEI/M0003309"
+        }
+      ],
+      "isShownBy": [
+        {
+          "@id": "http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg"
+        }
+      ],
+      "preview": [
+        {
+          "@id": "http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg"
+        }
+      ],
+      "provider": "MIMO - Musical Instrument Museums Online",
+      "digitalRights": [
+        {
+          "@id": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "sourceFormat": "edm",
+    "source": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml",
+    "mapping": [
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+        "property": "http://purl.org/dc/elements/1.1/identifier",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "identifiers"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+        "property": "http://purl.org/dc/elements/1.1/coverage",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "coverage"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+        "property": "http://purl.org/dc/elements/1.1/date",
+        "occurrence": 2,
+        "status": "mapped",
+        "target": "dates"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+        "property": "http://purl.org/dc/elements/1.1/description",
+        "occurrence": 3,
+        "status": "mapped",
+        "target": "descriptions"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "occurrence": 4,
+        "status": "mapped",
+        "target": "titles"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "occurrence": 5,
+        "status": "mapped",
+        "target": "titles"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+        "property": "http://purl.org/dc/elements/1.1/type",
+        "occurrence": 6,
+        "status": "mapped",
+        "target": "resourceTypes"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+        "property": "http://purl.org/dc/elements/1.1/type",
+        "occurrence": 7,
+        "status": "mapped",
+        "target": "resourceTypes"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+        "property": "http://www.europeana.eu/schemas/edm/type",
+        "occurrence": 8,
+        "status": "mapped",
+        "target": "edmType"
+      },
+      {
+        "resource": "http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg",
+        "property": "http://purl.org/dc/elements/1.1/rights",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "rights"
+      },
+      {
+        "resource": "http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg",
+        "property": "http://www.europeana.eu/schemas/edm/rights",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "digitalRights"
+      },
+      {
+        "resource": "http://sws.geonames.org/6255147/",
+        "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "labels"
+      },
+      {
+        "resource": "http://sws.geonames.org/6255147/",
+        "property": "http://www.w3.org/2004/02/skos/core#altLabel",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "alternativeLabels"
+      },
+      {
+        "resource": "http://www.mimo-db.eu/InstrumentsKeywords/2887",
+        "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "labels"
+      },
+      {
+        "resource": "http://www.mimo-db.eu/HornbostelAndSachs/98",
+        "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "labels"
+      },
+      {
+        "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+        "property": "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "aggregatedCHO"
+      },
+      {
+        "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+        "property": "http://www.europeana.eu/schemas/edm/dataProvider",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "dataProvider"
+      },
+      {
+        "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+        "property": "http://www.europeana.eu/schemas/edm/hasView",
+        "occurrence": 2,
+        "status": "mapped",
+        "target": "hasView"
+      },
+      {
+        "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+        "property": "http://www.europeana.eu/schemas/edm/isShownAt",
+        "occurrence": 3,
+        "status": "mapped",
+        "target": "isShownAt"
+      },
+      {
+        "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+        "property": "http://www.europeana.eu/schemas/edm/isShownBy",
+        "occurrence": 4,
+        "status": "mapped",
+        "target": "isShownBy"
+      },
+      {
+        "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+        "property": "http://www.europeana.eu/schemas/edm/object",
+        "occurrence": 5,
+        "status": "mapped",
+        "target": "preview"
+      },
+      {
+        "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+        "property": "http://www.europeana.eu/schemas/edm/provider",
+        "occurrence": 6,
+        "status": "mapped",
+        "target": "provider"
+      },
+      {
+        "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+        "property": "http://www.europeana.eu/schemas/edm/rights",
+        "occurrence": 7,
+        "status": "mapped",
+        "target": "digitalRights"
+      }
+    ]
+  },
+  "source": {
+    "format": "edm",
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!--\n  Copyright 2007-2012 The Europeana Foundation\n \n   Licenced under the EUPL, Version 1.1 (the \"Licence\") and subsequent versions as approved\n   by the European Commission;\n   You may not use this work except in compliance with the Licence.\n  \n   You may obtain a copy of the Licence at:\n   http://joinup.ec.europa.eu/software/page/eupl\n \n   Unless required by applicable law or agreed to in writing, software distributed under\n   the Licence is distributed on an \"AS IS\" basis, without warranties or conditions of\n   any kind, either express or implied.\n   See the Licence for the specific language governing permissions and limitations under\n   the Licence.\n-->\n<!--\n  Sample EDM First Implementation data file.\n-->\n<?xml-model href=\"EDM.xsd\" type=\"application/xml\" schematypens=\"http://purl.oclc.org/dsdl/schematron\"?>\n<rdf:RDF xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n xsi:schemaLocation=\"http://www.w3.org/1999/02/22-rdf-syntax-ns# EDM-INTERNAL.xsd\"\n xmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n xmlns:edm=\"http://www.europeana.eu/schemas/edm/\"\n xmlns:wgs84_pos=\"http://www.w3.org/2003/01/geo/wgs84_pos#\"\n xmlns:enrichment=\"http://www.europeana.eu/schemas/edm/enrichment/\"\n xmlns:oai=\"http://www.openarchives.org/OAI/2.0/\"\n xmlns:owl=\"http://www.w3.org/2002/07/owl#\"\n xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n xmlns:ore=\"http://www.openarchives.org/ore/terms/\"\n xmlns:skos=\"http://www.w3.org/2004/02/skos/core#\"\n xmlns:dcterms=\"http://purl.org/dc/terms/\">\n  <edm:ProvidedCHO rdf:about=\"#ULEI:M0003309\">\n    <dc:identifier>#ULEI:M0003309</dc:identifier>\n    <dc:coverage rdf:resource=\"http://sws.geonames.org/6255147/\"/>\n    <dc:date>ca. 1890/1930</dc:date>\n    <dc:description>Kessel aus einem Stück, mit Loch am Boden sowie am oberen Rand mit 6 eingeschraubten Ösen. Kessel auf einer Höhe von 150 (von unten) nach innen gebogen, so dass\n      sich ein breiter Rand ergibt. Fell über einen Wickelreifen gelegt. Separater Spannreifen Messing, mit 6 Ösen und Spannschrauben. Schrauben mit Vierkantkopf. Spuren einer Halterung mit\n      4 Niten vorhanden (Instrument war sicher am Gürtel oder am Pferdesattel o.ä. befestigt).Birgit Heise, Volker F.Seumel</dc:description>\n    <dc:title>kleine Pauke</dc:title>\n    <dc:title>Kesselpäuklein</dc:title>\n    <dc:type rdf:resource=\"http://www.mimo-db.eu/InstrumentsKeywords/2887\"/>\n    <dc:type rdf:resource=\"http://www.mimo-db.eu/HornbostelAndSachs/98\"/>\n    <edm:type>IMAGE</edm:type>\n  </edm:ProvidedCHO>\n  <edm:WebResource rdf:about=\"http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg\">\n    <dc:rights>© Museum für Musikinstrumente der Universität Leipzig, Foto: Karin Kranich</dc:rights>\n    <edm:rights rdf:resource=\"http://creativecommons.org/licenses/by-nc-sa/3.0/\"/>\n  </edm:WebResource>\n  <edm:Place rdf:about=\"http://sws.geonames.org/6255147/\">\n    <skos:prefLabel xml:lang=\"de\">Asien</skos:prefLabel>\n    <skos:altLabel>wohl Asien</skos:altLabel>\n  </edm:Place>\n  <skos:Concept rdf:about=\"http://www.mimo-db.eu/InstrumentsKeywords/2887\">\n    <skos:prefLabel>Kettledrum</skos:prefLabel>\n  </skos:Concept>\n  <skos:Concept rdf:about=\"http://www.mimo-db.eu/HornbostelAndSachs/98\">\n    <skos:prefLabel xml:lang=\"en\">211.11 (Separate) vessel drums</skos:prefLabel>\n  </skos:Concept>\n  <ore:Aggregation rdf:about=\"http://www.mimo-db.eu/ULEI/M0003309\">\n    <edm:aggregatedCHO rdf:resource=\"#ULEI:M0003309\"/>    \n    <edm:dataProvider>Museum für Musikinstrumente der Universität Leipzig</edm:dataProvider>\n    <edm:hasView rdf:resource=\"http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg\"/>\n    <edm:isShownAt rdf:resource=\"http://www.mimo-db.eu/ULEI/M0003309\"/>\n    <edm:isShownBy rdf:resource=\"http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg\"/>\n    <edm:object rdf:resource=\"http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg\"/>\n    <edm:provider>MIMO - Musical Instrument Museums Online</edm:provider>\n    <edm:rights rdf:resource=\"http://creativecommons.org/licenses/by-nc-sa/3.0/\"/>\n  </ore:Aggregation>\n</rdf:RDF>\n"
+  }
+}

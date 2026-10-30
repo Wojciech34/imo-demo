@@ -1,0 +1,125 @@
+{
+  "alternateIdentifiers": [
+    {
+      "alternateIdentifier": "https://grants.net/123456",
+      "alternateIdentifierType": "URL"
+    }
+  ],
+  "contributors": [
+    {
+      "affiliation": [
+        {
+          "affiliationIdentifier": "https://ror.org/03efmqc40",
+          "affiliationIdentifierScheme": "ROR",
+          "name": "Arizona State University",
+          "schemeUri": "https://ror.org"
+        }
+      ],
+      "contributorType": "ProjectLeader",
+      "familyName": "Garcia",
+      "givenName": "Sofia",
+      "name": "Garcia, Sofia",
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0001-5727-2427",
+          "nameIdentifierScheme": "ORCID",
+          "schemeUri": "https://orcid.org"
+        }
+      ],
+      "nameType": "Personal"
+    },
+    {
+      "affiliation": [],
+      "contributorType": "ProjectLeader",
+      "name": "Arizona State University",
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://ror.org/03efmqc40",
+          "nameIdentifierScheme": "ROR",
+          "schemeUri": "https://ror.org"
+        }
+      ],
+      "nameType": "Organizational"
+    }
+  ],
+  "creators": [
+    {
+      "affiliation": [],
+      "name": "The Research Trust",
+      "nameIdentifiers": [
+        {
+          "nameIdentifierScheme": "ROR",
+          "schemeUri": "https://ror.org"
+        }
+      ],
+      "nameType": "Organizational"
+    }
+  ],
+  "dates": [
+    {
+      "date": "2024-08-01",
+      "dateType": "Issued"
+    },
+    {
+      "date": "2025-01-01/2027-12-31",
+      "dateType": "Valid"
+    },
+    {
+      "date": "2028-01-01/2029-12-31",
+      "dateInformation": "Extended",
+      "dateType": "Updated"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "This funding award supports a project aimed at improving metadata practices to facilitate inclusive research on issues of entrenched disadvantage. The project focuses on creating robust, standardized metadata that accurately represents diverse populations and contexts.",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "doi": "10.82433/p1zt-4c67",
+  "formats": [],
+  "fundingReferences": [
+    {
+      "awardNumber": "123456",
+      "awardTitle": "Enhancing metadata for inclusive research on entrenched disadvantage",
+      "funderIdentifier": "https://doi.org/10.13039/501100012345",
+      "funderIdentifierType": "Crossref Funder ID",
+      "funderName": "The Research Trust"
+    }
+  ],
+  "geoLocations": [],
+  "identifiers": [
+    {
+      "identifier": "https://grants.net/123456",
+      "identifierType": "URL"
+    }
+  ],
+  "language": null,
+  "publicationYear": 2024,
+  "publisher": {
+    "name": "The Research Trust",
+    "publisherIdentifierScheme": "ROR",
+    "schemeUri": "https://ror.org"
+  },
+  "relatedIdentifiers": [],
+  "relatedItems": [],
+  "rightsList": [],
+  "sizes": [
+    "900000 USD"
+  ],
+  "subjects": [],
+  "titles": [
+    {
+      "title": "Enhancing metadata for inclusive research on entrenched disadvantage"
+    }
+  ],
+  "types": {
+    "bibtex": "misc",
+    "citeproc": "article",
+    "resourceType": "Grant",
+    "resourceTypeGeneral": "Award",
+    "ris": "GEN",
+    "schemaOrg": "Grant"
+  },
+  "version": null
+}

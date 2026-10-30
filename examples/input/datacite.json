@@ -1,0 +1,41 @@
+{
+  "doi": "10.82433/imo-demo.001",
+  "creators": [
+    {
+      "name": "Kowalska, Anna", "nameType": "Personal",
+      "givenName": "Anna", "familyName": "Kowalska",
+      "nameIdentifiers": [{"nameIdentifier": "https://orcid.org/0000-0002-1825-0097", "nameIdentifierScheme": "ORCID", "schemeUri": "https://orcid.org"}],
+      "affiliation": [{"name": "Example Environmental Observatory", "affiliationIdentifier": "https://example.org/observatory", "affiliationIdentifierScheme": "URL"}]
+    },
+    {"name": "Example Environmental Observatory", "nameType": "Organizational"}
+  ],
+  "titles": [
+    {"title": "Urban air quality observations, Kraków, 2025", "lang": "en"},
+    {"title": "Obserwacje jakości powietrza", "titleType": "TranslatedTitle", "lang": "pl"}
+  ],
+  "publisher": "Example Environmental Observatory",
+  "publicationYear": 2026,
+  "types": {"resourceTypeGeneral": "Dataset", "resourceType": "Quality-controlled sensor observations"},
+  "subjects": [{"subject": "Atmospheric pollutants", "subjectScheme": "Example controlled vocabulary", "valueUri": "https://example.org/concepts/air-quality"}],
+  "contributors": [{"name": "Nowak, Piotr", "nameType": "Personal", "contributorType": "DataCurator"}],
+  "dates": [
+    {"date": "2025-01-01/2025-12-31", "dateType": "Collected", "dateInformation": "Hourly observations"},
+    {"date": "2026-02-04", "dateType": "Issued"},
+    {"date": "2026-01-12", "dateType": "Created"}
+  ],
+  "language": "en",
+  "alternateIdentifiers": [{"alternateIdentifier": "observatory:aq:2025", "alternateIdentifierType": "Local accession"}],
+  "relatedIdentifiers": [
+    {"relatedIdentifier": "https://example.org/methods/aq-v2", "relatedIdentifierType": "URL", "relationType": "References", "resourceTypeGeneral": "Text"},
+    {"relatedIdentifier": "https://example.org/data/aq-2025/raw/", "relatedIdentifierType": "URL", "relationType": "HasPart"}
+  ],
+  "sizes": ["2 files"],
+  "formats": ["text/csv", "application/json"],
+  "version": "1.1",
+  "rightsList": [{"rights": "Creative Commons Attribution 4.0 International", "rightsUri": "https://creativecommons.org/licenses/by/4.0/", "rightsIdentifier": "cc-by-4.0", "rightsIdentifierScheme": "SPDX", "schemeUri": "https://spdx.org/licenses/"}],
+  "descriptions": [
+    {"description": "Hourly PM2.5 and temperature measurements from two urban stations, calibrated and quality flagged.", "descriptionType": "Abstract", "lang": "en"},
+    {"description": "Sensors were co-located with a reference monitor before deployment.", "descriptionType": "Methods", "lang": "en"}
+  ],
+  "fundingReferences": [{"funderName": "Example Research Council", "awardNumber": "AIR-2025-01", "awardTitle": "Urban observation pilot"}]
+}

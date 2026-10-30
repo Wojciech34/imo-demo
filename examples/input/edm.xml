@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:ore="http://www.openarchives.org/ore/terms/"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:ex="https://example.org/vocab/">
+ <edm:ProvidedCHO rdf:about="https://example.org/heritage/map-1890">
+  <dc:title xml:lang="en">Plan of Kraków and its river basin, 1890</dc:title>
+  <dc:title xml:lang="pl">Plan Krakowa i dorzecza, 1890</dc:title>
+  <dc:creator rdf:resource="https://example.org/people/cartographer"/>
+  <dc:contributor xml:lang="en">Municipal survey office</dc:contributor>
+  <dc:publisher>Example Municipal Archive</dc:publisher>
+  <dc:description xml:lang="en">Survey map showing river channels, streets and monitoring locations; digitized from the archive original.</dc:description>
+  <dc:identifier>MA-KRK-1890-17</dc:identifier>
+  <dc:date>1890</dc:date>
+  <dc:language>pl</dc:language>
+  <dc:type xml:lang="en">Map</dc:type>
+  <dc:rights>Physical original in the public domain; digital reproduction has separate terms.</dc:rights>
+  <dcterms:spatial rdf:resource="https://sws.geonames.org/3094802/"/>
+  <dcterms:isPartOf rdf:resource="https://example.org/heritage/maps"/>
+  <edm:type>IMAGE</edm:type>
+  <edm:currentLocation rdf:resource="https://example.org/archive/reading-room"/>
+  <ex:conservationNote rdf:parseType="Resource"><ex:condition xml:lang="en">Fragile paper; repaired in 1982</ex:condition></ex:conservationNote>
+ </edm:ProvidedCHO>
+ <edm:Agent rdf:about="https://example.org/people/cartographer">
+  <skos:prefLabel xml:lang="pl">Jan Przykładowy</skos:prefLabel>
+  <edm:begin>1850</edm:begin>
+ </edm:Agent>
+ <edm:WebResource rdf:about="https://example.org/images/map-1890.tif">
+  <dc:format>image/tiff</dc:format>
+  <edm:rights rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+ </edm:WebResource>
+ <ore:Aggregation rdf:about="https://example.org/aggregations/map-1890">
+  <edm:aggregatedCHO rdf:resource="https://example.org/heritage/map-1890"/>
+  <edm:dataProvider>Example Municipal Archive</edm:dataProvider>
+  <edm:provider>Example Regional Heritage Portal</edm:provider>
+  <edm:isShownAt rdf:resource="https://example.org/catalogue/map-1890"/>
+  <edm:isShownBy rdf:resource="https://example.org/images/map-1890.tif"/>
+  <edm:rights rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+ </ore:Aggregation>
+</rdf:RDF>

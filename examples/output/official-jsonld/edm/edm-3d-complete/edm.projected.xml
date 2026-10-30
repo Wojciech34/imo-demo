@@ -1,0 +1,69 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <edm:ProvidedCHO rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE">
+    <dc:title xml:lang="en">TEST RECORD: Complete version of a 3D object</dc:title>
+    <dc:description xml:lang="en">This is a sample record for a 3D object, presented through 2 complementary embeddable views of the same object. Varios 3D models are made available for download for both views of the object accompained by Paradata. It also contains information about the intended use and source of the model.</dc:description>
+    <dc:subject rdf:resource="http://data.europeana.eu/concept/1853"/>
+    <dc:type rdf:resource="http://www.wikidata.org/entity/Q4989906"/>
+    <dc:creator>Europeana Data Services Team</dc:creator>
+    <edm:type>3D</edm:type>
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+  </edm:ProvidedCHO>
+  <ore:Aggregation rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE.xml#Aggregation">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <edm:aggregatedCHO rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE"/>
+    <edm:isShownAt rdf:resource="https://slovakiana.sk/kulturne-objekty/cair-ko4ql9i"/>
+    <edm:isShownBy rdf:resource="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&amp;format=json#TEST_3D_COMPLETE"/>
+    <edm:hasView rdf:resource="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&amp;format=json#TEST_3D_COMPLETE"/>
+    <edm:object rdf:resource="https://media.sketchfab.com/models/f6ec40a2d6754a6197c188194781f2c3/thumbnails/5eec7f1df11541fb82312b436681d021/daf45450e4da481ea1d8e2fb55832bf3.jpeg"/>
+    <edm:provider>Europeana Foundation</edm:provider>
+    <edm:dataProvider>Europeana Foundation</edm:dataProvider>
+  </ore:Aggregation>
+  <edm:WebResource rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&amp;format=json#TEST_3D_COMPLETE">
+    <dc:title xml:lang="sk">3D model kostola - exteriér</dc:title>
+    <dc:title xml:lang="en">3D model of the church - exterior</dc:title>
+    <edm:type>3D</edm:type>
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&amp;format=json#TEST_3D_COMPLETE">
+    <dc:title xml:lang="sk">3D model Kostol - interiér</dc:title>
+    <dc:title xml:lang="en">3D model Church - interior</dc:title>
+    <edm:type>3D</edm:type>
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE">
+    <dc:title xml:lang="en">3D model of the outside view of the Church (High resolution, USDZ version)</dc:title>
+    <dc:description xml:lang="en">The outside view of the Church</dc:description>
+    <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
+    <edm:type>3D</edm:type>
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE">
+    <dc:title xml:lang="en">3D model of the outside view of the Church (Low resolution, GLB version)</dc:title>
+    <dc:description xml:lang="en">The outside view of the Church</dc:description>
+    <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
+    <edm:type>3D</edm:type>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE">
+    <dc:title xml:lang="en">3D model of the inside view of the Church (High resolution, GLB version)</dc:title>
+    <dc:description xml:lang="en">The inside view of the Church showing the altar</dc:description>
+    <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
+    <edm:type>3D</edm:type>
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE">
+    <dc:title xml:lang="en">3D model of the inside view of the Church (Low resolution, GLB version)</dc:title>
+    <dc:description xml:lang="en">The inside view of the Church showing the altar</dc:description>
+    <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
+    <edm:type>3D</edm:type>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE">
+    <dc:title xml:lang="en">3D model of the inside view of the Church (High resolution, USDZ version)</dc:title>
+    <dc:description xml:lang="en">The inside view of the Church showing the altar</dc:description>
+    <dc:type rdf:resource="http://data.europeana.eu/vocabulary/modelType/3DMesh"/>
+    <edm:type>3D</edm:type>
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+  </edm:WebResource>
+  <edm:Agent rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE-agent-2"/>
+</rdf:RDF>

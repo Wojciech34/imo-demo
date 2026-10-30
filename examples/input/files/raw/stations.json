@@ -1,0 +1,1 @@
+{"example": true, "units": {"pm25": "ug/m3"}, "stations": [{"id": "KRK01", "location": "urban background"}, {"id": "KRK02", "location": "roadside"}]}

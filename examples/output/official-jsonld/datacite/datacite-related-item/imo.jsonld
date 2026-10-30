@@ -1,0 +1,388 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "imo": "https://example.org/onedata/imo/0.1/",
+    "edm": "http://www.europeana.eu/schemas/edm/",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Dataset": "schema:Dataset",
+    "Collection": "schema:Collection",
+    "Directory": "imo:Directory",
+    "File": "schema:MediaObject",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "CreativeWork": "schema:CreativeWork",
+    "root": {
+      "@id": "schema:about",
+      "@type": "@id"
+    },
+    "modelVersion": "imo:modelVersion",
+    "titles": {
+      "@id": "dct:title",
+      "@container": "@set"
+    },
+    "name": "schema:name",
+    "identifiers": {
+      "@id": "dct:identifier",
+      "@container": "@set"
+    },
+    "creators": {
+      "@id": "dct:creator",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "mediaType": "schema:encodingFormat",
+    "sizeBytes": "imo:sizeBytes",
+    "sha256": "schema:sha256",
+    "provenance": {
+      "@id": "imo:provenance",
+      "@type": "@json"
+    },
+    "source": {
+      "@id": "imo:sourceBackup",
+      "@type": "@json"
+    },
+    "ProvidedCHO": "edm:ProvidedCHO",
+    "WebResource": "edm:WebResource",
+    "Aggregation": "ore:Aggregation",
+    "Place": "edm:Place",
+    "Concept": "skos:Concept",
+    "Agent": "edm:Agent",
+    "descriptions": {
+      "@id": "dct:description",
+      "@container": "@set"
+    },
+    "abstracts": {
+      "@id": "dct:abstract",
+      "@container": "@set"
+    },
+    "dates": {
+      "@id": "dct:date",
+      "@container": "@set"
+    },
+    "subjects": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "coverage": {
+      "@id": "dct:coverage",
+      "@container": "@set"
+    },
+    "resourceTypes": {
+      "@id": "dct:type",
+      "@container": "@set"
+    },
+    "labels": {
+      "@id": "skos:prefLabel",
+      "@container": "@set"
+    },
+    "alternativeLabels": {
+      "@id": "skos:altLabel",
+      "@container": "@set"
+    },
+    "digitalRights": {
+      "@id": "edm:rights",
+      "@container": "@set"
+    },
+    "publishers": {
+      "@id": "dct:publisher",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sourceResources": {
+      "@id": "dct:source",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "aggregatedCHO": {
+      "@id": "edm:aggregatedCHO",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isShownAt": {
+      "@id": "edm:isShownAt",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isShownBy": {
+      "@id": "edm:isShownBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasView": {
+      "@id": "edm:hasView",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "preview": {
+      "@id": "edm:object",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "doi": "imo:doi",
+    "resourceTypeGeneral": "imo:dataciteResourceTypeGeneral",
+    "resourceType": "imo:dataciteResourceType",
+    "language": "schema:inLanguage",
+    "version": "schema:version",
+    "edmType": "edm:type",
+    "provider": "edm:provider",
+    "dataProvider": "edm:dataProvider",
+    "givenName": "schema:givenName",
+    "familyName": "schema:familyName",
+    "publicationYear": {
+      "@id": "dct:issued",
+      "@type": "xsd:gYear"
+    }
+  },
+  "@id": "urn:imo:record",
+  "@type": "imo:Record",
+  "modelVersion": "1.0",
+  "root": {
+    "@id": "https://doi.org/10.82433/q54d-pf76"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.82433/q54d-pf76",
+      "@type": "CreativeWork",
+      "resourceTypeGeneral": "JournalArticle",
+      "resourceType": "ScholarlyArticle",
+      "doi": "10.82433/q54d-pf76",
+      "titles": [
+        {
+          "@value": "Example Article Title",
+          "@language": "en"
+        }
+      ],
+      "creators": [
+        {
+          "@id": "https://doi.org/10.82433/q54d-pf76#creator-0"
+        }
+      ],
+      "publishers": [
+        {
+          "@id": "https://doi.org/10.82433/q54d-pf76#publisher"
+        }
+      ],
+      "publicationYear": "2022",
+      "dates": [
+        {
+          "@value": "2022"
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.82433/q54d-pf76#creator-0",
+      "@type": "Person",
+      "name": "Garcia, Sofia",
+      "givenName": "Sofia",
+      "familyName": "Garcia",
+      "identifiers": [
+        "https://orcid.org/0000-0001-5727-2427"
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.82433/q54d-pf76#publisher",
+      "@type": "Organization",
+      "name": "Example Publisher"
+    }
+  ],
+  "provenance": {
+    "sourceFormat": "datacite",
+    "source": "https://api.test.datacite.org/dois/10.82433/q54d-pf76?affiliation=true&publisher=true"
+  },
+  "source": {
+    "format": "datacite",
+    "document": {
+      "data": {
+        "id": "10.82433/q54d-pf76",
+        "type": "dois",
+        "attributes": {
+          "doi": "10.82433/q54d-pf76",
+          "prefix": "10.82433",
+          "suffix": "q54d-pf76",
+          "identifiers": [],
+          "alternateIdentifiers": [],
+          "creators": [
+            {
+              "name": "Garcia, Sofia",
+              "nameType": "Personal",
+              "givenName": "Sofia",
+              "familyName": "Garcia",
+              "affiliation": [
+                {
+                  "name": "Arizona State University",
+                  "schemeUri": "https://ror.org/",
+                  "affiliationIdentifier": "https://ror.org/03efmqc40"
+                }
+              ],
+              "nameIdentifiers": [
+                {
+                  "schemeUri": "https://orcid.org",
+                  "nameIdentifier": "https://orcid.org/0000-0001-5727-2427",
+                  "nameIdentifierScheme": "ORCID"
+                }
+              ]
+            }
+          ],
+          "titles": [
+            {
+              "lang": "en",
+              "title": "Example Article Title"
+            }
+          ],
+          "publisher": {
+            "name": "Example Publisher"
+          },
+          "container": {
+            "type": "Series",
+            "identifier": "1234-5678",
+            "identifierType": "ISSN",
+            "title": "Journal of Metadata Examples",
+            "volume": "3",
+            "issue": "4",
+            "firstPage": "20",
+            "lastPage": "35"
+          },
+          "publicationYear": 2022,
+          "subjects": [],
+          "contributors": [],
+          "dates": [
+            {
+              "date": "2022",
+              "dateType": "Issued"
+            }
+          ],
+          "language": null,
+          "types": {
+            "ris": "JOUR",
+            "bibtex": "article",
+            "citeproc": "article-journal",
+            "schemaOrg": "ScholarlyArticle",
+            "resourceType": "ScholarlyArticle",
+            "resourceTypeGeneral": "JournalArticle"
+          },
+          "relatedIdentifiers": [
+            {
+              "relationType": "IsPublishedIn",
+              "relatedIdentifier": "1234-5678",
+              "relatedIdentifierType": "ISSN"
+            }
+          ],
+          "relatedItems": [
+            {
+              "issue": "4",
+              "titles": [
+                {
+                  "title": "Journal of Metadata Examples"
+                }
+              ],
+              "volume": "3",
+              "creators": [],
+              "lastPage": "35",
+              "firstPage": "20",
+              "publisher": "Example Publisher",
+              "contributors": [],
+              "relationType": "IsPublishedIn",
+              "publicationYear": "2022",
+              "relatedItemType": "Journal",
+              "relatedItemIdentifier": {
+                "relatedItemIdentifier": "1234-5678",
+                "relatedItemIdentifierType": "ISSN"
+              }
+            }
+          ],
+          "sizes": [],
+          "formats": [],
+          "version": null,
+          "rightsList": [],
+          "descriptions": [],
+          "geoLocations": [],
+          "fundingReferences": [],
+          "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuODI0MzMvUTU0RC1QRjc2PC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5HYXJjaWEsIFNvZmlhPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Tb2ZpYTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5HYXJjaWE8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iT1JDSUQiIHNjaGVtZVVSST0iaHR0cHM6Ly9vcmNpZC5vcmciPmh0dHBzOi8vb3JjaWQub3JnLzAwMDAtMDAwMS01NzI3LTI0Mjc8L25hbWVJZGVudGlmaWVyPgogICAgICA8YWZmaWxpYXRpb24gYWZmaWxpYXRpb25JZGVudGlmaWVyPSJodHRwczovL3Jvci5vcmcvMDNlZm1xYzQwIiBzY2hlbWVVUkk9Imh0dHBzOi8vcm9yLm9yZy8iPkFyaXpvbmEgU3RhdGUgVW5pdmVyc2l0eTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlIHhtbDpsYW5nPSJlbiI+RXhhbXBsZSBBcnRpY2xlIFRpdGxlPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPkV4YW1wbGUgUHVibGlzaGVyPC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDIyPC9wdWJsaWNhdGlvblllYXI+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJKb3VybmFsQXJ0aWNsZSI+U2Nob2xhcmx5QXJ0aWNsZTwvcmVzb3VyY2VUeXBlPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJJc3N1ZWQiPjIwMjI8L2RhdGU+CiAgPC9kYXRlcz4KICA8cmVsYXRlZElkZW50aWZpZXJzPgogICAgPHJlbGF0ZWRJZGVudGlmaWVyIHJlbGF0ZWRJZGVudGlmaWVyVHlwZT0iSVNTTiIgcmVsYXRpb25UeXBlPSJJc1B1Ymxpc2hlZEluIj4xMjM0LTU2Nzg8L3JlbGF0ZWRJZGVudGlmaWVyPgogIDwvcmVsYXRlZElkZW50aWZpZXJzPgogIDxyZWxhdGVkSXRlbXM+CiAgICA8cmVsYXRlZEl0ZW0gcmVsYXRlZEl0ZW1UeXBlPSJKb3VybmFsIiByZWxhdGlvblR5cGU9IklzUHVibGlzaGVkSW4iPgogICAgICA8cmVsYXRlZEl0ZW1JZGVudGlmaWVyIHJlbGF0ZWRJdGVtSWRlbnRpZmllclR5cGU9IklTU04iPjEyMzQtNTY3ODwvcmVsYXRlZEl0ZW1JZGVudGlmaWVyPgogICAgICA8dGl0bGVzPgogICAgICAgIDx0aXRsZT5Kb3VybmFsIG9mIE1ldGFkYXRhIEV4YW1wbGVzPC90aXRsZT4KICAgICAgPC90aXRsZXM+CiAgICAgIDxwdWJsaWNhdGlvblllYXI+MjAyMjwvcHVibGljYXRpb25ZZWFyPgogICAgICA8dm9sdW1lPjM8L3ZvbHVtZT4KICAgICAgPGlzc3VlPjQ8L2lzc3VlPgogICAgICA8Zmlyc3RQYWdlPjIwPC9maXJzdFBhZ2U+CiAgICAgIDxsYXN0UGFnZT4zNTwvbGFzdFBhZ2U+CiAgICAgIDxwdWJsaXNoZXI+RXhhbXBsZSBQdWJsaXNoZXI8L3B1Ymxpc2hlcj4KICAgIDwvcmVsYXRlZEl0ZW0+CiAgPC9yZWxhdGVkSXRlbXM+CiAgPHNpemVzLz4KICA8Zm9ybWF0cy8+CiAgPHZlcnNpb24vPgogIDxkZXNjcmlwdGlvbnMvPgo8L3Jlc291cmNlPgo=",
+          "url": "https://example.org/RelatedItem1",
+          "contentUrl": null,
+          "metadataVersion": 3,
+          "schemaVersion": "http://datacite.org/schema/kernel-4",
+          "source": "fabricaForm",
+          "isActive": true,
+          "state": "findable",
+          "reason": null,
+          "viewCount": 0,
+          "viewsOverTime": [],
+          "downloadCount": 0,
+          "downloadsOverTime": [],
+          "referenceCount": 0,
+          "citationCount": 0,
+          "citationsOverTime": [],
+          "partCount": 0,
+          "partOfCount": 0,
+          "versionCount": 0,
+          "versionOfCount": 0,
+          "created": "2023-02-21T19:19:54.000Z",
+          "registered": "2023-02-21T19:20:01.000Z",
+          "published": "2022",
+          "updated": "2026-10-25T04:02:04.000Z"
+        },
+        "relationships": {
+          "client": {
+            "data": {
+              "id": "datacite.mwg",
+              "type": "clients"
+            }
+          },
+          "provider": {
+            "data": {
+              "id": "datacite",
+              "type": "providers"
+            }
+          },
+          "media": {
+            "data": {
+              "id": "10.82433/q54d-pf76",
+              "type": "media"
+            }
+          },
+          "references": {
+            "data": []
+          },
+          "citations": {
+            "data": []
+          },
+          "parts": {
+            "data": []
+          },
+          "partOf": {
+            "data": []
+          },
+          "versions": {
+            "data": []
+          },
+          "versionOf": {
+            "data": []
+          }
+        }
+      }
+    }
+  }
+}

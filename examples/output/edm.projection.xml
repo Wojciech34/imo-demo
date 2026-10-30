@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:edm="http://www.europeana.eu/schemas/edm/"
+>
+  <edm:ProvidedCHO rdf:about="https://example.org/heritage/map-1890">
+    <dc:title xml:lang="en">Plan of Kraków and its river basin, 1890</dc:title>
+    <dc:title xml:lang="pl">Plan Krakowa i dorzecza, 1890</dc:title>
+    <dc:description xml:lang="en">Survey map showing river channels, streets and monitoring locations; digitized from the archive original.</dc:description>
+    <dc:identifier>MA-KRK-1890-17</dc:identifier>
+    <dc:language>pl</dc:language>
+    <dc:date>1890</dc:date>
+    <dcterms:isPartOf rdf:resource="https://example.org/heritage/maps"/>
+    <dc:creator xml:lang="pl">Jan Przykładowy</dc:creator>
+    <dc:contributor xml:lang="en">Municipal survey office</dc:contributor>
+    <dc:publisher>Example Municipal Archive</dc:publisher>
+    <dc:rights>Physical original in the public domain; digital reproduction has separate terms.</dc:rights>
+  </edm:ProvidedCHO>
+</rdf:RDF>

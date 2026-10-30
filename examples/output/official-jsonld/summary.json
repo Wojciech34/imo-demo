@@ -1,0 +1,206 @@
+{
+  "model": "direct-jsonld",
+  "sourceManifest": "examples/input/official/sources.json",
+  "records": [
+    {
+      "id": "datacite-full",
+      "input": "datacite-full.json",
+      "format": "datacite",
+      "resources": 4,
+      "outputs": {
+        "jsonld": "datacite/datacite-full/imo.jsonld",
+        "datacite": "datacite/datacite-full/datacite.projected.json",
+        "edm": "datacite/datacite-full/edm.draft.xml",
+        "report": "datacite/datacite-full/report.json"
+      },
+      "jsonldRoundtripEqual": true,
+      "missingDataCiteFields": [],
+      "schemaValidated": false,
+      "warnings": [],
+      "comparisonStatus": "not_requested"
+    },
+    {
+      "id": "datacite-dataset",
+      "input": "datacite-dataset.json",
+      "format": "datacite",
+      "resources": 3,
+      "outputs": {
+        "jsonld": "datacite/datacite-dataset/imo.jsonld",
+        "datacite": "datacite/datacite-dataset/datacite.projected.json",
+        "edm": "datacite/datacite-dataset/edm.draft.xml",
+        "report": "datacite/datacite-dataset/report.json"
+      },
+      "jsonldRoundtripEqual": true,
+      "missingDataCiteFields": [],
+      "schemaValidated": false,
+      "warnings": [],
+      "comparisonStatus": "not_requested"
+    },
+    {
+      "id": "edm",
+      "input": "edm.xml",
+      "format": "edm",
+      "resources": 6,
+      "outputs": {
+        "jsonld": "edm/edm/imo.jsonld",
+        "datacite": "edm/edm/datacite.draft.json",
+        "edm": "edm/edm/edm.projected.xml",
+        "report": "edm/edm/report.json"
+      },
+      "jsonldRoundtripEqual": true,
+      "missingDataCiteFields": [
+        "doi",
+        "creators",
+        "publisher",
+        "publicationYear",
+        "types"
+      ],
+      "schemaValidated": false,
+      "warnings": [],
+      "edmResourceRoundtripEqual": true,
+      "comparisonStatus": "not_requested"
+    },
+    {
+      "id": "datacite-award",
+      "input": "datacite-award.json",
+      "format": "datacite",
+      "resources": 3,
+      "outputs": {
+        "jsonld": "datacite/datacite-award/imo.jsonld",
+        "datacite": "datacite/datacite-award/datacite.projected.json",
+        "edm": "datacite/datacite-award/edm.draft.xml",
+        "report": "datacite/datacite-award/report.json"
+      },
+      "jsonldRoundtripEqual": true,
+      "missingDataCiteFields": [],
+      "schemaValidated": false,
+      "warnings": [
+        {
+          "path": "/creators/0/nameIdentifiers/0",
+          "reason": "Identifier has no value; skipped in normalized metadata and retained in source backup"
+        }
+      ],
+      "comparisonStatus": "not_requested"
+    },
+    {
+      "id": "datacite-project",
+      "input": "datacite-project.json",
+      "format": "datacite",
+      "resources": 3,
+      "outputs": {
+        "jsonld": "datacite/datacite-project/imo.jsonld",
+        "datacite": "datacite/datacite-project/datacite.projected.json",
+        "edm": "datacite/datacite-project/edm.draft.xml",
+        "report": "datacite/datacite-project/report.json"
+      },
+      "jsonldRoundtripEqual": true,
+      "missingDataCiteFields": [],
+      "schemaValidated": false,
+      "warnings": [],
+      "comparisonStatus": "not_requested"
+    },
+    {
+      "id": "datacite-multilingual",
+      "input": "datacite-multilingual.json",
+      "format": "datacite",
+      "resources": 4,
+      "outputs": {
+        "jsonld": "datacite/datacite-multilingual/imo.jsonld",
+        "datacite": "datacite/datacite-multilingual/datacite.projected.json",
+        "edm": "datacite/datacite-multilingual/edm.draft.xml",
+        "report": "datacite/datacite-multilingual/report.json"
+      },
+      "jsonldRoundtripEqual": true,
+      "missingDataCiteFields": [],
+      "schemaValidated": false,
+      "warnings": [],
+      "comparisonStatus": "not_requested"
+    },
+    {
+      "id": "datacite-related-item",
+      "input": "datacite-related-item.json",
+      "format": "datacite",
+      "resources": 3,
+      "outputs": {
+        "jsonld": "datacite/datacite-related-item/imo.jsonld",
+        "datacite": "datacite/datacite-related-item/datacite.projected.json",
+        "edm": "datacite/datacite-related-item/edm.draft.xml",
+        "report": "datacite/datacite-related-item/report.json"
+      },
+      "jsonldRoundtripEqual": true,
+      "missingDataCiteFields": [],
+      "schemaValidated": false,
+      "warnings": [],
+      "comparisonStatus": "not_requested"
+    },
+    {
+      "id": "edm-image-tier1",
+      "input": "edm-image-tier1.xml",
+      "format": "edm",
+      "resources": 3,
+      "outputs": {
+        "jsonld": "edm/edm-image-tier1/imo.jsonld",
+        "datacite": "edm/edm-image-tier1/datacite.draft.json",
+        "edm": "edm/edm-image-tier1/edm.projected.xml",
+        "report": "edm/edm-image-tier1/report.json"
+      },
+      "jsonldRoundtripEqual": true,
+      "missingDataCiteFields": [
+        "doi",
+        "publisher",
+        "publicationYear",
+        "types"
+      ],
+      "schemaValidated": false,
+      "warnings": [],
+      "edmResourceRoundtripEqual": false,
+      "comparisonStatus": "not_requested"
+    },
+    {
+      "id": "edm-sound-tier1",
+      "input": "edm-sound-tier1.xml",
+      "format": "edm",
+      "resources": 3,
+      "outputs": {
+        "jsonld": "edm/edm-sound-tier1/imo.jsonld",
+        "datacite": "edm/edm-sound-tier1/datacite.draft.json",
+        "edm": "edm/edm-sound-tier1/edm.projected.xml",
+        "report": "edm/edm-sound-tier1/report.json"
+      },
+      "jsonldRoundtripEqual": true,
+      "missingDataCiteFields": [
+        "doi",
+        "publisher",
+        "publicationYear",
+        "types"
+      ],
+      "schemaValidated": false,
+      "warnings": [],
+      "edmResourceRoundtripEqual": false,
+      "comparisonStatus": "not_requested"
+    },
+    {
+      "id": "edm-3d-complete",
+      "input": "edm-3d-complete.xml",
+      "format": "edm",
+      "resources": 10,
+      "outputs": {
+        "jsonld": "edm/edm-3d-complete/imo.jsonld",
+        "datacite": "edm/edm-3d-complete/datacite.draft.json",
+        "edm": "edm/edm-3d-complete/edm.projected.xml",
+        "report": "edm/edm-3d-complete/report.json"
+      },
+      "jsonldRoundtripEqual": true,
+      "missingDataCiteFields": [
+        "doi",
+        "publisher",
+        "publicationYear",
+        "types"
+      ],
+      "schemaValidated": false,
+      "warnings": [],
+      "edmResourceRoundtripEqual": false,
+      "comparisonStatus": "not_requested"
+    }
+  ]
+}

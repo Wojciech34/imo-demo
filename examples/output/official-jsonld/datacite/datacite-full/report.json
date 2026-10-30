@@ -1,0 +1,349 @@
+{
+  "id": "datacite-full",
+  "input": "datacite-full.json",
+  "source": "https://api.test.datacite.org/dois/10.82433/B09Z-4K37?affiliation=true&publisher=true",
+  "format": "datacite",
+  "resources": 4,
+  "outputs": {
+    "jsonld": "datacite/datacite-full/imo.jsonld",
+    "datacite": "datacite/datacite-full/datacite.projected.json",
+    "edm": "datacite/datacite-full/edm.draft.xml",
+    "report": "datacite/datacite-full/report.json"
+  },
+  "jsonldRoundtripEqual": true,
+  "missingDataCiteFields": [],
+  "schemaValidated": false,
+  "sourceBackupUsedForExport": false,
+  "warnings": [],
+  "rdfComparison": {
+    "status": "not_requested"
+  },
+  "dataciteRoundtrip": {
+    "fields": [
+      {
+        "field": "alternateIdentifiers",
+        "status": "not_projected"
+      },
+      {
+        "field": "citationCount",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "citationsOverTime",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "container",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "contentUrl",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "contributors",
+        "status": "not_projected"
+      },
+      {
+        "field": "created",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "creators",
+        "status": "partial"
+      },
+      {
+        "field": "dates",
+        "status": "partial"
+      },
+      {
+        "field": "descriptions",
+        "status": "partial"
+      },
+      {
+        "field": "doi",
+        "status": "exact"
+      },
+      {
+        "field": "downloadCount",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "downloadsOverTime",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "formats",
+        "status": "not_projected"
+      },
+      {
+        "field": "fundingReferences",
+        "status": "not_projected"
+      },
+      {
+        "field": "geoLocations",
+        "status": "not_projected"
+      },
+      {
+        "field": "identifiers",
+        "status": "not_projected"
+      },
+      {
+        "field": "isActive",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "language",
+        "status": "exact"
+      },
+      {
+        "field": "metadataVersion",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "partCount",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "partOfCount",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "prefix",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "publicationYear",
+        "status": "exact"
+      },
+      {
+        "field": "published",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "publisher",
+        "status": "partial"
+      },
+      {
+        "field": "reason",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "referenceCount",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "registered",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "relatedIdentifiers",
+        "status": "partial"
+      },
+      {
+        "field": "relatedItems",
+        "status": "not_projected"
+      },
+      {
+        "field": "rightsList",
+        "status": "partial"
+      },
+      {
+        "field": "schemaVersion",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "sizes",
+        "status": "not_projected"
+      },
+      {
+        "field": "source",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "state",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "subjects",
+        "status": "partial"
+      },
+      {
+        "field": "suffix",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "titles",
+        "status": "partial"
+      },
+      {
+        "field": "types",
+        "status": "partial"
+      },
+      {
+        "field": "updated",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "url",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "version",
+        "status": "exact"
+      },
+      {
+        "field": "versionCount",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "versionOfCount",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "viewCount",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "viewsOverTime",
+        "status": "api_attribute_not_projected"
+      },
+      {
+        "field": "xml",
+        "status": "api_attribute_not_projected"
+      }
+    ],
+    "differences": [
+      "/alternateIdentifiers",
+      "/citationCount",
+      "/citationsOverTime",
+      "/container",
+      "/contentUrl",
+      "/contributors",
+      "/created",
+      "/creators/0/affiliation",
+      "/creators/0/nameIdentifiers",
+      "/creators/1/affiliation",
+      "/creators/1/nameIdentifiers",
+      "/dates/0/dateType",
+      "/dates/1/dateType",
+      "/dates/2/dateType",
+      "/dates/3/dateType",
+      "/dates/4/dateType",
+      "/dates/5/dateType",
+      "/dates/6/dateType",
+      "/dates/7/dateType",
+      "/dates/8/dateType",
+      "/dates/9/dateType",
+      "/dates/10/dateType",
+      "/dates/11/dateInformation",
+      "/descriptions/1/description",
+      "/descriptions/1/descriptionType",
+      "/descriptions/2",
+      "/descriptions/3",
+      "/descriptions/4",
+      "/descriptions/5",
+      "/downloadCount",
+      "/downloadsOverTime",
+      "/formats",
+      "/fundingReferences",
+      "/geoLocations",
+      "/identifiers",
+      "/isActive",
+      "/metadataVersion",
+      "/partCount",
+      "/partOfCount",
+      "/prefix",
+      "/published",
+      "/publisher",
+      "/reason",
+      "/referenceCount",
+      "/registered",
+      "/relatedIdentifiers/0/relatedIdentifier",
+      "/relatedIdentifiers/0/relatedIdentifierType",
+      "/relatedIdentifiers/0/relationType",
+      "/relatedIdentifiers/0/resourceTypeGeneral",
+      "/relatedIdentifiers/1/relatedIdentifier",
+      "/relatedIdentifiers/1/relatedIdentifierType",
+      "/relatedIdentifiers/1/relationType",
+      "/relatedIdentifiers/1/resourceTypeGeneral",
+      "/relatedIdentifiers/2",
+      "/relatedIdentifiers/3",
+      "/relatedIdentifiers/4",
+      "/relatedIdentifiers/5",
+      "/relatedIdentifiers/6",
+      "/relatedIdentifiers/7",
+      "/relatedIdentifiers/8",
+      "/relatedIdentifiers/9",
+      "/relatedIdentifiers/10",
+      "/relatedIdentifiers/11",
+      "/relatedIdentifiers/12",
+      "/relatedIdentifiers/13",
+      "/relatedIdentifiers/14",
+      "/relatedIdentifiers/15",
+      "/relatedIdentifiers/16",
+      "/relatedIdentifiers/17",
+      "/relatedIdentifiers/18",
+      "/relatedIdentifiers/19",
+      "/relatedIdentifiers/20",
+      "/relatedIdentifiers/21",
+      "/relatedIdentifiers/22",
+      "/relatedIdentifiers/23",
+      "/relatedIdentifiers/24",
+      "/relatedIdentifiers/25",
+      "/relatedIdentifiers/26",
+      "/relatedIdentifiers/27",
+      "/relatedIdentifiers/28",
+      "/relatedIdentifiers/29",
+      "/relatedIdentifiers/30",
+      "/relatedIdentifiers/31",
+      "/relatedIdentifiers/32",
+      "/relatedIdentifiers/33",
+      "/relatedIdentifiers/34",
+      "/relatedIdentifiers/35",
+      "/relatedIdentifiers/36",
+      "/relatedIdentifiers/37",
+      "/relatedIdentifiers/38",
+      "/relatedIdentifiers/39",
+      "/relatedIdentifiers/40",
+      "/relatedItems",
+      "/rightsList/0/lang",
+      "/rightsList/0/rights",
+      "/rightsList/0/rightsIdentifier",
+      "/rightsList/0/rightsIdentifierScheme",
+      "/rightsList/0/schemeUri",
+      "/schemaVersion",
+      "/sizes",
+      "/source",
+      "/state",
+      "/subjects/0/schemeUri",
+      "/subjects/0/subjectScheme",
+      "/subjects/0/valueUri",
+      "/subjects/1/schemeUri",
+      "/subjects/1/subjectScheme",
+      "/subjects/2/classificationCode",
+      "/subjects/2/schemeUri",
+      "/subjects/2/subjectScheme",
+      "/suffix",
+      "/titles/1",
+      "/titles/2",
+      "/titles/3",
+      "/types/bibtex",
+      "/types/citeproc",
+      "/types/ris",
+      "/types/schemaOrg",
+      "/updated",
+      "/url",
+      "/versionCount",
+      "/versionOfCount",
+      "/viewCount",
+      "/viewsOverTime",
+      "/xml"
+    ],
+    "note": "Comparison covers the projected attributes, excluding any source backup replay."
+  },
+  "crossConversionNotes": [
+    "EDM output is a narrow ProvidedCHO-view draft; it has no invented WebResource or Aggregation.",
+    "Typed titles, creator identifier schemes, affiliations, date roles and other details can be lost; see field differences."
+  ]
+}

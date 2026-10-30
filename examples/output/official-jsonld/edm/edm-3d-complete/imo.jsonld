@@ -1,0 +1,1140 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "imo": "https://example.org/onedata/imo/0.1/",
+    "edm": "http://www.europeana.eu/schemas/edm/",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Dataset": "schema:Dataset",
+    "Collection": "schema:Collection",
+    "Directory": "imo:Directory",
+    "File": "schema:MediaObject",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "CreativeWork": "schema:CreativeWork",
+    "root": {
+      "@id": "schema:about",
+      "@type": "@id"
+    },
+    "modelVersion": "imo:modelVersion",
+    "titles": {
+      "@id": "dct:title",
+      "@container": "@set"
+    },
+    "name": "schema:name",
+    "identifiers": {
+      "@id": "dct:identifier",
+      "@container": "@set"
+    },
+    "creators": {
+      "@id": "dct:creator",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "mediaType": "schema:encodingFormat",
+    "sizeBytes": "imo:sizeBytes",
+    "sha256": "schema:sha256",
+    "provenance": {
+      "@id": "imo:provenance",
+      "@type": "@json"
+    },
+    "source": {
+      "@id": "imo:sourceBackup",
+      "@type": "@json"
+    },
+    "ProvidedCHO": "edm:ProvidedCHO",
+    "WebResource": "edm:WebResource",
+    "Aggregation": "ore:Aggregation",
+    "Place": "edm:Place",
+    "Concept": "skos:Concept",
+    "Agent": "edm:Agent",
+    "descriptions": {
+      "@id": "dct:description",
+      "@container": "@set"
+    },
+    "abstracts": {
+      "@id": "dct:abstract",
+      "@container": "@set"
+    },
+    "dates": {
+      "@id": "dct:date",
+      "@container": "@set"
+    },
+    "subjects": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "coverage": {
+      "@id": "dct:coverage",
+      "@container": "@set"
+    },
+    "resourceTypes": {
+      "@id": "dct:type",
+      "@container": "@set"
+    },
+    "labels": {
+      "@id": "skos:prefLabel",
+      "@container": "@set"
+    },
+    "alternativeLabels": {
+      "@id": "skos:altLabel",
+      "@container": "@set"
+    },
+    "digitalRights": {
+      "@id": "edm:rights",
+      "@container": "@set"
+    },
+    "publishers": {
+      "@id": "dct:publisher",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sourceResources": {
+      "@id": "dct:source",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "aggregatedCHO": {
+      "@id": "edm:aggregatedCHO",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isShownAt": {
+      "@id": "edm:isShownAt",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isShownBy": {
+      "@id": "edm:isShownBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasView": {
+      "@id": "edm:hasView",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "preview": {
+      "@id": "edm:object",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "doi": "imo:doi",
+    "resourceTypeGeneral": "imo:dataciteResourceTypeGeneral",
+    "resourceType": "imo:dataciteResourceType",
+    "language": "schema:inLanguage",
+    "version": "schema:version",
+    "edmType": "edm:type",
+    "provider": "edm:provider",
+    "dataProvider": "edm:dataProvider",
+    "givenName": "schema:givenName",
+    "familyName": "schema:familyName",
+    "publicationYear": {
+      "@id": "dct:issued",
+      "@type": "xsd:gYear"
+    }
+  },
+  "@id": "urn:imo:record",
+  "@type": "imo:Record",
+  "modelVersion": "1.0",
+  "root": {
+    "@id": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE"
+  },
+  "@graph": [
+    {
+      "@id": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+      "@type": "ProvidedCHO",
+      "titles": [
+        {
+          "@value": "TEST RECORD: Complete version of a 3D object",
+          "@language": "en"
+        }
+      ],
+      "descriptions": [
+        {
+          "@value": "This is a sample record for a 3D object, presented through 2 complementary embeddable views of the same object. Varios 3D models are made available for download for both views of the object accompained by Paradata. It also contains information about the intended use and source of the model.",
+          "@language": "en"
+        }
+      ],
+      "creators": [
+        {
+          "@id": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE-agent-2"
+        }
+      ],
+      "digitalRights": [
+        {
+          "@id": "http://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "resourceTypes": [
+        {
+          "@id": "http://www.wikidata.org/entity/Q4989906"
+        }
+      ],
+      "subjects": [
+        {
+          "@id": "http://data.europeana.eu/concept/1853"
+        }
+      ],
+      "edmType": "3D"
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE.xml#Aggregation",
+      "@type": "Aggregation",
+      "aggregatedCHO": [
+        {
+          "@id": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE"
+        }
+      ],
+      "dataProvider": "Europeana Foundation",
+      "provider": "Europeana Foundation",
+      "isShownAt": [
+        {
+          "@id": "https://slovakiana.sk/kulturne-objekty/cair-ko4ql9i"
+        }
+      ],
+      "preview": [
+        {
+          "@id": "https://media.sketchfab.com/models/f6ec40a2d6754a6197c188194781f2c3/thumbnails/5eec7f1df11541fb82312b436681d021/daf45450e4da481ea1d8e2fb55832bf3.jpeg"
+        }
+      ],
+      "isShownBy": [
+        {
+          "@id": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&format=json#TEST_3D_COMPLETE"
+        }
+      ],
+      "hasView": [
+        {
+          "@id": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE"
+        }
+      ],
+      "digitalRights": [
+        {
+          "@id": "http://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "@id": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&format=json#TEST_3D_COMPLETE",
+      "@type": "WebResource",
+      "titles": [
+        {
+          "@value": "3D model kostola - exteriér",
+          "@language": "sk"
+        },
+        {
+          "@value": "3D model of the church - exterior",
+          "@language": "en"
+        }
+      ],
+      "edmType": "3D",
+      "digitalRights": [
+        {
+          "@id": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "@id": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE",
+      "@type": "WebResource",
+      "titles": [
+        {
+          "@value": "3D model Kostol - interiér",
+          "@language": "sk"
+        },
+        {
+          "@value": "3D model Church - interior",
+          "@language": "en"
+        }
+      ],
+      "edmType": "3D",
+      "digitalRights": [
+        {
+          "@id": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE",
+      "@type": "WebResource",
+      "titles": [
+        {
+          "@value": "3D model of the outside view of the Church (High resolution, USDZ version)",
+          "@language": "en"
+        }
+      ],
+      "descriptions": [
+        {
+          "@value": "The outside view of the Church",
+          "@language": "en"
+        }
+      ],
+      "edmType": "3D",
+      "digitalRights": [
+        {
+          "@id": "http://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "resourceTypes": [
+        {
+          "@id": "http://data.europeana.eu/vocabulary/modelType/3DMesh"
+        }
+      ]
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE",
+      "@type": "WebResource",
+      "titles": [
+        {
+          "@value": "3D model of the outside view of the Church (Low resolution, GLB version)",
+          "@language": "en"
+        }
+      ],
+      "descriptions": [
+        {
+          "@value": "The outside view of the Church",
+          "@language": "en"
+        }
+      ],
+      "edmType": "3D",
+      "digitalRights": [
+        {
+          "@id": "http://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "resourceTypes": [
+        {
+          "@id": "http://data.europeana.eu/vocabulary/modelType/3DMesh"
+        }
+      ]
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE",
+      "@type": "WebResource",
+      "titles": [
+        {
+          "@value": "3D model of the inside view of the Church (High resolution, GLB version)",
+          "@language": "en"
+        }
+      ],
+      "descriptions": [
+        {
+          "@value": "The inside view of the Church showing the altar",
+          "@language": "en"
+        }
+      ],
+      "edmType": "3D",
+      "digitalRights": [
+        {
+          "@id": "http://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "resourceTypes": [
+        {
+          "@id": "http://data.europeana.eu/vocabulary/modelType/3DMesh"
+        }
+      ]
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE",
+      "@type": "WebResource",
+      "titles": [
+        {
+          "@value": "3D model of the inside view of the Church (Low resolution, GLB version)",
+          "@language": "en"
+        }
+      ],
+      "descriptions": [
+        {
+          "@value": "The inside view of the Church showing the altar",
+          "@language": "en"
+        }
+      ],
+      "edmType": "3D",
+      "digitalRights": [
+        {
+          "@id": "http://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "resourceTypes": [
+        {
+          "@id": "http://data.europeana.eu/vocabulary/modelType/3DMesh"
+        }
+      ]
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE",
+      "@type": "WebResource",
+      "titles": [
+        {
+          "@value": "3D model of the inside view of the Church (High resolution, USDZ version)",
+          "@language": "en"
+        }
+      ],
+      "descriptions": [
+        {
+          "@value": "The inside view of the Church showing the altar",
+          "@language": "en"
+        }
+      ],
+      "edmType": "3D",
+      "digitalRights": [
+        {
+          "@id": "http://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "resourceTypes": [
+        {
+          "@id": "http://data.europeana.eu/vocabulary/modelType/3DMesh"
+        }
+      ]
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE-agent-2",
+      "@type": "Agent",
+      "name": "Europeana Data Services Team"
+    }
+  ],
+  "provenance": {
+    "sourceFormat": "edm",
+    "source": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE.xml",
+    "mapping": [
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "titles"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/description",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "descriptions"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/creator",
+        "occurrence": 2,
+        "status": "mapped",
+        "target": "creators",
+        "reason": "Literal name represented by a record-scoped agent"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/isPartOf",
+        "occurrence": 3,
+        "status": "unmapped",
+        "target": "isPartOf",
+        "reason": "Relation requires a resource reference"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/conformsTo",
+        "occurrence": 4,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/rights",
+        "occurrence": 5,
+        "status": "mapped",
+        "target": "digitalRights"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/created",
+        "occurrence": 6,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/spatial",
+        "occurrence": 7,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/type",
+        "occurrence": 8,
+        "status": "mapped",
+        "target": "resourceTypes"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/spatial",
+        "occurrence": 9,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/subject",
+        "occurrence": 10,
+        "status": "mapped",
+        "target": "subjects"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/created",
+        "occurrence": 11,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/type",
+        "occurrence": 12,
+        "status": "mapped",
+        "target": "edmType"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE.xml#Aggregation",
+        "property": "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "aggregatedCHO"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE.xml#Aggregation",
+        "property": "http://www.europeana.eu/schemas/edm/dataProvider",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "dataProvider"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE.xml#Aggregation",
+        "property": "http://www.europeana.eu/schemas/edm/provider",
+        "occurrence": 2,
+        "status": "mapped",
+        "target": "provider"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE.xml#Aggregation",
+        "property": "http://www.europeana.eu/schemas/edm/isShownAt",
+        "occurrence": 3,
+        "status": "mapped",
+        "target": "isShownAt"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE.xml#Aggregation",
+        "property": "http://www.europeana.eu/schemas/edm/object",
+        "occurrence": 4,
+        "status": "mapped",
+        "target": "preview"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE.xml#Aggregation",
+        "property": "http://www.europeana.eu/schemas/edm/isShownBy",
+        "occurrence": 5,
+        "status": "mapped",
+        "target": "isShownBy"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE.xml#Aggregation",
+        "property": "http://www.europeana.eu/schemas/edm/hasView",
+        "occurrence": 6,
+        "status": "mapped",
+        "target": "hasView"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE.xml#Aggregation",
+        "property": "http://www.europeana.eu/schemas/edm/rights",
+        "occurrence": 7,
+        "status": "mapped",
+        "target": "digitalRights"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&format=json#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "titles"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&format=json#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "titles"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&format=json#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/created",
+        "occurrence": 2,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&format=json#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/isFormatOf",
+        "occurrence": 3,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&format=json#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/isFormatOf",
+        "occurrence": 4,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&format=json#TEST_3D_COMPLETE",
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+        "occurrence": 5,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&format=json#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/type",
+        "occurrence": 6,
+        "status": "mapped",
+        "target": "edmType"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&format=json#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/rights",
+        "occurrence": 7,
+        "status": "mapped",
+        "target": "digitalRights"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&format=json#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/intendedUsage",
+        "occurrence": 8,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&format=json#TEST_3D_COMPLETE",
+        "property": "https://schema.org/digitalSourceType",
+        "occurrence": 9,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&format=json#TEST_3D_COMPLETE",
+        "property": "http://rdfs.org/sioc/services#has_service",
+        "occurrence": 10,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "titles"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "titles"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/created",
+        "occurrence": 2,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/isFormatOf",
+        "occurrence": 3,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/isFormatOf",
+        "occurrence": 4,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/isFormatOf",
+        "occurrence": 5,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE",
+        "property": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+        "occurrence": 6,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/type",
+        "occurrence": 7,
+        "status": "mapped",
+        "target": "edmType"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/rights",
+        "occurrence": 8,
+        "status": "mapped",
+        "target": "digitalRights"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/intendedUsage",
+        "occurrence": 9,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE",
+        "property": "https://schema.org/digitalSourceType",
+        "occurrence": 10,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&format=json#TEST_3D_COMPLETE",
+        "property": "http://rdfs.org/sioc/services#has_service",
+        "occurrence": 11,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "titles"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/description",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "descriptions"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/temporal",
+        "occurrence": 2,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/type",
+        "occurrence": 3,
+        "status": "mapped",
+        "target": "edmType"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/rights",
+        "occurrence": 4,
+        "status": "mapped",
+        "target": "digitalRights"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/intendedUsage",
+        "occurrence": 5,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/type",
+        "occurrence": 6,
+        "status": "mapped",
+        "target": "resourceTypes"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/polygonCount",
+        "occurrence": 7,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/vertexCount",
+        "occurrence": 8,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE",
+        "property": "https://schema.org/digitalSourceType",
+        "occurrence": 9,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "titles"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/description",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "descriptions"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/temporal",
+        "occurrence": 2,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/type",
+        "occurrence": 3,
+        "status": "mapped",
+        "target": "edmType"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/rights",
+        "occurrence": 4,
+        "status": "mapped",
+        "target": "digitalRights"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/intendedUsage",
+        "occurrence": 5,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/type",
+        "occurrence": 6,
+        "status": "mapped",
+        "target": "resourceTypes"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/polygonCount",
+        "occurrence": 7,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/vertexCount",
+        "occurrence": 8,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE",
+        "property": "https://schema.org/digitalSourceType",
+        "occurrence": 9,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "titles"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/description",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "descriptions"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/temporal",
+        "occurrence": 2,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/type",
+        "occurrence": 3,
+        "status": "mapped",
+        "target": "edmType"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/rights",
+        "occurrence": 4,
+        "status": "mapped",
+        "target": "digitalRights"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/intendedUsage",
+        "occurrence": 5,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/type",
+        "occurrence": 6,
+        "status": "mapped",
+        "target": "resourceTypes"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/polygonCount",
+        "occurrence": 7,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/vertexCount",
+        "occurrence": 8,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE",
+        "property": "https://schema.org/digitalSourceType",
+        "occurrence": 9,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "titles"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/description",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "descriptions"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/temporal",
+        "occurrence": 2,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/type",
+        "occurrence": 3,
+        "status": "mapped",
+        "target": "edmType"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/rights",
+        "occurrence": 4,
+        "status": "mapped",
+        "target": "digitalRights"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/intendedUsage",
+        "occurrence": 5,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/type",
+        "occurrence": 6,
+        "status": "mapped",
+        "target": "resourceTypes"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/polygonCount",
+        "occurrence": 7,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/vertexCount",
+        "occurrence": 8,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE",
+        "property": "https://schema.org/digitalSourceType",
+        "occurrence": 9,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "titles"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/description",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "descriptions"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/terms/temporal",
+        "occurrence": 2,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/type",
+        "occurrence": 3,
+        "status": "mapped",
+        "target": "edmType"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/rights",
+        "occurrence": 4,
+        "status": "mapped",
+        "target": "digitalRights"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/intendedUsage",
+        "occurrence": 5,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE",
+        "property": "http://purl.org/dc/elements/1.1/type",
+        "occurrence": 6,
+        "status": "mapped",
+        "target": "resourceTypes"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/polygonCount",
+        "occurrence": 7,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE",
+        "property": "http://www.europeana.eu/schemas/edm/vertexCount",
+        "occurrence": 8,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE",
+        "property": "https://schema.org/digitalSourceType",
+        "occurrence": 9,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://sketchfab.com/oembed",
+        "property": "@type",
+        "status": "unmapped",
+        "reason": "Unsupported resource class; retained in XML backup"
+      }
+    ]
+  },
+  "source": {
+    "format": "edm",
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rdf:RDF xmlns:adms=\"http://www.w3.org/ns/adms#\" \n    xmlns:dc=\"http://purl.org/dc/elements/1.1/\" \n    xmlns:dcterms=\"http://purl.org/dc/terms/\" \n    xmlns:edm=\"http://www.europeana.eu/schemas/edm/\" \n    xmlns:odrl=\"http://www.w3.org/ns/odrl/2/\" \n    xmlns:ore=\"http://www.openarchives.org/ore/terms/\" \n    xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" \n    xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\" \n    xmlns:schema=\"https://schema.org/\" \n    xmlns:skos=\"http://www.w3.org/2004/02/skos/core#\" \n    xmlns:svcs=\"http://rdfs.org/sioc/services#\"\n    >\n\n    <edm:ProvidedCHO rdf:about=\"TEST_3D_COMPLETE\">\n        <dc:title xml:lang=\"en\">TEST RECORD: Complete version of a 3D object</dc:title>\n        <dc:description xml:lang=\"en\">This is a sample record for a 3D object, presented through 2 complementary embeddable views of the same object. Varios 3D models are made available for download for both views of the object accompained by Paradata. It also contains information about the intended use and source of the model.</dc:description>\n        <dc:creator xml:lang=\"en\">Europeana Data Services Team</dc:creator>\n        <dcterms:isPartOf xml:lang=\"en\">Example Dataset</dcterms:isPartOf>\n        <dcterms:conformsTo xml:lang=\"en\">Partially supported (under development)</dcterms:conformsTo>\n        <edm:rights rdf:resource=\"http://creativecommons.org/licenses/by-sa/4.0/\"/>\n        <dcterms:created xml:lang=\"en\">12th century</dcterms:created>\n        <dcterms:spatial rdf:resource=\"https://sws.geonames.org/3057568/\"/>\n\t\t<dc:type rdf:resource=\"http://www.wikidata.org/entity/Q4989906\"/>\n        <dcterms:spatial rdf:resource=\"http://www.wikidata.org/entity/Q1044029\"/>\n\t\t<dc:subject rdf:resource=\"http://data.europeana.eu/concept/1853\"/>\n        <dcterms:created>01-2026</dcterms:created>\n        <edm:type>3D</edm:type>\n    </edm:ProvidedCHO>\n    \n    <ore:Aggregation rdf:about=\"#Aggregation\">\n        <edm:aggregatedCHO rdf:resource=\"TEST_3D_COMPLETE\"/>\n        <edm:dataProvider>Europeana Foundation</edm:dataProvider>\n        <edm:provider>Europeana Foundation</edm:provider>\n        <edm:isShownAt rdf:resource=\"https://slovakiana.sk/kulturne-objekty/cair-ko4ql9i\"/>\n        <edm:object rdf:resource=\"https://media.sketchfab.com/models/f6ec40a2d6754a6197c188194781f2c3/thumbnails/5eec7f1df11541fb82312b436681d021/daf45450e4da481ea1d8e2fb55832bf3.jpeg\"/>\n        <edm:isShownBy rdf:resource=\"https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&amp;format=json#TEST_3D_COMPLETE\"/>\n        <edm:hasView rdf:resource=\"https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&amp;format=json#TEST_3D_COMPLETE\"/>\n        <edm:rights rdf:resource=\"http://creativecommons.org/licenses/by-sa/4.0/\"/>\n    </ore:Aggregation>\n\n    <edm:WebResource\n        rdf:about=\"https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-kostol-sv-michala-archanjela-f6ec40a2d6754a6197c188194781f2c3&amp;format=json#TEST_3D_COMPLETE\">\n        <dc:title xml:lang=\"sk\">3D model kostola - exteriér</dc:title>\n        <dc:title xml:lang=\"en\">3D model of the church - exterior</dc:title>\n        <dcterms:created>2025</dcterms:created>\n        <dcterms:isFormatOf rdf:resource=\"https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz\"/>\n        <dcterms:isFormatOf rdf:resource=\"https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb\"/>\n\t\t<rdfs:seeAlso rdf:resource=\"https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/paradata.xlsx\"/>\n        <edm:type>3D</edm:type>\n        <edm:rights rdf:resource=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"/>\n\t\t<edm:intendedUsage rdf:resource=\"http://data.europeana.eu/vocabulary/usageArea/Documentation\"/>\n        <schema:digitalSourceType rdf:resource=\"https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture\"/>\n        <svcs:has_service rdf:resource=\"https://sketchfab.com/oembed\"/>\n    </edm:WebResource>\n\n\t<edm:WebResource rdf:about=\"https://sketchfab.com/oembed?url=https%3A%2F%2Fsketchfab.com%2F3d-models%2Fvelky-kliz-interier-kostol-sv-michala-3d5f53ac99e24c9d9c55aefc83ab83af&amp;format=json#TEST_3D_COMPLETE\">\n        <dc:title xml:lang=\"sk\">3D model Kostol - interiér</dc:title>\n        <dc:title xml:lang=\"en\">3D model Church - interior</dc:title>\n        <dcterms:created>2025</dcterms:created>\n        <dcterms:isFormatOf rdf:resource=\"https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE\"/>\n        <dcterms:isFormatOf rdf:resource=\"https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE\"/>\n        <dcterms:isFormatOf rdf:resource=\"https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE\"/>\n\t\t<rdfs:seeAlso rdf:resource=\"https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/paradata.xlsx\"/>\n        <edm:type>3D</edm:type>\n        <edm:rights rdf:resource=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"/>\n\t\t<edm:intendedUsage rdf:resource=\"http://data.europeana.eu/vocabulary/usageArea/Documentation\"/>\n        <schema:digitalSourceType rdf:resource=\"https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture\"/>\n        <svcs:has_service rdf:resource=\"https://sketchfab.com/oembed\"/>\n    </edm:WebResource>\n\n    <edm:WebResource rdf:about=\"https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside.usdz#TEST_3D_COMPLETE\">\n        <dc:title xml:lang=\"en\">3D model of the outside view of the Church (High resolution, USDZ version)</dc:title>\n        <dc:description xml:lang=\"en\">The outside view of the Church</dc:description>\n        <dcterms:temporal>02-2026</dcterms:temporal>\n        <edm:type>3D</edm:type>\n        <edm:rights rdf:resource=\"http://creativecommons.org/licenses/by-sa/4.0/\"/>        \n        <edm:intendedUsage rdf:resource=\"http://data.europeana.eu/vocabulary/usageArea/Creativity\"/>\n        <dc:type rdf:resource=\"http://data.europeana.eu/vocabulary/modelType/3DMesh\"/>\n        <edm:polygonCount>3999915</edm:polygonCount>\n        <edm:vertexCount>2591438</edm:vertexCount>\n        <schema:digitalSourceType rdf:resource=\"https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture\"/>\n     </edm:WebResource>\n\n    <edm:WebResource rdf:about=\"https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_outside_compressed.glb#TEST_3D_COMPLETE\">\n        <dc:title xml:lang=\"en\">3D model of the outside view of the Church (Low resolution, GLB version)</dc:title>\n        <dc:description xml:lang=\"en\">The outside view of the Church</dc:description>\n        <dcterms:temporal>02-2026</dcterms:temporal>\n        <edm:type>3D</edm:type>\n        <edm:rights rdf:resource=\"http://creativecommons.org/publicdomain/zero/1.0/\"/>\n        <edm:intendedUsage rdf:resource=\"http://data.europeana.eu/vocabulary/usageArea/Creativity\"/>\n        <dc:type rdf:resource=\"http://data.europeana.eu/vocabulary/modelType/3DMesh\"/>\n        <edm:polygonCount>3999854</edm:polygonCount>\n        <edm:vertexCount>2448420</edm:vertexCount>\n        <schema:digitalSourceType rdf:resource=\"https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture\"/>\n     </edm:WebResource>\n\n\t<edm:WebResource rdf:about=\"https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.glb#TEST_3D_COMPLETE\">\n        <dc:title xml:lang=\"en\">3D model of the inside view of the Church (High resolution, GLB version)</dc:title>\n        <dc:description xml:lang=\"en\">The inside view of the Church showing the altar</dc:description>\n        <dcterms:temporal>12-2023</dcterms:temporal>\n        <edm:type>3D</edm:type>\n        <edm:rights rdf:resource=\"http://creativecommons.org/licenses/by-sa/4.0/\"/>\n        <edm:intendedUsage rdf:resource=\"http://data.europeana.eu/vocabulary/usageArea/Documentation\"/>\n        <dc:type rdf:resource=\"http://data.europeana.eu/vocabulary/modelType/3DMesh\"/>\n        <edm:polygonCount>2512228</edm:polygonCount>\n        <edm:vertexCount>1517930</edm:vertexCount> \n        <schema:digitalSourceType rdf:resource=\"https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture\"/>   \n    </edm:WebResource>\n\n\t<edm:WebResource rdf:about=\"https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior_compressed.glb#TEST_3D_COMPLETE\">\n        <dc:title xml:lang=\"en\">3D model of the inside view of the Church (Low resolution, GLB version)</dc:title>\n        <dc:description xml:lang=\"en\">The inside view of the Church showing the altar</dc:description>\n        <dcterms:temporal>02-2026</dcterms:temporal>\n        <edm:type>3D</edm:type>\n        <edm:rights rdf:resource=\"http://creativecommons.org/publicdomain/zero/1.0/\"/>\n        <edm:intendedUsage rdf:resource=\"http://data.europeana.eu/vocabulary/usageArea/Creativity\"/>\n        <dc:type rdf:resource=\"http://data.europeana.eu/vocabulary/modelType/3DMesh\"/>\n        <edm:polygonCount>2512211</edm:polygonCount>\n        <edm:vertexCount>1470002</edm:vertexCount> \n        <schema:digitalSourceType rdf:resource=\"https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture\"/>   \n    </edm:WebResource>\n\n\t<edm:WebResource rdf:about=\"https://raw.githubusercontent.com/europeana/test_dataset/main/public/models/church_interior.usdz#TEST_3D_COMPLETE\">\n        <dc:title xml:lang=\"en\">3D model of the inside view of the Church (High resolution, USDZ version)</dc:title>\n        <dc:description xml:lang=\"en\">The inside view of the Church showing the altar</dc:description>\n        <dcterms:temporal>12-2023</dcterms:temporal>\n        <edm:type>3D</edm:type>\n        <edm:rights rdf:resource=\"http://creativecommons.org/licenses/by-sa/4.0/\"/>\n        <edm:intendedUsage rdf:resource=\"http://data.europeana.eu/vocabulary/usageArea/Documentation\"/>\n        <dc:type rdf:resource=\"http://data.europeana.eu/vocabulary/modelType/3DMesh\"/>\n        <edm:polygonCount>2512228</edm:polygonCount>\n        <edm:vertexCount>1517930</edm:vertexCount> \n        <schema:digitalSourceType rdf:resource=\"https://cv.iptc.org/newscodes/digitalsourcetype/digitalCapture\"/>   \n    </edm:WebResource>\n\n    <svcs:Service rdf:about=\"https://sketchfab.com/oembed\">\n        <dcterms:conformsTo rdf:resource=\"https://oembed.com/\"/>\n        <rdfs:label xml:lang=\"en\">Sketchfab</rdfs:label>\n    </svcs:Service>\n\n</rdf:RDF>\n"
+  }
+}

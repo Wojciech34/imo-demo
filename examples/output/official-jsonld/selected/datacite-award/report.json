@@ -1,0 +1,133 @@
+{
+  "id": "datacite-award",
+  "input": "datacite-award.json",
+  "source": "https://api.test.datacite.org/dois/10.82433/p1zt-4c67?affiliation=true&publisher=true",
+  "format": "datacite",
+  "resources": 3,
+  "mode": "roundtrip",
+  "schemaValidated": false,
+  "sourceBackupUsedForExport": false,
+  "warnings": [
+    {
+      "path": "/creators/0/nameIdentifiers/0",
+      "reason": "Identifier has no value; skipped in normalized metadata and retained in source backup"
+    }
+  ],
+  "equal": false,
+  "scope": "DataCite metadata attributes; API/service fields excluded",
+  "comparison": {
+    "fields": [
+      {
+        "field": "alternateIdentifiers",
+        "status": "not_projected"
+      },
+      {
+        "field": "contributors",
+        "status": "not_projected"
+      },
+      {
+        "field": "creators",
+        "status": "partial"
+      },
+      {
+        "field": "dates",
+        "status": "partial"
+      },
+      {
+        "field": "descriptions",
+        "status": "exact"
+      },
+      {
+        "field": "doi",
+        "status": "exact"
+      },
+      {
+        "field": "formats",
+        "status": "empty_not_projected"
+      },
+      {
+        "field": "fundingReferences",
+        "status": "not_projected"
+      },
+      {
+        "field": "geoLocations",
+        "status": "empty_not_projected"
+      },
+      {
+        "field": "identifiers",
+        "status": "not_projected"
+      },
+      {
+        "field": "language",
+        "status": "empty_not_projected"
+      },
+      {
+        "field": "publicationYear",
+        "status": "exact"
+      },
+      {
+        "field": "publisher",
+        "status": "partial"
+      },
+      {
+        "field": "relatedIdentifiers",
+        "status": "empty_not_projected"
+      },
+      {
+        "field": "relatedItems",
+        "status": "empty_not_projected"
+      },
+      {
+        "field": "rightsList",
+        "status": "empty_not_projected"
+      },
+      {
+        "field": "sizes",
+        "status": "not_projected"
+      },
+      {
+        "field": "subjects",
+        "status": "empty_not_projected"
+      },
+      {
+        "field": "titles",
+        "status": "exact"
+      },
+      {
+        "field": "types",
+        "status": "partial"
+      },
+      {
+        "field": "version",
+        "status": "empty_not_projected"
+      }
+    ],
+    "differences": [
+      "/alternateIdentifiers",
+      "/contributors",
+      "/creators/0/affiliation",
+      "/creators/0/nameIdentifiers",
+      "/dates/0/dateType",
+      "/dates/1/dateType",
+      "/dates/2/dateInformation",
+      "/dates/2/dateType",
+      "/formats",
+      "/fundingReferences",
+      "/geoLocations",
+      "/identifiers",
+      "/language",
+      "/publisher",
+      "/relatedIdentifiers",
+      "/relatedItems",
+      "/rightsList",
+      "/sizes",
+      "/subjects",
+      "/types/bibtex",
+      "/types/citeproc",
+      "/types/ris",
+      "/types/schemaOrg",
+      "/version"
+    ],
+    "note": "Comparison covers the projected attributes, excluding any source backup replay."
+  }
+}

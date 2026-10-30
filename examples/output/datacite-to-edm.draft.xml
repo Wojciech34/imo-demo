@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:edm="http://www.europeana.eu/schemas/edm/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <edm:ProvidedCHO rdf:about="https://doi.org/10.82433/imo-demo.001">
+    <dc:title xml:lang="en">Urban air quality observations, Kraków, 2025</dc:title>
+    <dc:language>en</dc:language>
+    <dcterms:created>2026-01-12</dcterms:created>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2026</dcterms:issued>
+    <dcterms:hasPart rdf:resource="https://example.org/data/aq-2025/raw/"/>
+    <dc:creator>Example Environmental Observatory</dc:creator>
+    <dc:creator>Kowalska, Anna</dc:creator>
+    <dc:contributor>Nowak, Piotr</dc:contributor>
+    <dc:publisher>Example Environmental Observatory</dc:publisher>
+    <dc:description xml:lang="en">Hourly PM2.5 and temperature measurements from two urban stations, calibrated and quality flagged.</dc:description>
+    <dc:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  </edm:ProvidedCHO>
+</rdf:RDF>

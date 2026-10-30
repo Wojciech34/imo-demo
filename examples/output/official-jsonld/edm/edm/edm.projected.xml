@@ -1,0 +1,39 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <edm:ProvidedCHO rdf:about="https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309">
+    <dc:title>kleine Pauke</dc:title>
+    <dc:title>Kesselpäuklein</dc:title>
+    <dc:description>Kessel aus einem Stück, mit Loch am Boden sowie am oberen Rand mit 6 eingeschraubten Ösen. Kessel auf einer Höhe von 150 (von unten) nach innen gebogen, so dass
+      sich ein breiter Rand ergibt. Fell über einen Wickelreifen gelegt. Separater Spannreifen Messing, mit 6 Ösen und Spannschrauben. Schrauben mit Vierkantkopf. Spuren einer Halterung mit
+      4 Niten vorhanden (Instrument war sicher am Gürtel oder am Pferdesattel o.ä. befestigt).Birgit Heise, Volker F.Seumel</dc:description>
+    <dc:identifier>#ULEI:M0003309</dc:identifier>
+    <dc:date>ca. 1890/1930</dc:date>
+    <dc:coverage rdf:resource="http://sws.geonames.org/6255147/"/>
+    <dc:type rdf:resource="http://www.mimo-db.eu/InstrumentsKeywords/2887"/>
+    <dc:type rdf:resource="http://www.mimo-db.eu/HornbostelAndSachs/98"/>
+    <edm:type>IMAGE</edm:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg">
+    <dc:rights>© Museum für Musikinstrumente der Universität Leipzig, Foto: Karin Kranich</dc:rights>
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:WebResource>
+  <edm:Place rdf:about="http://sws.geonames.org/6255147/">
+    <skos:prefLabel xml:lang="de">Asien</skos:prefLabel>
+    <skos:altLabel>wohl Asien</skos:altLabel>
+  </edm:Place>
+  <skos:Concept rdf:about="http://www.mimo-db.eu/InstrumentsKeywords/2887">
+    <skos:prefLabel>Kettledrum</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://www.mimo-db.eu/HornbostelAndSachs/98">
+    <skos:prefLabel xml:lang="en">211.11 (Separate) vessel drums</skos:prefLabel>
+  </skos:Concept>
+  <ore:Aggregation rdf:about="http://www.mimo-db.eu/ULEI/M0003309">
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+    <edm:aggregatedCHO rdf:resource="https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309"/>
+    <edm:isShownAt rdf:resource="http://www.mimo-db.eu/ULEI/M0003309"/>
+    <edm:isShownBy rdf:resource="http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg"/>
+    <edm:hasView rdf:resource="http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg"/>
+    <edm:object rdf:resource="http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg"/>
+    <edm:provider>MIMO - Musical Instrument Museums Online</edm:provider>
+    <edm:dataProvider>Museum für Musikinstrumente der Universität Leipzig</edm:dataProvider>
+  </ore:Aggregation>
+</rdf:RDF>

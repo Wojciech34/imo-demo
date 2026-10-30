@@ -1,0 +1,73 @@
+{
+  "doi": "10.82433/byt7-2g42",
+  "titles": [
+    {
+      "title": "Advances in Chemistry",
+      "lang": "en"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Zou, Jing",
+      "nameType": "Personal"
+    },
+    {
+      "name": "DataCite",
+      "nameType": "Organizational"
+    }
+  ],
+  "publisher": "DataCite",
+  "publicationYear": 2022,
+  "types": {
+    "resourceTypeGeneral": "BookChapter"
+  },
+  "descriptions": [
+    {
+      "description": "This chapter reviews selected landmarks occurred in Chemistry basic research in the last 5 years",
+      "lang": "en",
+      "descriptionType": "Abstract"
+    },
+    {
+      "description": "El capítulo repasa los principales avances en la investigación básica en Ciencias Químicas en los últimos 5 años",
+      "lang": "es",
+      "descriptionType": "Abstract"
+    },
+    {
+      "description": "本章回顾了过去5年中在化学基础研究中发生的一些里程碑式的事件",
+      "lang": "zh",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Chemistry",
+      "lang": "en"
+    },
+    {
+      "subject": "Químicas",
+      "lang": "es"
+    },
+    {
+      "subject": "化学",
+      "lang": "zh"
+    }
+  ],
+  "dates": [
+    {
+      "date": "2024-01-01",
+      "dateType": "Other"
+    }
+  ],
+  "rightsList": [
+    {
+      "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    {
+      "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    }
+  ],
+  "language": "en"
+}

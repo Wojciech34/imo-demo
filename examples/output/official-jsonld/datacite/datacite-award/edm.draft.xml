@@ -1,0 +1,11 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <edm:ProvidedCHO rdf:about="https://doi.org/10.82433/p1zt-4c67">
+    <dc:title>Enhancing metadata for inclusive research on entrenched disadvantage</dc:title>
+    <dc:description>This funding award supports a project aimed at improving metadata practices to facilitate inclusive research on issues of entrenched disadvantage. The project focuses on creating robust, standardized metadata that accurately represents diverse populations and contexts.</dc:description>
+    <dc:date>2024-08-01</dc:date>
+    <dc:date>2025-01-01/2027-12-31</dc:date>
+    <dc:date>2028-01-01/2029-12-31</dc:date>
+    <dc:creator>The Research Trust</dc:creator>
+    <dc:publisher>The Research Trust</dc:publisher>
+  </edm:ProvidedCHO>
+</rdf:RDF>

@@ -1,0 +1,87 @@
+{
+  "alternateIdentifiers": [
+    {
+      "alternateIdentifier": "observatory:aq:2025",
+      "alternateIdentifierType": "Local accession"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nowak, Piotr",
+      "nameType": "Personal"
+    }
+  ],
+  "creators": [
+    {
+      "affiliation": [
+        {
+          "name": "Example Environmental Observatory"
+        }
+      ],
+      "familyName": "Kowalska",
+      "givenName": "Anna",
+      "name": "Kowalska, Anna",
+      "nameIdentifiers": [
+        {
+          "nameIdentifier": "https://orcid.org/0000-0002-1825-0097",
+          "nameIdentifierScheme": "ORCID"
+        }
+      ],
+      "nameType": "Personal"
+    },
+    {
+      "name": "Example Environmental Observatory",
+      "nameType": "Organizational"
+    }
+  ],
+  "dates": [
+    {
+      "date": "2026-01-12",
+      "dateType": "Created"
+    },
+    {
+      "date": "2026-02-04",
+      "dateType": "Issued"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Hourly PM2.5 and temperature measurements from two urban stations, calibrated and quality flagged.",
+      "descriptionType": "Abstract",
+      "lang": "en"
+    }
+  ],
+  "doi": "10.82433/imo-demo.001",
+  "language": "en",
+  "publicationYear": 2026,
+  "publisher": "Example Environmental Observatory",
+  "relatedIdentifiers": [
+    {
+      "relatedIdentifier": "https://example.org/data/aq-2025/raw/",
+      "relatedIdentifierType": "URL",
+      "relationType": "HasPart"
+    },
+    {
+      "relatedIdentifier": "https://example.org/methods/aq-v2",
+      "relatedIdentifierType": "URL",
+      "relationType": "References"
+    }
+  ],
+  "rightsList": [
+    {
+      "rights": "Creative Commons Attribution 4.0 International",
+      "rightsUri": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "titles": [
+    {
+      "lang": "en",
+      "title": "Urban air quality observations, Kraków, 2025"
+    }
+  ],
+  "types": {
+    "resourceType": "Quality-controlled sensor observations",
+    "resourceTypeGeneral": "Dataset"
+  },
+  "version": "1.1"
+}

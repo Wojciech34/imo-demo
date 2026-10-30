@@ -1,0 +1,329 @@
+{
+  "missing_required": [
+    "doi",
+    "publicationYear",
+    "types",
+    "contributors[0].contributorType"
+  ],
+  "native_assertions": [
+    {
+      "datatype": null,
+      "language": "en",
+      "object_kind": "literal",
+      "predicate": "https://example.org/vocab/condition",
+      "status": "not_exported",
+      "subject": "Nab944e80131e435aae1919828783edb2",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "Fragile paper; repaired in 1982"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "iri",
+      "predicate": "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "status": "not_exported",
+      "subject": "https://example.org/aggregations/map-1890",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "https://example.org/heritage/map-1890"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "literal",
+      "predicate": "http://www.europeana.eu/schemas/edm/dataProvider",
+      "status": "not_exported",
+      "subject": "https://example.org/aggregations/map-1890",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "Example Municipal Archive"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "iri",
+      "predicate": "http://www.europeana.eu/schemas/edm/isShownAt",
+      "status": "not_exported",
+      "subject": "https://example.org/aggregations/map-1890",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "https://example.org/catalogue/map-1890"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "iri",
+      "predicate": "http://www.europeana.eu/schemas/edm/isShownBy",
+      "status": "not_exported",
+      "subject": "https://example.org/aggregations/map-1890",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "https://example.org/images/map-1890.tif"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "literal",
+      "predicate": "http://www.europeana.eu/schemas/edm/provider",
+      "status": "not_exported",
+      "subject": "https://example.org/aggregations/map-1890",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "Example Regional Heritage Portal"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "iri",
+      "predicate": "http://www.europeana.eu/schemas/edm/rights",
+      "status": "not_exported",
+      "subject": "https://example.org/aggregations/map-1890",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "iri",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "status": "not_exported",
+      "subject": "https://example.org/aggregations/map-1890",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "http://www.openarchives.org/ore/terms/Aggregation"
+    },
+    {
+      "datatype": null,
+      "language": "en",
+      "object_kind": "literal",
+      "predicate": "http://purl.org/dc/elements/1.1/contributor",
+      "status": "transformed",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "contributors (role missing; needs curation)",
+      "value": "Municipal survey office"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "iri",
+      "predicate": "http://purl.org/dc/elements/1.1/creator",
+      "status": "transformed",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "creators (labels; identifiers and contextual detail may be lost)",
+      "value": "https://example.org/people/cartographer"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "literal",
+      "predicate": "http://purl.org/dc/elements/1.1/date",
+      "status": "transformed",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "dates/Other (not publicationYear)",
+      "value": "1890"
+    },
+    {
+      "datatype": null,
+      "language": "en",
+      "object_kind": "literal",
+      "predicate": "http://purl.org/dc/elements/1.1/description",
+      "status": "transformed",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "descriptions/Other (not assumed to be an Abstract)",
+      "value": "Survey map showing river channels, streets and monitoring locations; digitized from the archive original."
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "literal",
+      "predicate": "http://purl.org/dc/elements/1.1/identifier",
+      "status": "transformed",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "alternateIdentifiers (unqualified; never promoted to DOI)",
+      "value": "MA-KRK-1890-17"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "literal",
+      "predicate": "http://purl.org/dc/elements/1.1/language",
+      "status": "transformed",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "language (single value only)",
+      "value": "pl"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "literal",
+      "predicate": "http://purl.org/dc/elements/1.1/publisher",
+      "status": "transformed",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "publisher (single value only)",
+      "value": "Example Municipal Archive"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "literal",
+      "predicate": "http://purl.org/dc/elements/1.1/rights",
+      "status": "transformed",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "rightsList (CHO scope only)",
+      "value": "Physical original in the public domain; digital reproduction has separate terms."
+    },
+    {
+      "datatype": null,
+      "language": "pl",
+      "object_kind": "literal",
+      "predicate": "http://purl.org/dc/elements/1.1/title",
+      "status": "transformed",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "titles (language retained)",
+      "value": "Plan Krakowa i dorzecza, 1890"
+    },
+    {
+      "datatype": null,
+      "language": "en",
+      "object_kind": "literal",
+      "predicate": "http://purl.org/dc/elements/1.1/title",
+      "status": "transformed",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "titles (language retained)",
+      "value": "Plan of Kraków and its river basin, 1890"
+    },
+    {
+      "datatype": null,
+      "language": "en",
+      "object_kind": "literal",
+      "predicate": "http://purl.org/dc/elements/1.1/type",
+      "status": "not_exported",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "Map"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "iri",
+      "predicate": "http://purl.org/dc/terms/isPartOf",
+      "status": "transformed",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "relatedIdentifiers/IsPartOf",
+      "value": "https://example.org/heritage/maps"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "iri",
+      "predicate": "http://purl.org/dc/terms/spatial",
+      "status": "not_exported",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "https://sws.geonames.org/3094802/"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "iri",
+      "predicate": "http://www.europeana.eu/schemas/edm/currentLocation",
+      "status": "not_exported",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "https://example.org/archive/reading-room"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "literal",
+      "predicate": "http://www.europeana.eu/schemas/edm/type",
+      "status": "not_exported",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "IMAGE"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "iri",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "status": "not_exported",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "http://www.europeana.eu/schemas/edm/ProvidedCHO"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "blank_node",
+      "predicate": "https://example.org/vocab/conservationNote",
+      "status": "not_exported",
+      "subject": "https://example.org/heritage/map-1890",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "Nab944e80131e435aae1919828783edb2"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "literal",
+      "predicate": "http://purl.org/dc/elements/1.1/format",
+      "status": "not_exported",
+      "subject": "https://example.org/images/map-1890.tif",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "image/tiff"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "iri",
+      "predicate": "http://www.europeana.eu/schemas/edm/rights",
+      "status": "not_exported",
+      "subject": "https://example.org/images/map-1890.tif",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "iri",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "status": "not_exported",
+      "subject": "https://example.org/images/map-1890.tif",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "http://www.europeana.eu/schemas/edm/WebResource"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "literal",
+      "predicate": "http://www.europeana.eu/schemas/edm/begin",
+      "status": "not_exported",
+      "subject": "https://example.org/people/cartographer",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "1850"
+    },
+    {
+      "datatype": null,
+      "language": null,
+      "object_kind": "iri",
+      "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "status": "not_exported",
+      "subject": "https://example.org/people/cartographer",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "http://www.europeana.eu/schemas/edm/Agent"
+    },
+    {
+      "datatype": null,
+      "language": "pl",
+      "object_kind": "literal",
+      "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "status": "not_exported",
+      "subject": "https://example.org/people/cartographer",
+      "target_or_reason": "No implemented meaning-preserving target mapping; retained in native IMO graph",
+      "value": "Jan Przykładowy"
+    }
+  ],
+  "target_status": "incomplete DataCite draft; not registration ready",
+  "warnings": [
+    "edm:provider and edm:dataProvider are not publishers",
+    "Digital edm:rights is not the heritage object's licence",
+    "dc:date 1890 is not a publicationYear",
+    "dc:description is not assumed to be an Abstract",
+    "Local dc:identifier is not a DOI",
+    "edm:type IMAGE does not establish a DataCite resourceTypeGeneral"
+  ]
+}

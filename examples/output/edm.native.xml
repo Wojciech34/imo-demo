@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:edm="http://www.europeana.eu/schemas/edm/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="https://example.org/vocab/"
+  xmlns:ns2="http://www.openarchives.org/ore/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <ns2:Aggregation rdf:about="https://example.org/aggregations/map-1890">
+    <edm:aggregatedCHO>
+      <edm:ProvidedCHO rdf:about="https://example.org/heritage/map-1890">
+        <dcterms:spatial rdf:resource="https://sws.geonames.org/3094802/"/>
+        <dc:description xml:lang="en">Survey map showing river channels, streets and monitoring locations; digitized from the archive original.</dc:description>
+        <dc:publisher>Example Municipal Archive</dc:publisher>
+        <dc:title xml:lang="en">Plan of Kraków and its river basin, 1890</dc:title>
+        <dc:title xml:lang="pl">Plan Krakowa i dorzecza, 1890</dc:title>
+        <dc:rights>Physical original in the public domain; digital reproduction has separate terms.</dc:rights>
+        <edm:type>IMAGE</edm:type>
+        <edm:currentLocation rdf:resource="https://example.org/archive/reading-room"/>
+        <dc:type xml:lang="en">Map</dc:type>
+        <dcterms:isPartOf rdf:resource="https://example.org/heritage/maps"/>
+        <dc:identifier>MA-KRK-1890-17</dc:identifier>
+        <dc:creator rdf:resource="https://example.org/people/cartographer"/>
+        <dc:contributor xml:lang="en">Municipal survey office</dc:contributor>
+        <dc:language>pl</dc:language>
+        <dc:date>1890</dc:date>
+        <ns1:conservationNote>
+          <rdf:Description rdf:nodeID="Nab944e80131e435aae1919828783edb2">
+            <ns1:condition xml:lang="en">Fragile paper; repaired in 1982</ns1:condition>
+          </rdf:Description>
+        </ns1:conservationNote>
+      </edm:ProvidedCHO>
+    </edm:aggregatedCHO>
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+    <edm:dataProvider>Example Municipal Archive</edm:dataProvider>
+    <edm:isShownAt rdf:resource="https://example.org/catalogue/map-1890"/>
+    <edm:provider>Example Regional Heritage Portal</edm:provider>
+    <edm:isShownBy>
+      <edm:WebResource rdf:about="https://example.org/images/map-1890.tif">
+        <dc:format>image/tiff</dc:format>
+        <edm:rights rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      </edm:WebResource>
+    </edm:isShownBy>
+  </ns2:Aggregation>
+  <edm:Agent rdf:about="https://example.org/people/cartographer">
+    <edm:begin>1850</edm:begin>
+    <skos:prefLabel xml:lang="pl">Jan Przykładowy</skos:prefLabel>
+  </edm:Agent>
+</rdf:RDF>

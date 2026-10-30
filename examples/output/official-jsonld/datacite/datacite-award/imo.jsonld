@@ -1,0 +1,424 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "imo": "https://example.org/onedata/imo/0.1/",
+    "edm": "http://www.europeana.eu/schemas/edm/",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Dataset": "schema:Dataset",
+    "Collection": "schema:Collection",
+    "Directory": "imo:Directory",
+    "File": "schema:MediaObject",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "CreativeWork": "schema:CreativeWork",
+    "root": {
+      "@id": "schema:about",
+      "@type": "@id"
+    },
+    "modelVersion": "imo:modelVersion",
+    "titles": {
+      "@id": "dct:title",
+      "@container": "@set"
+    },
+    "name": "schema:name",
+    "identifiers": {
+      "@id": "dct:identifier",
+      "@container": "@set"
+    },
+    "creators": {
+      "@id": "dct:creator",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "mediaType": "schema:encodingFormat",
+    "sizeBytes": "imo:sizeBytes",
+    "sha256": "schema:sha256",
+    "provenance": {
+      "@id": "imo:provenance",
+      "@type": "@json"
+    },
+    "source": {
+      "@id": "imo:sourceBackup",
+      "@type": "@json"
+    },
+    "ProvidedCHO": "edm:ProvidedCHO",
+    "WebResource": "edm:WebResource",
+    "Aggregation": "ore:Aggregation",
+    "Place": "edm:Place",
+    "Concept": "skos:Concept",
+    "Agent": "edm:Agent",
+    "descriptions": {
+      "@id": "dct:description",
+      "@container": "@set"
+    },
+    "abstracts": {
+      "@id": "dct:abstract",
+      "@container": "@set"
+    },
+    "dates": {
+      "@id": "dct:date",
+      "@container": "@set"
+    },
+    "subjects": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "coverage": {
+      "@id": "dct:coverage",
+      "@container": "@set"
+    },
+    "resourceTypes": {
+      "@id": "dct:type",
+      "@container": "@set"
+    },
+    "labels": {
+      "@id": "skos:prefLabel",
+      "@container": "@set"
+    },
+    "alternativeLabels": {
+      "@id": "skos:altLabel",
+      "@container": "@set"
+    },
+    "digitalRights": {
+      "@id": "edm:rights",
+      "@container": "@set"
+    },
+    "publishers": {
+      "@id": "dct:publisher",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sourceResources": {
+      "@id": "dct:source",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "aggregatedCHO": {
+      "@id": "edm:aggregatedCHO",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isShownAt": {
+      "@id": "edm:isShownAt",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isShownBy": {
+      "@id": "edm:isShownBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasView": {
+      "@id": "edm:hasView",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "preview": {
+      "@id": "edm:object",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "doi": "imo:doi",
+    "resourceTypeGeneral": "imo:dataciteResourceTypeGeneral",
+    "resourceType": "imo:dataciteResourceType",
+    "language": "schema:inLanguage",
+    "version": "schema:version",
+    "edmType": "edm:type",
+    "provider": "edm:provider",
+    "dataProvider": "edm:dataProvider",
+    "givenName": "schema:givenName",
+    "familyName": "schema:familyName",
+    "publicationYear": {
+      "@id": "dct:issued",
+      "@type": "xsd:gYear"
+    }
+  },
+  "@id": "urn:imo:record",
+  "@type": "imo:Record",
+  "modelVersion": "1.0",
+  "root": {
+    "@id": "https://doi.org/10.82433/p1zt-4c67"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.82433/p1zt-4c67",
+      "@type": "CreativeWork",
+      "resourceTypeGeneral": "Award",
+      "resourceType": "Grant",
+      "doi": "10.82433/p1zt-4c67",
+      "titles": [
+        {
+          "@value": "Enhancing metadata for inclusive research on entrenched disadvantage"
+        }
+      ],
+      "creators": [
+        {
+          "@id": "https://doi.org/10.82433/p1zt-4c67#creator-0"
+        }
+      ],
+      "publishers": [
+        {
+          "@id": "https://doi.org/10.82433/p1zt-4c67#publisher"
+        }
+      ],
+      "publicationYear": "2024",
+      "abstracts": [
+        {
+          "@value": "This funding award supports a project aimed at improving metadata practices to facilitate inclusive research on issues of entrenched disadvantage. The project focuses on creating robust, standardized metadata that accurately represents diverse populations and contexts."
+        }
+      ],
+      "dates": [
+        {
+          "@value": "2024-08-01"
+        },
+        {
+          "@value": "2025-01-01/2027-12-31"
+        },
+        {
+          "@value": "2028-01-01/2029-12-31"
+        }
+      ]
+    },
+    {
+      "@id": "https://doi.org/10.82433/p1zt-4c67#creator-0",
+      "@type": "Organization",
+      "name": "The Research Trust"
+    },
+    {
+      "@id": "https://doi.org/10.82433/p1zt-4c67#publisher",
+      "@type": "Organization",
+      "name": "The Research Trust"
+    }
+  ],
+  "provenance": {
+    "sourceFormat": "datacite",
+    "source": "https://api.test.datacite.org/dois/10.82433/p1zt-4c67?affiliation=true&publisher=true",
+    "warnings": [
+      {
+        "path": "/creators/0/nameIdentifiers/0",
+        "reason": "Identifier has no value; skipped in normalized metadata and retained in source backup"
+      }
+    ]
+  },
+  "source": {
+    "format": "datacite",
+    "document": {
+      "data": {
+        "id": "10.82433/p1zt-4c67",
+        "type": "dois",
+        "attributes": {
+          "doi": "10.82433/p1zt-4c67",
+          "prefix": "10.82433",
+          "suffix": "p1zt-4c67",
+          "identifiers": [
+            {
+              "identifier": "https://grants.net/123456",
+              "identifierType": "URL"
+            }
+          ],
+          "alternateIdentifiers": [
+            {
+              "alternateIdentifierType": "URL",
+              "alternateIdentifier": "https://grants.net/123456"
+            }
+          ],
+          "creators": [
+            {
+              "name": "The Research Trust",
+              "nameType": "Organizational",
+              "affiliation": [],
+              "nameIdentifiers": [
+                {
+                  "schemeUri": "https://ror.org",
+                  "nameIdentifierScheme": "ROR"
+                }
+              ]
+            }
+          ],
+          "titles": [
+            {
+              "title": "Enhancing metadata for inclusive research on entrenched disadvantage"
+            }
+          ],
+          "publisher": {
+            "name": "The Research Trust",
+            "schemeUri": "https://ror.org",
+            "publisherIdentifierScheme": "ROR"
+          },
+          "container": {},
+          "publicationYear": 2024,
+          "subjects": [],
+          "contributors": [
+            {
+              "name": "Garcia, Sofia",
+              "nameType": "Personal",
+              "givenName": "Sofia",
+              "familyName": "Garcia",
+              "affiliation": [
+                {
+                  "name": "Arizona State University",
+                  "schemeUri": "https://ror.org",
+                  "affiliationIdentifier": "https://ror.org/03efmqc40",
+                  "affiliationIdentifierScheme": "ROR"
+                }
+              ],
+              "contributorType": "ProjectLeader",
+              "nameIdentifiers": [
+                {
+                  "schemeUri": "https://orcid.org",
+                  "nameIdentifier": "https://orcid.org/0000-0001-5727-2427",
+                  "nameIdentifierScheme": "ORCID"
+                }
+              ]
+            },
+            {
+              "name": "Arizona State University",
+              "nameType": "Organizational",
+              "affiliation": [],
+              "contributorType": "ProjectLeader",
+              "nameIdentifiers": [
+                {
+                  "schemeUri": "https://ror.org",
+                  "nameIdentifier": "https://ror.org/03efmqc40",
+                  "nameIdentifierScheme": "ROR"
+                }
+              ]
+            }
+          ],
+          "dates": [
+            {
+              "date": "2024-08-01",
+              "dateType": "Issued"
+            },
+            {
+              "date": "2025-01-01/2027-12-31",
+              "dateType": "Valid"
+            },
+            {
+              "date": "2028-01-01/2029-12-31",
+              "dateType": "Updated",
+              "dateInformation": "Extended"
+            }
+          ],
+          "language": null,
+          "types": {
+            "ris": "GEN",
+            "bibtex": "misc",
+            "citeproc": "article",
+            "schemaOrg": "Grant",
+            "resourceType": "Grant",
+            "resourceTypeGeneral": "Award"
+          },
+          "relatedIdentifiers": [],
+          "relatedItems": [],
+          "sizes": [
+            "900000 USD"
+          ],
+          "formats": [],
+          "version": null,
+          "rightsList": [],
+          "descriptions": [
+            {
+              "description": "This funding award supports a project aimed at improving metadata practices to facilitate inclusive research on issues of entrenched disadvantage. The project focuses on creating robust, standardized metadata that accurately represents diverse populations and contexts.",
+              "descriptionType": "Abstract"
+            }
+          ],
+          "geoLocations": [],
+          "fundingReferences": [
+            {
+              "awardTitle": "Enhancing metadata for inclusive research on entrenched disadvantage",
+              "funderName": "The Research Trust",
+              "awardNumber": "123456",
+              "funderIdentifier": "https://doi.org/10.13039/501100012345",
+              "funderIdentifierType": "Crossref Funder ID"
+            }
+          ],
+          "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuODI0MzMvUDFaVC00QzY3PC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9Ik9yZ2FuaXphdGlvbmFsIj5UaGUgUmVzZWFyY2ggVHJ1c3Q8L2NyZWF0b3JOYW1lPgogICAgICA8bmFtZUlkZW50aWZpZXIgbmFtZUlkZW50aWZpZXJTY2hlbWU9IlJPUiIgc2NoZW1lVVJJPSJodHRwczovL3Jvci5vcmciPmh0dHBzOi8vcm9yLm9yZy8xMmFiY2RlMzQ8L25hbWVJZGVudGlmaWVyPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5FbmhhbmNpbmcgbWV0YWRhdGEgZm9yIGluY2x1c2l2ZSByZXNlYXJjaCBvbiBlbnRyZW5jaGVkIGRpc2FkdmFudGFnZTwvdGl0bGU+CiAgPC90aXRsZXM+CiAgPHB1Ymxpc2hlciBwdWJsaXNoZXJJZGVudGlmaWVyPSJodHRwczovL3Jvci5vcmcvMTJhYmNkZTM0IiBwdWJsaXNoZXJJZGVudGlmaWVyU2NoZW1lPSJST1IiIHNjaGVtZVVSST0iaHR0cHM6Ly9yb3Iub3JnIj5UaGUgUmVzZWFyY2ggVHJ1c3Q8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMjQ8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkF3YXJkIj5HcmFudDwvcmVzb3VyY2VUeXBlPgogIDxjb250cmlidXRvcnM+CiAgICA8Y29udHJpYnV0b3IgY29udHJpYnV0b3JUeXBlPSJQcm9qZWN0TGVhZGVyIj4KICAgICAgPGNvbnRyaWJ1dG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkdhcmNpYSwgU29maWE8L2NvbnRyaWJ1dG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5Tb2ZpYTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5HYXJjaWE8L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBzY2hlbWVVUkk9Imh0dHBzOi8vb3JjaWQub3JnLyIgbmFtZUlkZW50aWZpZXJTY2hlbWU9Ik9SQ0lEIj5odHRwczovL29yY2lkLm9yZy8wMDAwLTAwMDEtNTcyNy0yNDI3PC9uYW1lSWRlbnRpZmllcj4KICAgICAgPGFmZmlsaWF0aW9uIGFmZmlsaWF0aW9uSWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzAzZWZtcWM0MCIgYWZmaWxpYXRpb25JZGVudGlmaWVyU2NoZW1lPSJST1IiIHNjaGVtZVVSST0iaHR0cHM6Ly9yb3Iub3JnIj5Bcml6b25hIFN0YXRlIFVuaXZlcnNpdHk8L2FmZmlsaWF0aW9uPgogICAgPC9jb250cmlidXRvcj4KICAgIDxjb250cmlidXRvciBjb250cmlidXRvclR5cGU9IlByb2plY3RMZWFkZXIiPgogICAgICA8Y29udHJpYnV0b3JOYW1lIG5hbWVUeXBlPSJPcmdhbml6YXRpb25hbCI+QXJpem9uYSBTdGF0ZSBVbml2ZXJzaXR5PC9jb250cmlidXRvck5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iUk9SIiBzY2hlbWVVUkk9Imh0dHBzOi8vcm9yLm9yZyI+aHR0cHM6Ly9yb3Iub3JnLzAzZWZtcWM0MDwvbmFtZUlkZW50aWZpZXI+CiAgICA8L2NvbnRyaWJ1dG9yPgogIDwvY29udHJpYnV0b3JzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJJc3N1ZWQiPjIwMjQtMDgtMDE8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iVmFsaWQiPjIwMjUtMDEtMDEvMjAyNy0xMi0zMTwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJVcGRhdGVkIiBkYXRlSW5mb3JtYXRpb249IkV4dGVuZGVkIj4yMDI4LTAxLTAxLzIwMjktMTItMzE8L2RhdGU+CiAgPC9kYXRlcz4KICA8c2l6ZXM+CiAgICA8c2l6ZT45MDAwMDAgVVNEPC9zaXplPgogIDwvc2l6ZXM+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij5UaGlzIGZ1bmRpbmcgYXdhcmQgc3VwcG9ydHMgYSBwcm9qZWN0IGFpbWVkIGF0IGltcHJvdmluZyBtZXRhZGF0YSBwcmFjdGljZXMgdG8gZmFjaWxpdGF0ZSBpbmNsdXNpdmUgcmVzZWFyY2ggb24gaXNzdWVzIG9mIGVudHJlbmNoZWQgZGlzYWR2YW50YWdlLiBUaGUgcHJvamVjdCBmb2N1c2VzIG9uIGNyZWF0aW5nIHJvYnVzdCwgc3RhbmRhcmRpemVkIG1ldGFkYXRhIHRoYXQgYWNjdXJhdGVseSByZXByZXNlbnRzIGRpdmVyc2UgcG9wdWxhdGlvbnMgYW5kIGNvbnRleHRzLjwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CiAgPGFsdGVybmF0ZUlkZW50aWZpZXJzPgogICAgPGFsdGVybmF0ZUlkZW50aWZpZXIgYWx0ZXJuYXRlSWRlbnRpZmllclR5cGU9IlVSTCI+aHR0cHM6Ly9ncmFudHMubmV0LzEyMzQ1NjwvYWx0ZXJuYXRlSWRlbnRpZmllcj4KICA8L2FsdGVybmF0ZUlkZW50aWZpZXJzPgogIDxmdW5kaW5nUmVmZXJlbmNlcz4KICAgIDxmdW5kaW5nUmVmZXJlbmNlPgogICAgICA8ZnVuZGVyTmFtZT5UaGUgUmVzZWFyY2ggVHJ1c3Q8L2Z1bmRlck5hbWU+CiAgICAgIDxmdW5kZXJJZGVudGlmaWVyIGZ1bmRlcklkZW50aWZpZXJUeXBlPSJDcm9zc3JlZiBGdW5kZXIgSUQiPmh0dHBzOi8vZG9pLm9yZy8xMC4xMzAzOS81MDExMDAwMTIzNDU8L2Z1bmRlcklkZW50aWZpZXI+CiAgICAgIDxhd2FyZE51bWJlcj4xMjM0NTY8L2F3YXJkTnVtYmVyPgogICAgICA8YXdhcmRUaXRsZT5FbmhhbmNpbmcgbWV0YWRhdGEgZm9yIGluY2x1c2l2ZSByZXNlYXJjaCBvbiBlbnRyZW5jaGVkIGRpc2FkdmFudGFnZTwvYXdhcmRUaXRsZT4KICAgIDwvZnVuZGluZ1JlZmVyZW5jZT4KICA8L2Z1bmRpbmdSZWZlcmVuY2VzPgo8L3Jlc291cmNlPg==",
+          "url": "https://example.org",
+          "contentUrl": null,
+          "metadataVersion": 0,
+          "schemaVersion": "http://datacite.org/schema/kernel-4",
+          "source": "fabrica",
+          "isActive": true,
+          "state": "findable",
+          "reason": null,
+          "viewCount": 0,
+          "viewsOverTime": [],
+          "downloadCount": 0,
+          "downloadsOverTime": [],
+          "referenceCount": 0,
+          "citationCount": 0,
+          "citationsOverTime": [],
+          "partCount": 0,
+          "partOfCount": 0,
+          "versionCount": 0,
+          "versionOfCount": 0,
+          "created": "2024-11-08T20:10:10.000Z",
+          "registered": "2024-11-22T18:07:14.000Z",
+          "published": "2024",
+          "updated": "2026-10-03T22:32:43.000Z"
+        },
+        "relationships": {
+          "client": {
+            "data": {
+              "id": "datacite.mwg",
+              "type": "clients"
+            }
+          },
+          "provider": {
+            "data": {
+              "id": "datacite",
+              "type": "providers"
+            }
+          },
+          "media": {
+            "data": {
+              "id": "10.82433/p1zt-4c67",
+              "type": "media"
+            }
+          },
+          "references": {
+            "data": []
+          },
+          "citations": {
+            "data": []
+          },
+          "parts": {
+            "data": []
+          },
+          "partOf": {
+            "data": []
+          },
+          "versions": {
+            "data": []
+          },
+          "versionOf": {
+            "data": []
+          }
+        }
+      }
+    }
+  }
+}

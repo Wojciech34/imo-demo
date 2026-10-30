@@ -1,0 +1,211 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://purl.org/dc/terms/",
+    "edm": "http://www.europeana.eu/schemas/edm/",
+    "imo": "https://example.org/onedata/imo/0.1/",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@graph": [
+        {
+          "@id": "urn:imo:conversion",
+          "@type": "prov:Activity",
+          "prov:used": {
+            "@id": "urn:example:edm-input"
+          },
+          "prov:wasAssociatedWith": {
+            "@id": "urn:imo:poc:0.1"
+          }
+        },
+        {
+          "@id": "urn:imo:record",
+          "@type": "prov:Entity",
+          "imo:canonicalDigest": "1071247652f8c4cbade58e4e6ec86c3cb240c4095aa5b1bd556da601b184ea7f",
+          "imo:sourceFormat": "edm",
+          "prov:wasGeneratedBy": {
+            "@id": "urn:imo:conversion"
+          },
+          "schema:about": {
+            "@id": "https://example.org/heritage/map-1890"
+          }
+        }
+      ],
+      "@id": "urn:imo:provenance"
+    },
+    {
+      "@graph": [
+        {
+          "@id": "https://example.org/people/cartographer",
+          "@type": "edm:Agent",
+          "edm:begin": "1850",
+          "http://www.w3.org/2004/02/skos/core#prefLabel": {
+            "@language": "pl",
+            "@value": "Jan Przykładowy"
+          },
+          "schema:name": {
+            "@language": "pl",
+            "@value": "Jan Przykładowy"
+          }
+        },
+        {
+          "@id": "https://example.org/heritage/map-1890#agent-publisher-0",
+          "@type": "dct:Agent",
+          "schema:name": "Example Municipal Archive"
+        },
+        {
+          "@id": "https://example.org/heritage/map-1890#agent-contributor-0",
+          "@type": "dct:Agent",
+          "schema:name": {
+            "@language": "en",
+            "@value": "Municipal survey office"
+          }
+        },
+        {
+          "@id": "https://example.org/heritage/map-1890",
+          "@type": [
+            "edm:ProvidedCHO",
+            "schema:Thing"
+          ],
+          "dct:contributor": {
+            "@id": "https://example.org/heritage/map-1890#agent-contributor-0"
+          },
+          "dct:creator": {
+            "@id": "https://example.org/people/cartographer"
+          },
+          "dct:date": "1890",
+          "dct:description": {
+            "@language": "en",
+            "@value": "Survey map showing river channels, streets and monitoring locations; digitized from the archive original."
+          },
+          "dct:identifier": "MA-KRK-1890-17",
+          "dct:isPartOf": {
+            "@id": "https://example.org/heritage/maps"
+          },
+          "dct:publisher": {
+            "@id": "https://example.org/heritage/map-1890#agent-publisher-0"
+          },
+          "dct:rights": {
+            "@id": "_:N82b48c332e644bf59c43e2317d0f120a"
+          },
+          "dct:title": [
+            {
+              "@language": "en",
+              "@value": "Plan of Kraków and its river basin, 1890"
+            },
+            {
+              "@language": "pl",
+              "@value": "Plan Krakowa i dorzecza, 1890"
+            }
+          ],
+          "schema:inLanguage": "pl"
+        },
+        {
+          "@id": "_:N82b48c332e644bf59c43e2317d0f120a",
+          "@type": "dct:RightsStatement",
+          "http://www.w3.org/2000/01/rdf-schema#label": "Physical original in the public domain; digital reproduction has separate terms."
+        }
+      ],
+      "@id": "urn:imo:canonical"
+    },
+    {
+      "@graph": [
+        {
+          "@id": "https://example.org/aggregations/map-1890",
+          "@type": "ore:Aggregation",
+          "edm:aggregatedCHO": {
+            "@id": "https://example.org/heritage/map-1890"
+          },
+          "edm:dataProvider": "Example Municipal Archive",
+          "edm:isShownAt": {
+            "@id": "https://example.org/catalogue/map-1890"
+          },
+          "edm:isShownBy": {
+            "@id": "https://example.org/images/map-1890.tif"
+          },
+          "edm:provider": "Example Regional Heritage Portal",
+          "edm:rights": {
+            "@id": "http://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "@id": "https://example.org/images/map-1890.tif",
+          "@type": "edm:WebResource",
+          "dc:format": "image/tiff",
+          "edm:rights": {
+            "@id": "http://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "@id": "https://example.org/people/cartographer",
+          "@type": "edm:Agent",
+          "edm:begin": "1850",
+          "http://www.w3.org/2004/02/skos/core#prefLabel": {
+            "@language": "pl",
+            "@value": "Jan Przykładowy"
+          }
+        },
+        {
+          "@id": "https://example.org/heritage/map-1890",
+          "@type": "edm:ProvidedCHO",
+          "dc:contributor": {
+            "@language": "en",
+            "@value": "Municipal survey office"
+          },
+          "dc:creator": {
+            "@id": "https://example.org/people/cartographer"
+          },
+          "dc:date": "1890",
+          "dc:description": {
+            "@language": "en",
+            "@value": "Survey map showing river channels, streets and monitoring locations; digitized from the archive original."
+          },
+          "dc:identifier": "MA-KRK-1890-17",
+          "dc:language": "pl",
+          "dc:publisher": "Example Municipal Archive",
+          "dc:rights": "Physical original in the public domain; digital reproduction has separate terms.",
+          "dc:title": [
+            {
+              "@language": "en",
+              "@value": "Plan of Kraków and its river basin, 1890"
+            },
+            {
+              "@language": "pl",
+              "@value": "Plan Krakowa i dorzecza, 1890"
+            }
+          ],
+          "dc:type": {
+            "@language": "en",
+            "@value": "Map"
+          },
+          "dct:isPartOf": {
+            "@id": "https://example.org/heritage/maps"
+          },
+          "dct:spatial": {
+            "@id": "https://sws.geonames.org/3094802/"
+          },
+          "edm:currentLocation": {
+            "@id": "https://example.org/archive/reading-room"
+          },
+          "edm:type": "IMAGE",
+          "https://example.org/vocab/conservationNote": {
+            "@id": "_:Nab944e80131e435aae1919828783edb2"
+          }
+        },
+        {
+          "@id": "_:Nab944e80131e435aae1919828783edb2",
+          "https://example.org/vocab/condition": {
+            "@language": "en",
+            "@value": "Fragile paper; repaired in 1982"
+          }
+        }
+      ],
+      "@id": "urn:imo:source"
+    }
+  ]
+}

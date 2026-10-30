@@ -1,0 +1,47 @@
+{
+  "native": {
+    "added_by_predicate": {},
+    "added_triples": 0,
+    "byte_equal": false,
+    "lost_by_predicate": {},
+    "lost_triples": 0,
+    "preserved_triples": 31,
+    "rdf_isomorphic": true,
+    "reconstructed_triples": 31,
+    "source_triples": 31,
+    "xml_structural_equal": "not tested; RDF comparison intentionally ignores XML layout"
+  },
+  "preservation_note": "Native graph replay preserves RDF terms and connections, not XML syntax or a reversible canonical projection",
+  "projection": {
+    "added_by_predicate": {
+      "http://purl.org/dc/elements/1.1/creator": 1
+    },
+    "added_triples": 1,
+    "byte_equal": false,
+    "lost_by_predicate": {
+      "http://purl.org/dc/elements/1.1/creator": 1,
+      "http://purl.org/dc/elements/1.1/format": 1,
+      "http://purl.org/dc/elements/1.1/type": 1,
+      "http://purl.org/dc/terms/spatial": 1,
+      "http://www.europeana.eu/schemas/edm/aggregatedCHO": 1,
+      "http://www.europeana.eu/schemas/edm/begin": 1,
+      "http://www.europeana.eu/schemas/edm/currentLocation": 1,
+      "http://www.europeana.eu/schemas/edm/dataProvider": 1,
+      "http://www.europeana.eu/schemas/edm/isShownAt": 1,
+      "http://www.europeana.eu/schemas/edm/isShownBy": 1,
+      "http://www.europeana.eu/schemas/edm/provider": 1,
+      "http://www.europeana.eu/schemas/edm/rights": 2,
+      "http://www.europeana.eu/schemas/edm/type": 1,
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": 3,
+      "http://www.w3.org/2004/02/skos/core#prefLabel": 1,
+      "https://example.org/vocab/condition": 1,
+      "https://example.org/vocab/conservationNote": 1
+    },
+    "lost_triples": 20,
+    "preserved_triples": 11,
+    "rdf_isomorphic": false,
+    "reconstructed_triples": 12,
+    "source_triples": 31,
+    "xml_structural_equal": "not tested; RDF comparison intentionally ignores XML layout"
+  }
+}

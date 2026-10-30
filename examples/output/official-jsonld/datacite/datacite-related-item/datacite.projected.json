@@ -1,0 +1,29 @@
+{
+  "doi": "10.82433/q54d-pf76",
+  "titles": [
+    {
+      "title": "Example Article Title",
+      "lang": "en"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Garcia, Sofia",
+      "nameType": "Personal",
+      "givenName": "Sofia",
+      "familyName": "Garcia"
+    }
+  ],
+  "publisher": "Example Publisher",
+  "publicationYear": 2022,
+  "types": {
+    "resourceTypeGeneral": "JournalArticle",
+    "resourceType": "ScholarlyArticle"
+  },
+  "dates": [
+    {
+      "date": "2022",
+      "dateType": "Other"
+    }
+  ]
+}

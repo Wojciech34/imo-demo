@@ -1,0 +1,122 @@
+{
+  "doi": "10.82433/b09z-4k37",
+  "titles": [
+    {
+      "title": "Example Title",
+      "lang": "en"
+    }
+  ],
+  "creators": [
+    {
+      "name": "ExampleFamilyName, ExampleGivenName",
+      "nameType": "Personal",
+      "givenName": "ExampleGivenName",
+      "familyName": "ExampleFamilyName"
+    },
+    {
+      "name": "ExampleOrganization",
+      "nameType": "Organizational"
+    }
+  ],
+  "publisher": "Example Publisher",
+  "publicationYear": 2024,
+  "types": {
+    "resourceTypeGeneral": "Dataset",
+    "resourceType": "Example ResourceType"
+  },
+  "descriptions": [
+    {
+      "description": "Example Abstract",
+      "lang": "en",
+      "descriptionType": "Abstract"
+    },
+    {
+      "description": "Example Other",
+      "lang": "en",
+      "descriptionType": "Other"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "FOS: Computer and information sciences"
+    },
+    {
+      "subject": "FOS: Computer and information sciences"
+    },
+    {
+      "subject": "Digital curation and preservation"
+    },
+    {
+      "subject": "Example Subject"
+    }
+  ],
+  "dates": [
+    {
+      "date": "2024-01-01",
+      "dateType": "Other"
+    },
+    {
+      "date": "2024-01-01",
+      "dateType": "Other"
+    },
+    {
+      "date": "2024-01-01",
+      "dateType": "Other"
+    },
+    {
+      "date": "2024-01-01/2024-12-31",
+      "dateType": "Other"
+    },
+    {
+      "date": "2024-01-01/2024-12-31",
+      "dateType": "Other"
+    },
+    {
+      "date": "2024-01-01",
+      "dateType": "Other"
+    },
+    {
+      "date": "2024-01-01",
+      "dateType": "Other"
+    },
+    {
+      "date": "2024-01-01",
+      "dateType": "Other"
+    },
+    {
+      "date": "2024-01-01",
+      "dateType": "Other"
+    },
+    {
+      "date": "2024-01-01",
+      "dateType": "Other"
+    },
+    {
+      "date": "2024-01-01",
+      "dateType": "Other"
+    },
+    {
+      "date": "2024-01-01",
+      "dateType": "Other"
+    }
+  ],
+  "rightsList": [
+    {
+      "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    }
+  ],
+  "relatedIdentifiers": [
+    {
+      "relatedIdentifier": "http://www.heatflow.und.edu/index2.html",
+      "relatedIdentifierType": "URL",
+      "relationType": "References"
+    },
+    {
+      "relatedIdentifier": "10.1016/j.epsl.2011.11.037",
+      "relatedIdentifierType": "DOI",
+      "relationType": "IsDerivedFrom"
+    }
+  ],
+  "language": "en",
+  "version": "1"
+}

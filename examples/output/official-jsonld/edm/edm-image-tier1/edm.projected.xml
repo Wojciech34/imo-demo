@@ -1,0 +1,19 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <edm:ProvidedCHO rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_IMAGE_T1">
+    <dc:title xml:lang="en">TEST RECORD: EPF Content Tier 1 Image Object</dc:title>
+    <dc:description xml:lang="en">This is a sample image record classified as EPF Content Tier 1.</dc:description>
+    <dc:subject rdf:resource="http://vocab.getty.edu/aat/300020103"/>
+    <dc:type rdf:resource="http://vocab.getty.edu/aat/300430220"/>
+    <dc:language>deu</dc:language>
+    <dc:creator>Europeana Data Services Team</dc:creator>
+    <edm:type>IMAGE</edm:type>
+  </edm:ProvidedCHO>
+  <ore:Aggregation rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_IMAGE_T1.xml#Aggregation">
+    <edm:rights rdf:resource="http://rightsstatements.org/vocab/InC/1.0/"/>
+    <edm:aggregatedCHO rdf:resource="https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_IMAGE_T1"/>
+    <edm:isShownBy rdf:resource="https://sammlung.mak.at/img/1200x1200/publikationsbilder/ki-18709-67-2_1.jpg"/>
+    <edm:provider>Europeana Foundation</edm:provider>
+    <edm:dataProvider>Europeana Foundation</edm:dataProvider>
+  </ore:Aggregation>
+  <edm:Agent rdf:about="https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_IMAGE_T1-agent-2"/>
+</rdf:RDF>

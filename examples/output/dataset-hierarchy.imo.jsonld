@@ -1,0 +1,258 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://purl.org/dc/terms/",
+    "edm": "http://www.europeana.eu/schemas/edm/",
+    "imo": "https://example.org/onedata/imo/0.1/",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@graph": [
+        {
+          "@id": "urn:imo:conversion",
+          "@type": "prov:Activity",
+          "prov:used": {
+            "@id": "urn:example:physical-fixtures"
+          },
+          "prov:wasAssociatedWith": {
+            "@id": "urn:imo:poc:0.1"
+          }
+        },
+        {
+          "@id": "urn:imo:record",
+          "@type": "prov:Entity",
+          "imo:canonicalDigest": "858df54530867fdd56f65c15bd5a91d2b9182ac77598187b6e6ff41b58648bf8",
+          "imo:sourceFormat": "composite-example",
+          "prov:wasGeneratedBy": {
+            "@id": "urn:imo:conversion"
+          },
+          "schema:about": {
+            "@id": "https://doi.org/10.82433/imo-demo.001"
+          }
+        }
+      ],
+      "@id": "urn:imo:provenance"
+    },
+    {
+      "@graph": [
+        {
+          "@id": "https://doi.org/10.82433/imo-demo.001",
+          "@type": "schema:Dataset",
+          "dct:abstract": {
+            "@language": "en",
+            "@value": "Hourly PM2.5 and temperature measurements from two urban stations, calibrated and quality flagged."
+          },
+          "dct:contributor": {
+            "@id": "https://doi.org/10.82433/imo-demo.001#agent-contributors-0"
+          },
+          "dct:created": "2026-01-12",
+          "dct:creator": [
+            {
+              "@id": "https://doi.org/10.82433/imo-demo.001#agent-creators-1"
+            },
+            {
+              "@id": "https://doi.org/10.82433/imo-demo.001#agent-creators-0"
+            }
+          ],
+          "dct:hasPart": {
+            "@id": "https://example.org/data/aq-2025/raw/"
+          },
+          "dct:issued": {
+            "@type": "xsd:gYear",
+            "@value": "2026"
+          },
+          "dct:license": {
+            "@id": "https://creativecommons.org/licenses/by/4.0/"
+          },
+          "dct:publisher": {
+            "@id": "https://doi.org/10.82433/imo-demo.001#publisher"
+          },
+          "dct:references": {
+            "@id": "https://example.org/methods/aq-v2"
+          },
+          "dct:rights": {
+            "@id": "https://creativecommons.org/licenses/by/4.0/"
+          },
+          "dct:title": {
+            "@language": "en",
+            "@value": "Urban air quality observations, Kraków, 2025"
+          },
+          "imo:dataciteResourceType": "Quality-controlled sensor observations",
+          "imo:dataciteResourceTypeGeneral": "Dataset",
+          "schema:datePublished": "2026-02-04",
+          "schema:identifier": [
+            {
+              "@id": "_:N5ef94b8713044b7883cb75978ffa1220"
+            },
+            {
+              "@id": "_:Ncaff0ac6580a40dca0a2224182580463"
+            }
+          ],
+          "schema:inLanguage": "en",
+          "schema:version": "1.1"
+        },
+        {
+          "@id": "_:N5ef94b8713044b7883cb75978ffa1220",
+          "@type": "schema:PropertyValue",
+          "schema:propertyID": "Local accession",
+          "schema:value": "observatory:aq:2025"
+        },
+        {
+          "@id": "_:Ncaff0ac6580a40dca0a2224182580463",
+          "@type": "schema:PropertyValue",
+          "schema:propertyID": "DOI",
+          "schema:value": "10.82433/imo-demo.001"
+        },
+        {
+          "@id": "https://doi.org/10.82433/imo-demo.001#agent-creators-0",
+          "@type": "schema:Person",
+          "schema:affiliation": {
+            "@id": "https://doi.org/10.82433/imo-demo.001#agent-creators-0-affiliation-0"
+          },
+          "schema:familyName": "Kowalska",
+          "schema:givenName": "Anna",
+          "schema:identifier": {
+            "@id": "_:N5d0ec464693e4a9498c6ed3dfbea9bb7"
+          },
+          "schema:name": "Kowalska, Anna"
+        },
+        {
+          "@id": "_:N5d0ec464693e4a9498c6ed3dfbea9bb7",
+          "@type": "schema:PropertyValue",
+          "schema:propertyID": "ORCID",
+          "schema:value": "https://orcid.org/0000-0002-1825-0097"
+        },
+        {
+          "@id": "https://example.org/data/aq-2025/raw/stations.csv",
+          "@type": "schema:MediaObject",
+          "dct:created": {
+            "@type": "xsd:date",
+            "@value": "2026-01-12"
+          },
+          "dct:creator": [
+            {
+              "@id": "https://doi.org/10.82433/imo-demo.001#agent-creators-1"
+            },
+            {
+              "@id": "https://doi.org/10.82433/imo-demo.001#agent-creators-0"
+            }
+          ],
+          "dct:identifier": "fixture:raw/stations.csv",
+          "dct:isPartOf": {
+            "@id": "https://example.org/data/aq-2025/raw/"
+          },
+          "dct:license": {
+            "@id": "https://creativecommons.org/licenses/by/4.0/"
+          },
+          "dct:title": "stations.csv",
+          "schema:contentSize": "121 bytes",
+          "schema:encodingFormat": "text/csv",
+          "schema:sha256": "4bf13250773a7b099afd836ae6a7522fb5f23a8faff7d4bcbd61b92fddfa1390"
+        },
+        {
+          "@id": "https://example.org/data/aq-2025/raw/stations.json",
+          "@type": "schema:MediaObject",
+          "dct:created": {
+            "@type": "xsd:date",
+            "@value": "2026-01-12"
+          },
+          "dct:creator": [
+            {
+              "@id": "https://doi.org/10.82433/imo-demo.001#agent-creators-0"
+            },
+            {
+              "@id": "https://doi.org/10.82433/imo-demo.001#agent-creators-1"
+            }
+          ],
+          "dct:identifier": "fixture:raw/stations.json",
+          "dct:isPartOf": {
+            "@id": "https://example.org/data/aq-2025/raw/"
+          },
+          "dct:license": {
+            "@id": "https://creativecommons.org/licenses/by/4.0/"
+          },
+          "dct:title": "stations.json",
+          "schema:contentSize": "150 bytes",
+          "schema:encodingFormat": "application/json",
+          "schema:sha256": "3a7c82891d7b89b07b7ecb06e9f586cdebce230527b65414cd4958d5f7bc0bc6"
+        },
+        {
+          "@id": "https://doi.org/10.82433/imo-demo.001#agent-creators-0-affiliation-0",
+          "@type": "schema:Organization",
+          "schema:name": "Example Environmental Observatory"
+        },
+        {
+          "@id": "https://doi.org/10.82433/imo-demo.001#agent-contributors-0",
+          "@type": "schema:Person",
+          "schema:name": "Nowak, Piotr"
+        },
+        {
+          "@id": "https://creativecommons.org/licenses/by/4.0/",
+          "@type": [
+            "dct:LicenseDocument",
+            "dct:RightsStatement"
+          ],
+          "http://www.w3.org/2000/01/rdf-schema#label": "Creative Commons Attribution 4.0 International"
+        },
+        {
+          "@id": "https://doi.org/10.82433/imo-demo.001#publisher",
+          "@type": "schema:Organization",
+          "schema:name": "Example Environmental Observatory"
+        },
+        {
+          "@id": "https://doi.org/10.82433/imo-demo.001#agent-creators-1",
+          "@type": "schema:Organization",
+          "schema:name": "Example Environmental Observatory"
+        },
+        {
+          "@id": "https://example.org/data/aq-2025/raw/",
+          "@type": [
+            "schema:Dataset",
+            "prov:Collection",
+            "imo:Directory"
+          ],
+          "dct:creator": [
+            {
+              "@id": "https://doi.org/10.82433/imo-demo.001#agent-creators-1"
+            },
+            {
+              "@id": "https://doi.org/10.82433/imo-demo.001#agent-creators-0"
+            }
+          ],
+          "dct:hasPart": [
+            {
+              "@id": "https://example.org/data/aq-2025/raw/stations.json"
+            },
+            {
+              "@id": "https://example.org/data/aq-2025/raw/stations.csv"
+            }
+          ],
+          "dct:isPartOf": {
+            "@id": "https://doi.org/10.82433/imo-demo.001"
+          },
+          "dct:license": {
+            "@id": "https://creativecommons.org/licenses/by/4.0/"
+          },
+          "dct:title": {
+            "@language": "en",
+            "@value": "Raw observations and station metadata"
+          },
+          "prov:hadMember": [
+            {
+              "@id": "https://example.org/data/aq-2025/raw/stations.csv"
+            },
+            {
+              "@id": "https://example.org/data/aq-2025/raw/stations.json"
+            }
+          ]
+        }
+      ],
+      "@id": "urn:imo:canonical"
+    }
+  ]
+}

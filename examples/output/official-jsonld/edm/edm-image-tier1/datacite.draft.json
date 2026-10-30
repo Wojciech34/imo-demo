@@ -1,0 +1,22 @@
+{
+  "titles": [
+    {
+      "title": "TEST RECORD: EPF Content Tier 1 Image Object",
+      "lang": "en"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Europeana Data Services Team"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "This is a sample image record classified as EPF Content Tier 1.",
+      "lang": "en",
+      "descriptionType": "Other"
+    }
+  ],
+  "subjects": [],
+  "language": "deu"
+}

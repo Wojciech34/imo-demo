@@ -1,0 +1,19 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <edm:ProvidedCHO rdf:about="https://doi.org/10.82433/byt7-2g42">
+    <dc:title xml:lang="en">Advances in Chemistry</dc:title>
+    <dc:description xml:lang="en">This chapter reviews selected landmarks occurred in Chemistry basic research in the last 5 years</dc:description>
+    <dc:description xml:lang="es">El capítulo repasa los principales avances en la investigación básica en Ciencias Químicas en los últimos 5 años</dc:description>
+    <dc:description xml:lang="zh">本章回顾了过去5年中在化学基础研究中发生的一些里程碑式的事件</dc:description>
+    <dc:date>2024-01-01</dc:date>
+    <dc:subject xml:lang="en">Chemistry</dc:subject>
+    <dc:subject xml:lang="es">Químicas</dc:subject>
+    <dc:subject xml:lang="zh">化学</dc:subject>
+    <dc:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
+    <dc:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
+    <dc:rights rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode"/>
+    <dc:language>en</dc:language>
+    <dc:creator>Zou, Jing</dc:creator>
+    <dc:creator>DataCite</dc:creator>
+    <dc:publisher>DataCite</dc:publisher>
+  </edm:ProvidedCHO>
+</rdf:RDF>

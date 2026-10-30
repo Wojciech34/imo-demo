@@ -1,0 +1,16 @@
+{
+  "id": "edm",
+  "input": "edm.xml",
+  "source": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml",
+  "format": "edm",
+  "resources": 6,
+  "mode": "roundtrip",
+  "schemaValidated": false,
+  "sourceBackupUsedForExport": false,
+  "warnings": [],
+  "equal": true,
+  "scope": "RDF assertions; XML formatting and prefixes ignored",
+  "preservedTriples": 29,
+  "lostTriples": 0,
+  "addedTriples": 0
+}

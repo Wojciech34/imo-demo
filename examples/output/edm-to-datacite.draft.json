@@ -1,0 +1,56 @@
+{
+  "alternateIdentifiers": [
+    {
+      "alternateIdentifier": "MA-KRK-1890-17",
+      "alternateIdentifierType": "Unqualified identifier"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Municipal survey office"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Jan Przykładowy"
+    }
+  ],
+  "dates": [
+    {
+      "date": "1890",
+      "dateInformation": "Unqualified dcterms:date",
+      "dateType": "Other"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "Survey map showing river channels, streets and monitoring locations; digitized from the archive original.",
+      "descriptionType": "Other",
+      "lang": "en"
+    }
+  ],
+  "language": "pl",
+  "publisher": "Example Municipal Archive",
+  "relatedIdentifiers": [
+    {
+      "relatedIdentifier": "https://example.org/heritage/maps",
+      "relatedIdentifierType": "URL",
+      "relationType": "IsPartOf"
+    }
+  ],
+  "rightsList": [
+    {
+      "rights": "Physical original in the public domain; digital reproduction has separate terms."
+    }
+  ],
+  "titles": [
+    {
+      "lang": "pl",
+      "title": "Plan Krakowa i dorzecza, 1890"
+    },
+    {
+      "lang": "en",
+      "title": "Plan of Kraków and its river basin, 1890"
+    }
+  ]
+}

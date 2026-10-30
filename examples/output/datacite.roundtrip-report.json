@@ -1,0 +1,365 @@
+{
+  "json_residual_keys": [
+    "contributors",
+    "creators",
+    "dates",
+    "descriptions",
+    "formats",
+    "fundingReferences",
+    "relatedIdentifiers",
+    "rightsList",
+    "sizes",
+    "subjects",
+    "titles"
+  ],
+  "preservation_note": "JSON residuals are structured source backups, not semantic mappings; no raw bytes retained",
+  "semantic_projection": {
+    "byte_equal": false,
+    "differences": [
+      {
+        "original": "DataCurator",
+        "path": "/contributors/0/contributorType",
+        "status": "lost"
+      },
+      {
+        "original": "https://example.org/observatory",
+        "path": "/creators/0/affiliation/0/affiliationIdentifier",
+        "status": "lost"
+      },
+      {
+        "original": "URL",
+        "path": "/creators/0/affiliation/0/affiliationIdentifierScheme",
+        "status": "lost"
+      },
+      {
+        "original": "https://orcid.org",
+        "path": "/creators/0/nameIdentifiers/0/schemeUri",
+        "status": "lost"
+      },
+      {
+        "original": "2025-01-01/2025-12-31",
+        "path": "/dates/0/date",
+        "reconstructed": "2026-01-12",
+        "status": "transformed"
+      },
+      {
+        "original": "Hourly observations",
+        "path": "/dates/0/dateInformation",
+        "status": "lost"
+      },
+      {
+        "original": "Collected",
+        "path": "/dates/0/dateType",
+        "reconstructed": "Created",
+        "status": "transformed"
+      },
+      {
+        "original": {
+          "date": "2026-01-12",
+          "dateType": "Created"
+        },
+        "path": "/dates/2",
+        "status": "lost"
+      },
+      {
+        "original": {
+          "description": "Sensors were co-located with a reference monitor before deployment.",
+          "descriptionType": "Methods",
+          "lang": "en"
+        },
+        "path": "/descriptions/1",
+        "status": "lost"
+      },
+      {
+        "original": [
+          "text/csv",
+          "application/json"
+        ],
+        "path": "/formats",
+        "status": "lost"
+      },
+      {
+        "original": [
+          {
+            "awardNumber": "AIR-2025-01",
+            "awardTitle": "Urban observation pilot",
+            "funderName": "Example Research Council"
+          }
+        ],
+        "path": "/fundingReferences",
+        "status": "lost"
+      },
+      {
+        "original": "https://example.org/methods/aq-v2",
+        "path": "/relatedIdentifiers/0/relatedIdentifier",
+        "reconstructed": "https://example.org/data/aq-2025/raw/",
+        "status": "transformed"
+      },
+      {
+        "original": "References",
+        "path": "/relatedIdentifiers/0/relationType",
+        "reconstructed": "HasPart",
+        "status": "transformed"
+      },
+      {
+        "original": "Text",
+        "path": "/relatedIdentifiers/0/resourceTypeGeneral",
+        "status": "lost"
+      },
+      {
+        "original": "https://example.org/data/aq-2025/raw/",
+        "path": "/relatedIdentifiers/1/relatedIdentifier",
+        "reconstructed": "https://example.org/methods/aq-v2",
+        "status": "transformed"
+      },
+      {
+        "original": "HasPart",
+        "path": "/relatedIdentifiers/1/relationType",
+        "reconstructed": "References",
+        "status": "transformed"
+      },
+      {
+        "original": "cc-by-4.0",
+        "path": "/rightsList/0/rightsIdentifier",
+        "status": "lost"
+      },
+      {
+        "original": "SPDX",
+        "path": "/rightsList/0/rightsIdentifierScheme",
+        "status": "lost"
+      },
+      {
+        "original": "https://spdx.org/licenses/",
+        "path": "/rightsList/0/schemeUri",
+        "status": "lost"
+      },
+      {
+        "original": [
+          "2 files"
+        ],
+        "path": "/sizes",
+        "status": "lost"
+      },
+      {
+        "original": [
+          {
+            "subject": "Atmospheric pollutants",
+            "subjectScheme": "Example controlled vocabulary",
+            "valueUri": "https://example.org/concepts/air-quality"
+          }
+        ],
+        "path": "/subjects",
+        "status": "lost"
+      },
+      {
+        "original": {
+          "lang": "pl",
+          "title": "Obserwacje jakości powietrza",
+          "titleType": "TranslatedTitle"
+        },
+        "path": "/titles/1",
+        "status": "lost"
+      }
+    ],
+    "properties": [
+      {
+        "property": "doi",
+        "status": "preserved"
+      },
+      {
+        "property": "creators",
+        "status": "transformed"
+      },
+      {
+        "property": "titles",
+        "status": "transformed"
+      },
+      {
+        "property": "publisher",
+        "status": "preserved"
+      },
+      {
+        "property": "publicationYear",
+        "status": "preserved"
+      },
+      {
+        "property": "types",
+        "status": "preserved"
+      },
+      {
+        "property": "subjects",
+        "status": "lost"
+      },
+      {
+        "property": "contributors",
+        "status": "transformed"
+      },
+      {
+        "property": "dates",
+        "status": "transformed"
+      },
+      {
+        "property": "language",
+        "status": "preserved"
+      },
+      {
+        "property": "alternateIdentifiers",
+        "status": "preserved"
+      },
+      {
+        "property": "relatedIdentifiers",
+        "status": "transformed"
+      },
+      {
+        "property": "sizes",
+        "status": "lost"
+      },
+      {
+        "property": "formats",
+        "status": "lost"
+      },
+      {
+        "property": "version",
+        "status": "preserved"
+      },
+      {
+        "property": "rightsList",
+        "status": "transformed"
+      },
+      {
+        "property": "descriptions",
+        "status": "transformed"
+      },
+      {
+        "property": "fundingReferences",
+        "status": "lost"
+      }
+    ],
+    "rdf_equivalence": "not defined for source DataCite JSON without an agreed RDF mapping",
+    "structural_equal": false
+  },
+  "supported_subset": {
+    "input": {
+      "creators": [
+        {
+          "name": "Example Institute",
+          "nameType": "Organizational"
+        }
+      ],
+      "doi": "10.82433/imo-demo.subset",
+      "publicationYear": 2026,
+      "publisher": "Example Institute",
+      "titles": [
+        {
+          "lang": "en",
+          "title": "Minimal supported mapping"
+        }
+      ],
+      "types": {
+        "resourceTypeGeneral": "Dataset"
+      }
+    },
+    "output": {
+      "creators": [
+        {
+          "name": "Example Institute",
+          "nameType": "Organizational"
+        }
+      ],
+      "doi": "10.82433/imo-demo.subset",
+      "publicationYear": 2026,
+      "publisher": "Example Institute",
+      "titles": [
+        {
+          "lang": "en",
+          "title": "Minimal supported mapping"
+        }
+      ],
+      "types": {
+        "resourceTypeGeneral": "Dataset"
+      }
+    },
+    "residual_count": 0,
+    "structural_equal": true
+  },
+  "with_json_residuals": {
+    "byte_equal": false,
+    "differences": [],
+    "properties": [
+      {
+        "property": "doi",
+        "status": "preserved"
+      },
+      {
+        "property": "creators",
+        "status": "preserved"
+      },
+      {
+        "property": "titles",
+        "status": "preserved"
+      },
+      {
+        "property": "publisher",
+        "status": "preserved"
+      },
+      {
+        "property": "publicationYear",
+        "status": "preserved"
+      },
+      {
+        "property": "types",
+        "status": "preserved"
+      },
+      {
+        "property": "subjects",
+        "status": "preserved"
+      },
+      {
+        "property": "contributors",
+        "status": "preserved"
+      },
+      {
+        "property": "dates",
+        "status": "preserved"
+      },
+      {
+        "property": "language",
+        "status": "preserved"
+      },
+      {
+        "property": "alternateIdentifiers",
+        "status": "preserved"
+      },
+      {
+        "property": "relatedIdentifiers",
+        "status": "preserved"
+      },
+      {
+        "property": "sizes",
+        "status": "preserved"
+      },
+      {
+        "property": "formats",
+        "status": "preserved"
+      },
+      {
+        "property": "version",
+        "status": "preserved"
+      },
+      {
+        "property": "rightsList",
+        "status": "preserved"
+      },
+      {
+        "property": "descriptions",
+        "status": "preserved"
+      },
+      {
+        "property": "fundingReferences",
+        "status": "preserved"
+      }
+    ],
+    "rdf_equivalence": "not defined for source DataCite JSON without an agreed RDF mapping",
+    "structural_equal": true
+  }
+}

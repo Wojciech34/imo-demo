@@ -1,0 +1,196 @@
+{
+  "id": "edm",
+  "input": "edm.xml",
+  "source": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml",
+  "format": "edm",
+  "resources": 6,
+  "outputs": {
+    "jsonld": "edm/edm/imo.jsonld",
+    "datacite": "edm/edm/datacite.draft.json",
+    "edm": "edm/edm/edm.projected.xml",
+    "report": "edm/edm/report.json"
+  },
+  "jsonldRoundtripEqual": true,
+  "missingDataCiteFields": [
+    "doi",
+    "creators",
+    "publisher",
+    "publicationYear",
+    "types"
+  ],
+  "schemaValidated": false,
+  "sourceBackupUsedForExport": false,
+  "warnings": [],
+  "rdfComparison": {
+    "status": "not_requested"
+  },
+  "mapping": [
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+      "property": "http://purl.org/dc/elements/1.1/identifier",
+      "occurrence": 0,
+      "status": "mapped",
+      "target": "identifiers"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+      "property": "http://purl.org/dc/elements/1.1/coverage",
+      "occurrence": 1,
+      "status": "mapped",
+      "target": "coverage"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+      "property": "http://purl.org/dc/elements/1.1/date",
+      "occurrence": 2,
+      "status": "mapped",
+      "target": "dates"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+      "property": "http://purl.org/dc/elements/1.1/description",
+      "occurrence": 3,
+      "status": "mapped",
+      "target": "descriptions"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+      "property": "http://purl.org/dc/elements/1.1/title",
+      "occurrence": 4,
+      "status": "mapped",
+      "target": "titles"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+      "property": "http://purl.org/dc/elements/1.1/title",
+      "occurrence": 5,
+      "status": "mapped",
+      "target": "titles"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+      "property": "http://purl.org/dc/elements/1.1/type",
+      "occurrence": 6,
+      "status": "mapped",
+      "target": "resourceTypes"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+      "property": "http://purl.org/dc/elements/1.1/type",
+      "occurrence": 7,
+      "status": "mapped",
+      "target": "resourceTypes"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml#ULEI:M0003309",
+      "property": "http://www.europeana.eu/schemas/edm/type",
+      "occurrence": 8,
+      "status": "mapped",
+      "target": "edmType"
+    },
+    {
+      "resource": "http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg",
+      "property": "http://purl.org/dc/elements/1.1/rights",
+      "occurrence": 0,
+      "status": "mapped",
+      "target": "rights"
+    },
+    {
+      "resource": "http://www.mimo-db.eu/media/ULEI/IMAGE/3718.jpg",
+      "property": "http://www.europeana.eu/schemas/edm/rights",
+      "occurrence": 1,
+      "status": "mapped",
+      "target": "digitalRights"
+    },
+    {
+      "resource": "http://sws.geonames.org/6255147/",
+      "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "occurrence": 0,
+      "status": "mapped",
+      "target": "labels"
+    },
+    {
+      "resource": "http://sws.geonames.org/6255147/",
+      "property": "http://www.w3.org/2004/02/skos/core#altLabel",
+      "occurrence": 1,
+      "status": "mapped",
+      "target": "alternativeLabels"
+    },
+    {
+      "resource": "http://www.mimo-db.eu/InstrumentsKeywords/2887",
+      "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "occurrence": 0,
+      "status": "mapped",
+      "target": "labels"
+    },
+    {
+      "resource": "http://www.mimo-db.eu/HornbostelAndSachs/98",
+      "property": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "occurrence": 0,
+      "status": "mapped",
+      "target": "labels"
+    },
+    {
+      "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+      "property": "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "occurrence": 0,
+      "status": "mapped",
+      "target": "aggregatedCHO"
+    },
+    {
+      "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+      "property": "http://www.europeana.eu/schemas/edm/dataProvider",
+      "occurrence": 1,
+      "status": "mapped",
+      "target": "dataProvider"
+    },
+    {
+      "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+      "property": "http://www.europeana.eu/schemas/edm/hasView",
+      "occurrence": 2,
+      "status": "mapped",
+      "target": "hasView"
+    },
+    {
+      "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+      "property": "http://www.europeana.eu/schemas/edm/isShownAt",
+      "occurrence": 3,
+      "status": "mapped",
+      "target": "isShownAt"
+    },
+    {
+      "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+      "property": "http://www.europeana.eu/schemas/edm/isShownBy",
+      "occurrence": 4,
+      "status": "mapped",
+      "target": "isShownBy"
+    },
+    {
+      "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+      "property": "http://www.europeana.eu/schemas/edm/object",
+      "occurrence": 5,
+      "status": "mapped",
+      "target": "preview"
+    },
+    {
+      "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+      "property": "http://www.europeana.eu/schemas/edm/provider",
+      "occurrence": 6,
+      "status": "mapped",
+      "target": "provider"
+    },
+    {
+      "resource": "http://www.mimo-db.eu/ULEI/M0003309",
+      "property": "http://www.europeana.eu/schemas/edm/rights",
+      "occurrence": 7,
+      "status": "mapped",
+      "target": "digitalRights"
+    }
+  ],
+  "edmResourceRoundtripEqual": true,
+  "crossConversionNotes": [
+    "Only the ProvidedCHO is projected to DataCite; image and aggregation metadata are excluded.",
+    "Digital edm:rights is not assigned as the physical object's licence.",
+    "No DOI, creator, publisher, publication year or Dataset type is invented."
+  ]
+}

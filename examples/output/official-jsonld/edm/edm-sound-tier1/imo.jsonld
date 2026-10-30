@@ -1,0 +1,352 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "imo": "https://example.org/onedata/imo/0.1/",
+    "edm": "http://www.europeana.eu/schemas/edm/",
+    "ore": "http://www.openarchives.org/ore/terms/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "Dataset": "schema:Dataset",
+    "Collection": "schema:Collection",
+    "Directory": "imo:Directory",
+    "File": "schema:MediaObject",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+    "CreativeWork": "schema:CreativeWork",
+    "root": {
+      "@id": "schema:about",
+      "@type": "@id"
+    },
+    "modelVersion": "imo:modelVersion",
+    "titles": {
+      "@id": "dct:title",
+      "@container": "@set"
+    },
+    "name": "schema:name",
+    "identifiers": {
+      "@id": "dct:identifier",
+      "@container": "@set"
+    },
+    "creators": {
+      "@id": "dct:creator",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "mediaType": "schema:encodingFormat",
+    "sizeBytes": "imo:sizeBytes",
+    "sha256": "schema:sha256",
+    "provenance": {
+      "@id": "imo:provenance",
+      "@type": "@json"
+    },
+    "source": {
+      "@id": "imo:sourceBackup",
+      "@type": "@json"
+    },
+    "ProvidedCHO": "edm:ProvidedCHO",
+    "WebResource": "edm:WebResource",
+    "Aggregation": "ore:Aggregation",
+    "Place": "edm:Place",
+    "Concept": "skos:Concept",
+    "Agent": "edm:Agent",
+    "descriptions": {
+      "@id": "dct:description",
+      "@container": "@set"
+    },
+    "abstracts": {
+      "@id": "dct:abstract",
+      "@container": "@set"
+    },
+    "dates": {
+      "@id": "dct:date",
+      "@container": "@set"
+    },
+    "subjects": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "rights": {
+      "@id": "dct:rights",
+      "@container": "@set"
+    },
+    "coverage": {
+      "@id": "dct:coverage",
+      "@container": "@set"
+    },
+    "resourceTypes": {
+      "@id": "dct:type",
+      "@container": "@set"
+    },
+    "labels": {
+      "@id": "skos:prefLabel",
+      "@container": "@set"
+    },
+    "alternativeLabels": {
+      "@id": "skos:altLabel",
+      "@container": "@set"
+    },
+    "digitalRights": {
+      "@id": "edm:rights",
+      "@container": "@set"
+    },
+    "publishers": {
+      "@id": "dct:publisher",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sourceResources": {
+      "@id": "dct:source",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "aggregatedCHO": {
+      "@id": "edm:aggregatedCHO",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isShownAt": {
+      "@id": "edm:isShownAt",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isShownBy": {
+      "@id": "edm:isShownBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasView": {
+      "@id": "edm:hasView",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "preview": {
+      "@id": "edm:object",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "doi": "imo:doi",
+    "resourceTypeGeneral": "imo:dataciteResourceTypeGeneral",
+    "resourceType": "imo:dataciteResourceType",
+    "language": "schema:inLanguage",
+    "version": "schema:version",
+    "edmType": "edm:type",
+    "provider": "edm:provider",
+    "dataProvider": "edm:dataProvider",
+    "givenName": "schema:givenName",
+    "familyName": "schema:familyName",
+    "publicationYear": {
+      "@id": "dct:issued",
+      "@type": "xsd:gYear"
+    }
+  },
+  "@id": "urn:imo:record",
+  "@type": "imo:Record",
+  "modelVersion": "1.0",
+  "root": {
+    "@id": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1"
+  },
+  "@graph": [
+    {
+      "@id": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+      "@type": "ProvidedCHO",
+      "titles": [
+        {
+          "@value": "TEST RECORD: EPF Content Tier 1 Sound Object",
+          "@language": "en"
+        }
+      ],
+      "descriptions": [
+        {
+          "@value": "This is a sample sound record classified as EPF Content Tier 1. Only a edm:isShownAt is available and no direct link to the audio resource.",
+          "@language": "en"
+        }
+      ],
+      "creators": [
+        {
+          "@id": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1-agent-2"
+        }
+      ],
+      "resourceTypes": [
+        {
+          "@id": "http://vocab.getty.edu/aat/300026657"
+        }
+      ],
+      "subjects": [
+        {
+          "@value": "European Culture and politics"
+        }
+      ],
+      "edmType": "SOUND",
+      "language": "de"
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml#Aggregation",
+      "@type": "Aggregation",
+      "aggregatedCHO": [
+        {
+          "@id": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1"
+        }
+      ],
+      "isShownAt": [
+        {
+          "@id": "https://soundcloud.com/beeldengeluid/rede-gerbrand-aen5565825h"
+        }
+      ],
+      "dataProvider": "Europeana Foundation",
+      "provider": "Europeana Foundation",
+      "digitalRights": [
+        {
+          "@id": "http://rightsstatements.org/vocab/InC/1.0/"
+        }
+      ]
+    },
+    {
+      "@id": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1-agent-2",
+      "@type": "Agent",
+      "name": "Europeana Data Services Team"
+    }
+  ],
+  "provenance": {
+    "sourceFormat": "edm",
+    "source": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml",
+    "mapping": [
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+        "property": "http://purl.org/dc/elements/1.1/title",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "titles"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+        "property": "http://purl.org/dc/elements/1.1/description",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "descriptions"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+        "property": "http://purl.org/dc/elements/1.1/creator",
+        "occurrence": 2,
+        "status": "mapped",
+        "target": "creators",
+        "reason": "Literal name represented by a record-scoped agent"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+        "property": "http://purl.org/dc/terms/isPartOf",
+        "occurrence": 3,
+        "status": "unmapped",
+        "target": "isPartOf",
+        "reason": "Relation requires a resource reference"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+        "property": "http://purl.org/dc/terms/conformsTo",
+        "occurrence": 4,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+        "property": "http://purl.org/dc/elements/1.1/type",
+        "occurrence": 5,
+        "status": "mapped",
+        "target": "resourceTypes"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+        "property": "http://purl.org/dc/elements/1.1/format",
+        "occurrence": 6,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+        "property": "http://purl.org/dc/elements/1.1/subject",
+        "occurrence": 7,
+        "status": "mapped",
+        "target": "subjects"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+        "property": "http://www.europeana.eu/schemas/edm/type",
+        "occurrence": 8,
+        "status": "mapped",
+        "target": "edmType"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+        "property": "http://purl.org/dc/elements/1.1/language",
+        "occurrence": 9,
+        "status": "mapped",
+        "target": "language"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+        "property": "http://purl.org/dc/terms/created",
+        "occurrence": 10,
+        "status": "unmapped",
+        "target": null,
+        "reason": "Unsupported property/datatype; retained in XML backup"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml#Aggregation",
+        "property": "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+        "occurrence": 0,
+        "status": "mapped",
+        "target": "aggregatedCHO"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml#Aggregation",
+        "property": "http://www.europeana.eu/schemas/edm/isShownAt",
+        "occurrence": 1,
+        "status": "mapped",
+        "target": "isShownAt"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml#Aggregation",
+        "property": "http://www.europeana.eu/schemas/edm/dataProvider",
+        "occurrence": 2,
+        "status": "mapped",
+        "target": "dataProvider"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml#Aggregation",
+        "property": "http://www.europeana.eu/schemas/edm/provider",
+        "occurrence": 3,
+        "status": "mapped",
+        "target": "provider"
+      },
+      {
+        "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml#Aggregation",
+        "property": "http://www.europeana.eu/schemas/edm/rights",
+        "occurrence": 4,
+        "status": "mapped",
+        "target": "digitalRights"
+      }
+    ]
+  },
+  "source": {
+    "format": "edm",
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rdf:RDF\n    xmlns:dc=\"http://purl.org/dc/elements/1.1/\" \n    xmlns:dcterms=\"http://purl.org/dc/terms/\" \n    xmlns:edm=\"http://www.europeana.eu/schemas/edm/\" \n    xmlns:odrl=\"http://www.w3.org/ns/odrl/2/\" \n    xmlns:ore=\"http://www.openarchives.org/ore/terms/\" \n    xmlns:rdaGr2=\"http://rdvocab.info/ElementsGr2/\" \n    xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" \n    xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\" \n    xmlns:skos=\"http://www.w3.org/2004/02/skos/core#\" \n    xmlns:svcs=\"http://rdfs.org/sioc/services#\" \n    xmlns:wgs84=\"http://www.w3.org/2003/01/geo/wgs84_pos#\" \n    >\n\n    <edm:ProvidedCHO rdf:about=\"TEST_EPF_CONTENT_SOUND_T1\">\n        <dc:title xml:lang=\"en\">TEST RECORD: EPF Content Tier 1 Sound Object</dc:title>\n        <dc:description xml:lang=\"en\">This is a sample sound record classified as EPF Content Tier 1. Only a edm:isShownAt is available and no direct link to the audio resource.</dc:description>\n        <dc:creator xml:lang=\"en\">Europeana Data Services Team</dc:creator>\n        <dcterms:isPartOf xml:lang=\"en\">Example Dataset</dcterms:isPartOf>\n        <dcterms:conformsTo xml:lang=\"en\">Supported</dcterms:conformsTo>\n        <dc:type rdf:resource=\"http://vocab.getty.edu/aat/300026657\"/>\n        <dc:format rdf:resource=\"http://vocab.getty.edu/aat/300200529\"/>\n        <dc:subject>European Culture and politics</dc:subject>\n        <edm:type>SOUND</edm:type>\n        <dc:language>de</dc:language>\n        <dcterms:created>1951</dcterms:created>\n    </edm:ProvidedCHO>\n\n    <ore:Aggregation rdf:about=\"#Aggregation\">\n        <edm:aggregatedCHO rdf:resource=\"TEST_EPF_CONTENT_SOUND_T1\"/>\n        <edm:isShownAt rdf:resource=\"https://soundcloud.com/beeldengeluid/rede-gerbrand-aen5565825h\"/>\n        <edm:dataProvider>Europeana Foundation</edm:dataProvider>\n        <edm:provider>Europeana Foundation</edm:provider>\n        <edm:rights rdf:resource=\"http://rightsstatements.org/vocab/InC/1.0/\"/>\n    </ore:Aggregation>\n\n</rdf:RDF>\n"
+  }
+}

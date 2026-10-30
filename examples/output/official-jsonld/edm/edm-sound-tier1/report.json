@@ -1,0 +1,151 @@
+{
+  "id": "edm-sound-tier1",
+  "input": "edm-sound-tier1.xml",
+  "source": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml",
+  "format": "edm",
+  "resources": 3,
+  "outputs": {
+    "jsonld": "edm/edm-sound-tier1/imo.jsonld",
+    "datacite": "edm/edm-sound-tier1/datacite.draft.json",
+    "edm": "edm/edm-sound-tier1/edm.projected.xml",
+    "report": "edm/edm-sound-tier1/report.json"
+  },
+  "jsonldRoundtripEqual": true,
+  "missingDataCiteFields": [
+    "doi",
+    "publisher",
+    "publicationYear",
+    "types"
+  ],
+  "schemaValidated": false,
+  "sourceBackupUsedForExport": false,
+  "warnings": [],
+  "rdfComparison": {
+    "status": "not_requested"
+  },
+  "mapping": [
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+      "property": "http://purl.org/dc/elements/1.1/title",
+      "occurrence": 0,
+      "status": "mapped",
+      "target": "titles"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+      "property": "http://purl.org/dc/elements/1.1/description",
+      "occurrence": 1,
+      "status": "mapped",
+      "target": "descriptions"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+      "property": "http://purl.org/dc/elements/1.1/creator",
+      "occurrence": 2,
+      "status": "mapped",
+      "target": "creators",
+      "reason": "Literal name represented by a record-scoped agent"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+      "property": "http://purl.org/dc/terms/isPartOf",
+      "occurrence": 3,
+      "status": "unmapped",
+      "target": "isPartOf",
+      "reason": "Relation requires a resource reference"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+      "property": "http://purl.org/dc/terms/conformsTo",
+      "occurrence": 4,
+      "status": "unmapped",
+      "target": null,
+      "reason": "Unsupported property/datatype; retained in XML backup"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+      "property": "http://purl.org/dc/elements/1.1/type",
+      "occurrence": 5,
+      "status": "mapped",
+      "target": "resourceTypes"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+      "property": "http://purl.org/dc/elements/1.1/format",
+      "occurrence": 6,
+      "status": "unmapped",
+      "target": null,
+      "reason": "Unsupported property/datatype; retained in XML backup"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+      "property": "http://purl.org/dc/elements/1.1/subject",
+      "occurrence": 7,
+      "status": "mapped",
+      "target": "subjects"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+      "property": "http://www.europeana.eu/schemas/edm/type",
+      "occurrence": 8,
+      "status": "mapped",
+      "target": "edmType"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+      "property": "http://purl.org/dc/elements/1.1/language",
+      "occurrence": 9,
+      "status": "mapped",
+      "target": "language"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1",
+      "property": "http://purl.org/dc/terms/created",
+      "occurrence": 10,
+      "status": "unmapped",
+      "target": null,
+      "reason": "Unsupported property/datatype; retained in XML backup"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml#Aggregation",
+      "property": "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "occurrence": 0,
+      "status": "mapped",
+      "target": "aggregatedCHO"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml#Aggregation",
+      "property": "http://www.europeana.eu/schemas/edm/isShownAt",
+      "occurrence": 1,
+      "status": "mapped",
+      "target": "isShownAt"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml#Aggregation",
+      "property": "http://www.europeana.eu/schemas/edm/dataProvider",
+      "occurrence": 2,
+      "status": "mapped",
+      "target": "dataProvider"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml#Aggregation",
+      "property": "http://www.europeana.eu/schemas/edm/provider",
+      "occurrence": 3,
+      "status": "mapped",
+      "target": "provider"
+    },
+    {
+      "resource": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml#Aggregation",
+      "property": "http://www.europeana.eu/schemas/edm/rights",
+      "occurrence": 4,
+      "status": "mapped",
+      "target": "digitalRights"
+    }
+  ],
+  "edmResourceRoundtripEqual": false,
+  "crossConversionNotes": [
+    "Only the ProvidedCHO is projected to DataCite; image and aggregation metadata are excluded.",
+    "Digital edm:rights is not assigned as the physical object's licence.",
+    "No DOI, creator, publisher, publication year or Dataset type is invented."
+  ]
+}

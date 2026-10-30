@@ -1,0 +1,105 @@
+{
+  "retrievedAt": "2026-10-29T12:16:51.125123+00:00",
+  "sources": [
+    {
+      "file": "datacite-full.json",
+      "url": "https://api.test.datacite.org/dois/10.82433/B09Z-4K37?affiliation=true&publisher=true",
+      "sha256": "6236a96baf024b24840e073c9def85949478bb9a44b14622cb8192f7c51d008e",
+      "documentation": "https://schema.datacite.org/meta/kernel-4.6/",
+      "id": "datacite-full",
+      "format": "datacite",
+      "retrievedAt": "2026-10-29T12:16:51.125123+00:00",
+      "description": "Full DataCite metadata example"
+    },
+    {
+      "file": "datacite-dataset.json",
+      "url": "https://api.test.datacite.org/dois/10.82433/9184-DY35?affiliation=true&publisher=true",
+      "sha256": "0510b30469065e7c8bb13bcb0b203e129c2390d56e686ac7f978b59de61c79fb",
+      "documentation": "https://schema.datacite.org/meta/kernel-4.6/",
+      "id": "datacite-dataset",
+      "format": "datacite",
+      "retrievedAt": "2026-10-29T12:16:51.125123+00:00",
+      "description": "Dataset example: environmental observations"
+    },
+    {
+      "file": "edm.xml",
+      "url": "https://raw.githubusercontent.com/europeana/contrib/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml",
+      "sha256": "b756949200dbf065fa89d6310982786c653c52a8a26acbc435c56c56550434af",
+      "documentation": "https://github.com/europeana/contrib/blob/master/ntua/mint2/src/main/webapp/schemas/edm/EDM.xml",
+      "id": "edm",
+      "format": "edm",
+      "retrievedAt": "2026-10-29T12:16:51.125123+00:00",
+      "description": "Historical First Implementation sample: musical instrument"
+    },
+    {
+      "id": "datacite-award",
+      "file": "datacite-award.json",
+      "format": "datacite",
+      "url": "https://api.test.datacite.org/dois/10.82433/p1zt-4c67?affiliation=true&publisher=true",
+      "sha256": "cfadd2f157d2081ab4091b4045e9d7d23e256216fc2e5ba51aa3a4af9f7ffe0d",
+      "retrievedAt": "2026-10-29T14:41:15.137764+00:00",
+      "description": "Award / grant with an incomplete creator identifier",
+      "documentation": "https://schema.datacite.org/meta/kernel-4.6/"
+    },
+    {
+      "id": "datacite-project",
+      "file": "datacite-project.json",
+      "format": "datacite",
+      "url": "https://api.test.datacite.org/dois/10.82433/84dj-am41?affiliation=true&publisher=true",
+      "sha256": "0f3135dcd458d2710940f9cf99bd200594328b72d06c4ecf1059fcad9e5c91ca",
+      "retrievedAt": "2026-10-29T14:41:15.137764+00:00",
+      "description": "Project and project contributors",
+      "documentation": "https://schema.datacite.org/meta/kernel-4.6/"
+    },
+    {
+      "id": "datacite-multilingual",
+      "file": "datacite-multilingual.json",
+      "format": "datacite",
+      "url": "https://api.test.datacite.org/dois/10.82433/byt7-2g42?affiliation=true&publisher=true",
+      "sha256": "5d80b4c74eb8d3042655a194729241f55f4ef3122a333677a86d5594d68cbac2",
+      "retrievedAt": "2026-10-29T14:41:15.137764+00:00",
+      "description": "Multilingual metadata",
+      "documentation": "https://schema.datacite.org/meta/kernel-4.6/"
+    },
+    {
+      "id": "datacite-related-item",
+      "file": "datacite-related-item.json",
+      "format": "datacite",
+      "url": "https://api.test.datacite.org/dois/10.82433/q54d-pf76?affiliation=true&publisher=true",
+      "sha256": "be849c533a8e6567549d730b2b5693631677565a64f8b06cdff7f1fb0152f470",
+      "retrievedAt": "2026-10-29T14:41:15.137764+00:00",
+      "description": "Journal article with a RelatedItem describing its journal",
+      "documentation": "https://schema.datacite.org/meta/kernel-4.6/"
+    },
+    {
+      "id": "edm-image-tier1",
+      "file": "edm-image-tier1.xml",
+      "format": "edm",
+      "url": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_IMAGE_T1.xml",
+      "sha256": "60dd282537e1fba845eca8e4d2cd6c6c961cc2474c9f39758ddb76a204860634",
+      "retrievedAt": "2026-10-29T14:41:15.137764+00:00",
+      "description": "EPF Content Tier 1 image test record",
+      "documentation": "https://github.com/europeana/test_dataset"
+    },
+    {
+      "id": "edm-sound-tier1",
+      "file": "edm-sound-tier1.xml",
+      "format": "edm",
+      "url": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/EPF/TEST_EPF_CONTENT_SOUND_T1.xml",
+      "sha256": "328bc6d2730b5d9946e3a666bffba73953fc59033e5a98f178ff64b272f3249b",
+      "retrievedAt": "2026-10-29T14:41:15.137764+00:00",
+      "description": "EPF Content Tier 1 sound test record",
+      "documentation": "https://github.com/europeana/test_dataset"
+    },
+    {
+      "id": "edm-3d-complete",
+      "file": "edm-3d-complete.xml",
+      "format": "edm",
+      "url": "https://raw.githubusercontent.com/europeana/test_dataset/b939d3cf0c99fb445b6cf80a78e80cb3a8d69279/records/3D/TEST_3D_COMPLETE.xml",
+      "sha256": "64e97779d0df47b39ece131374ea9378066afde0cc93b030e8bcac0d7c31be2f",
+      "retrievedAt": "2026-10-29T14:41:15.137764+00:00",
+      "description": "Complete 3D test record, including WebResources and services",
+      "documentation": "https://github.com/europeana/test_dataset"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:ore="http://www.openarchives.org/ore/terms/" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <edm:ProvidedCHO rdf:about="https://doi.org/10.82433/q54d-pf76">
+    <dc:title xml:lang="en">Example Article Title</dc:title>
+    <dc:date>2022</dc:date>
+    <dc:creator>Garcia, Sofia</dc:creator>
+    <dc:publisher>Example Publisher</dc:publisher>
+  </edm:ProvidedCHO>
+</rdf:RDF>

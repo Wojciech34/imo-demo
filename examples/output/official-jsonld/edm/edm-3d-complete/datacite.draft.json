@@ -1,0 +1,21 @@
+{
+  "titles": [
+    {
+      "title": "TEST RECORD: Complete version of a 3D object",
+      "lang": "en"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Europeana Data Services Team"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "This is a sample record for a 3D object, presented through 2 complementary embeddable views of the same object. Varios 3D models are made available for download for both views of the object accompained by Paradata. It also contains information about the intended use and source of the model.",
+      "lang": "en",
+      "descriptionType": "Other"
+    }
+  ],
+  "subjects": []
+}

@@ -1,0 +1,26 @@
+{
+  "titles": [
+    {
+      "title": "TEST RECORD: EPF Content Tier 1 Sound Object",
+      "lang": "en"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Europeana Data Services Team"
+    }
+  ],
+  "descriptions": [
+    {
+      "description": "This is a sample sound record classified as EPF Content Tier 1. Only a edm:isShownAt is available and no direct link to the audio resource.",
+      "lang": "en",
+      "descriptionType": "Other"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "European Culture and politics"
+    }
+  ],
+  "language": "de"
+}
